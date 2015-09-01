@@ -167,7 +167,7 @@ footer a {
 .navbar .search input {
   display: inline-block;
   padding-left: 30px;
-  width: 150px;
+  width: 135px;
 }
 
 .navbar .search i {
@@ -182,6 +182,10 @@ footer a {
 
 .navbar .search-results a {
   color:#333!important;
+}
+
+.navbar-collapse.in {
+  overflow-y: visible;
 }
 
 .dropdown-menu a {
@@ -211,6 +215,7 @@ footer a {
   padding: 10px 15px;
   position: relative;
   top: 12px;  
+  height: 74px;
 }
 
 .navbar-brand .text {
