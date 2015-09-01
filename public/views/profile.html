@@ -1,0 +1,114 @@
+<div class="col-md-8 center-block">
+	<div class="col-md-4">
+		<h2><i class='ion-ios-gear'></i> ${_l('Profile')}</h2>
+		<div class="list-group selector">
+			<a href="account" class="list-group-item active">${_l('Account')}</a>
+			<a href="security" class="list-group-item">${_l('Privacy')}</a>
+			<a href="design" class="list-group-item">${_l('Design')}</a>
+			<a href="apps" class="list-group-item">${_l('Apps')}</a>
+		</div>
+	</div>
+	<div class="col-md-8 selector-pane">
+
+		<form class="form account" action="/profile/update">
+			<div class="group-control">&nbsp;</div>
+			<div class="group-control">&nbsp;</div>
+			<div class="group-control">&nbsp;</div>
+
+			<div class="form-group">
+				<input type="text" class="form-control" name="title" value="${title}" placeholder="Nombre" required>
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" name="location" value="${location}" placeholder="Ubicación">
+			</div>
+			<div class="form-group">
+				<textarea class="form-control" name="bio" placeholder="Biografía">${bio}</textarea>
+			</div>
+			<div class="form-actions form-group text-center">
+				<button type="submit" class="btn btn-lg btn-success"><i class="ion-checkmark-circled"></i> ${_l('Update_Profile')}</button>
+			</div>
+		</form>
+
+		<form class="form security hide" action="/profile/update">
+			<div class="group-control">&nbsp;</div>
+			<div class="group-control">&nbsp;</div>
+			<div class="group-control">&nbsp;</div>
+			<div class="col-md-12">
+
+				<div class="radio">
+				    <input type="radio" id="privacy_id1" name="privacy_id" value="1"{{if privacy_id != null && privacy_id == 1}} checked{{/if}}>
+				    <label for="privacy_id1"><i class="ion-android-globe"></i> ${_l('Privacy_Text_1')}</label>
+				</div>
+				<div class="radio">
+				    <input type="radio" id="privacy_id2" name="privacy_id" value="2"{{if privacy_id != null && privacy_id == 2}} checked{{/if}}>
+				    <label for="privacy_id2"><i class="ion-android-globe"></i> ${_l('Privacy_Text_2')}</label>
+				</div>
+				<div class="radio">
+				    <input type="radio" id="privacy_id3" name="privacy_id" value="3"{{if privacy_id != null && privacy_id == 3}} checked{{/if}}>
+				    <label for="privacy_id3"><i class="ion-android-globe"></i> ${_l('Privacy_Text_3')}</label>
+				</div>
+				<div class="radio">
+				    <input type="radio" id="privacy_id4" name="privacy_id" value="4"{{if privacy_id != null && privacy_id == 4}} checked{{/if}}>
+				    <label for="privacy_id4"><i class="ion-android-globe"></i> ${_l('Privacy_Text_4')}</label>
+				</div>								
+			</div>
+			<div class="form-actions form-group text-center">
+				<button type="submit" class="btn btn-lg btn-success"><i class="ion-checkmark-circled"></i> ${_l('Update_Profile')}</button>
+			</div>
+
+		</form>
+
+		<form class="form design hide" action="/profile/update">
+			<div class="group-control">&nbsp;</div>
+			<div class="group-control">&nbsp;</div>
+			<div class="group-control">&nbsp;</div>
+
+			<div class="col-md-12">
+				<div class="radio">
+				    <input type="radio" id="status_color_id1" name="status_color_id" value="1"{{if status_color_id != null && status_color_id == 1}} checked{{/if}}>
+				    <label for="status_color_id1"><i class="ion-android-globe"></i> ${_l('Status_Color_Text_1')}</label>
+				</div>
+				<div class="radio">
+				    <input type="radio" id="status_color_id2" name="status_color_id" value="2"{{if status_color_id != null && status_color_id == 2}} checked{{/if}}>
+				    <label for="status_color_id2"><i class="ion-android-globe"></i> ${_l('Status_Color_Text_2')}</label>
+				</div>
+				<div class="radio">
+				    <input type="radio" id="status_color_id3" name="status_color_id" value="3"{{if status_color_id != null && status_color_id == 3}} checked{{/if}}>
+				    <label for="status_color_id3"><i class="ion-android-globe"></i> ${_l('Status_Color_Text_3')}</label>
+				</div>
+				<div class="radio">
+				    <input type="radio" id="status_color_id4" name="status_color_id" value="4"{{if status_color_id != null && status_color_id == 4}} checked{{/if}}>
+				    <label for="status_color_id4"><i class="ion-android-globe"></i> ${_l('Status_Color_Text_4')}</label>
+				</div>	
+			</div>
+			<div class="form-actions form-group text-center">
+				<button type="submit" class="btn btn-lg btn-success"><i class="ion-checkmark-circled"></i> ${_l('Update_Profile')}</button>
+			</div>
+		</form>		
+
+		<form class="form apps hide" action="/profile/update">
+			<div class="group-control">&nbsp;</div>
+			<div class="group-control">&nbsp;</div>
+			<div class="group-control">&nbsp;</div>
+
+			<div class="col-md-12">
+				<div class="checkbox">
+				    <input type="checkbox" id="app_id1" name="app_id" value="1">
+				    <label for="app_id1"><i class="ion-android-globe"></i> ${_l('App_1')}</label>
+				</div>
+				<div class="checkbox">
+				    <input type="checkbox" id="app_id2" name="app_id" value="2">
+				    <label for="app_id2"><i class="ion-android-globe"></i> ${_l('App_2')}</label>
+				</div>
+				<div class="checkbox">
+				    <input type="checkbox" id="app_id3" name="app_id" value="3">
+				    <label for="app_id3"><i class="ion-android-globe"></i> ${_l('App_3')}</label>
+				</div>
+				<div class="checkbox">
+				    <input type="checkbox" id="app_id4" name="app_id" value="4">
+				    <label for="app_id4"><i class="ion-android-globe"></i> ${_l('App_4')}</label>
+				</div>	
+			</div>
+		</form>		
+	</div>
+</div>

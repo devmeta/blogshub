@@ -1,0 +1,31 @@
+@import url("roboto.css");
+
+html {
+  background-color: #fff;
+}
+
+body {
+  font-weight: 300;
+  font-family: "Roboto";
+}
+
+.navbar {
+	background-color: #bf383a;
+}
+
+.navbar a, .navbar-brand *  {
+	color: #fff!important;
+}
+
+.search i {
+	color:#999;
+}
+
+.navbar .nav a:hover {
+	background-color: #922425!important;
+	color: #fff!important;
+}
+
+.container {
+  background-color: #fff;
+}

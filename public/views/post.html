@@ -1,0 +1,96 @@
+<div class="col-md-7">
+	<div class="group-control">&nbsp;</div>
+	{{if tags.length}}
+	<div class="">
+		{{each tags}}
+		<a class="label label-success" href="/tags/${$value}">${$value}</a>&nbsp;
+		{{/each}}	
+	</div>
+	{{/if}}
+	<h1>${entry.title}</h1>
+	<p><small>${entry.date_updated}</small></p>
+	<div class="widget-social">
+		<a href="https://www.facebook.com/sharer.php?u=${location}&t=${entry.title}" title="${_l('Share_With')} Facebook" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-facebook"></i><span class="badge social-count fbcount1"></span></a>
+		<a href="https://twitter.com/intent/tweet?text=${entry.title} ${location}" title="${_l('Share_With')} Twitter" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-twitter"></i><span class="badge social-count twcnt1"></span></a>
+		<a href="https://plus.google.com/share?url=${location}" title="${_l('Share_With')} Google+" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-googleplus"></i></a>
+		<a href="https://www.linkedin.com/cws/share?url=${location}" title="${_l('Share_With')} Linkedin" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-linkedin"></i></a>
+		<a href="http://pinterest.com/pin/create/link/?url=${location}&media=&description=${entry.caption}" title="${_l('Share_With')} Pinterest" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-pinterest"></i></a>
+	</div>
+	<div class="slick-dotted">
+	{{each files}}
+		<div class="image">
+			<a href="${_j('baseurl')}/upload/posts/${$value.image}" data-external="true" data-title="${entry.title}" data-gallery="post" data-toggle="lightbox"><img class="img-responsive" width="100%" ${$index > 0 ? "data-lazy" : "src"}="${_j('baseurl')}/upload/posts/sd-${$value.image}"></a>
+		</div>
+	{{/each}}
+	</div>
+	<h4>${entry.caption}</h4>
+	<div class="group-control">&nbsp;</div>
+	{{html entry.content}}
+	<div class="group-control">&nbsp;</div>
+	<div class="widget-social">
+		<a href="https://www.facebook.com/sharer.php?u=${location}&t=${entry.title}" title="${_l('Share_With')} Facebook" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-facebook"></i><span class="badge social-count fbcount1"></span></a>
+		<a href="https://twitter.com/intent/tweet?text=${entry.title} ${location}" title="${_l('Share_With')} Twitter" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-twitter"></i><span class="badge social-count twcnt1"></span></a>
+		<a href="https://plus.google.com/share?url=${location}" title="${_l('Share_With')} Google+" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-googleplus"></i></a>
+		<a href="https://www.linkedin.com/cws/share?url=${location}" title="${_l('Share_With')} Linkedin" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-linkedin"></i></a>
+		<a href="http://pinterest.com/pin/create/link/?url=${location}&media=&description=${entry.caption}" title="${_l('Share_With')} Pinterest" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-pinterest"></i></a>
+	</div>
+	<div class="group-control">&nbsp;</div>	
+	{{if entry.disqus == 1}}
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    /* * * CONFIGURATION VARIABLES * * */
+	    var disqus_shortname = 'devmetablogs';
+	    
+	    /* * * DON'T EDIT BELOW THIS LINE * * */
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	{{/if}}
+</div>
+<div class="col-md-5">
+	{{if more.length}}
+		<div class="group-control">&nbsp;</div>
+		<h4>${_l('More')}</h4>
+		<div class="col-md-6 col-xs-6">
+		{{each more}}
+		{{if $index == Math.floor(more.length / 2)}}
+		</div>
+		<div class="col-md-6 col-xs-6">
+		{{/if}}
+			<div class="row">
+				<a href="/posts/${slug}">
+				<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+					<div class="flipper">
+						<div class="front cover" style="background-image: url(${_j('baseurl')}/upload/posts/th-${image});">
+							<h1><span>{{html title.split(' ').join('</span><span>')}}</span></h1><small>${timespan}</small>
+						</div>
+						<div class="back cover" style="background: #fff url(${_j('baseurl')}/upload/posts/th-${image});background-blend-mode: difference;">
+							<p><span>{{html caption.split(' ').join('</span><span>')}}</span></p>
+						</div>
+					</div>
+				</div>
+				</a>
+			</div>
+		{{/each}}
+		</div>		
+	{{/if}}
+		<div class="group-control">&nbsp;</div>
+		<div class="group-control">&nbsp;</div>
+		<div class="col-md-6 col-xs-6 text-right">
+			<h4>${_l('About_Author')}</h4>
+			<h4><a href="/account/${blog.username}">${blog.author}</a></h4>
+			<p>${blog.bio}</p>
+		</div>
+		<div class="col-md-6 col-xs-6 text-center">
+			<div class="row">
+			{{if blog.avatar != null && blog.avatar != 'default.png'}}
+				<a href="/account/${blog.username}"><img class="img-circle" src="${_j('baseurl')}/upload/profile/th-${blog.avatar}"></a>
+			{{/if}}	
+			</div>
+		</div>	
+	</div>
+</div>

@@ -1,0 +1,16 @@
+<div class="col-md-12">
+	{{each posts}}
+		<div class="col-md-8">
+			<a href="/posts/${slug}">
+				<h5>${title} <small>${timespan}</small></h5>
+			</a>
+			{{if image != null && image.name != null}}
+			<a href="/posts/${slug}">
+				<img class="img-rounded img-responsive" src="/upload/posts/${image.name}" width="100">
+			</a>
+			{{/if}}
+			<p>${excerpt}</p>
+			<div class="clearfix"></div><hr>
+		</div>
+	{{/each}}
+</div>

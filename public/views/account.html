@@ -1,0 +1,48 @@
+<div class="center-block">
+	<div class="group-control">&nbsp;</div>
+	<div class="col-md-3">
+	{{if blog.avatar != null && blog.avatar != 'default.png'}}
+		<a href="/account/${blog.username}"><img class="img-circle" src="${_j('baseurl')}/upload/profile/th-${blog.avatar}"></a>
+	{{/if}}			
+		<a href="/account/${entry.username}">@${entry.username}</a>
+	{{if entry.location != null && entry.location}}
+		<p>${entry.location}</p>
+	{{/if}}
+	</div>
+	
+	<div class="col-md-9">
+	{{if entry.title != null && entry.title}}
+		<h3>${entry.title}</h3>
+	{{/if}}
+		<blockquote>${entry.bio}</blockquote>	
+		<p>${_l('Posts_Count')}: ${entry.posts_count}</p>
+		<p>${_l('Member_Since')}: ${entry.created}</p>
+	{{if entry.facebook != null && entry.facebook}}
+		<a href="${blog.facebook}" target="_blank"><i class="ion-social-facebook x3"></i></a>&nbsp;
+	{{/if}}
+	{{if entry.twitter != null && entry.twitter}}
+		<a href="${blog.twitter}" target="_blank"><i class="ion-social-twitter x3"></i></a>&nbsp;
+	{{/if}}
+	{{if entry.youtube != null && entry.youtube}}
+		<a href="${blog.youtube}" target="_blank"><i class="ion-social-youtube x3"></i></a>&nbsp;
+	{{/if}}
+	{{if entry.googleplus != null && entry.googleplus}}
+		<a href="${blog.googleplus}" target="_blank"><i class="ion-social-googleplus x3"></i></a>&nbsp;
+	{{/if}}
+	{{if entry.pinterest != null && entry.pinterest}}
+		<a href="${blog.pinterest}" target="_blank"><i class="ion-social-pinterest x3"></i></a>&nbsp;
+	{{/if}}
+	{{if entry.tumblr != null && entry.tumblr}}
+		<a href="${blog.tumblr}" target="_blank"><i class="ion-social-tumblr x3"></i></a>&nbsp;
+	{{/if}}
+	{{if entry.wordpress != null && entry.wordpress}}
+		<a href="${blog.wordpress}" target="_blank"><i class="ion-social-wordpress x3"></i></a>&nbsp;
+	{{/if}}
+	{{if entry.linkedin != null && entry.linkedin}}
+		<a href="${blog.linkedin}" target="_blank"><i class="ion-social-linkedin x3"></i></a>
+	{{/if}}
+	<div class="clearfix"></div>
+		
+
+	</div>
+</div>

@@ -1,0 +1,40 @@
+<div class="col-md-8 center-block">
+	<div class="col-md-4">
+		<h2> <i class='ion-android-desktop'></i> ${_j('title')}</h2>
+		<div class="list-group">
+			<a href="/user/devices" class="list-group-item"><i class='ion-android-wifi'></i> ${_l('Devices')}</a>
+			<a href="/user/groups" class="list-group-item"><i class='ion-ios-people'></i> ${_l('Groups')}</a>
+			<a href="/feed" class="list-group-item"><i class='ion-ios-paper'></i> ${_l('Feed')} <span class="badge">${feed_unread_count}</span></a>
+		</div>
+		<div class="list-group online"></div>
+	</div>
+	<div class="col-md-8">
+		<div class="row">
+			<div class="col-md-6">
+				<h3>&nbsp;&nbsp;<i class='ion-android-wifi'></i> ${_l('Devices')} <a class="text-success" href="#_user_device" role="button" data-toggle="modal" title="${_l('Add')}" data-placement="right"><i class="ion-android-add-circle x1"></i></a></h3>
+				<div class="list-group">
+			{{if devices != null && devices.length}}
+				{{each devices}}
+				  <a href="#_admin_device" data-post='{"id":${$value.id}}' role="button" class="list-group-item" data-toggle="modal"><span href="#_admin_track_history" data-post='{"id":${$value.id}}' role="button" data-toggle="modal"><i class="ion-android-time"></i></span> ${$value.title} <span href="#_admin_track" data-post='{"id":${$value.id}}' data-open="device_track(${$value.id})" data-close="device_untrack" role="button" data-size="size-wide" data-toggle="modal" class="badge ${$value.status_color}" title="${$value.status_text}" data-placement="right"><i class="ion-location"></i></span></a>
+				{{/each}}
+			{{else}}
+				<h1 class="text-center"><i class="ion-flash-off x3"></i></h1>
+			{{/if}}
+				</div>
+			</div>		
+			<div class="col-md-6">
+				<h3><i class='ion-ios-people'></i> ${_l('Groups')} <a class="text-success" href="#_user_group" role="button" data-toggle="modal" title="${_l('Add')}" data-placement="right"><i class="ion-android-add-circle x1"></i></a></h3>
+				<div class="list-group">
+			{{if groups != null && groups.length}}
+				{{each groups}}
+					<a href="#_user_group" data-post='{"id":${$value.id}}' role="button" class="list-group-item" data-toggle="modal"><span href="#_user_group_map" data-post='{"id":${$value.id}}' role="button" data-toggle="modal"><i class="ion-ios-people"></i></span> ${$value.title}</a>				
+				{{/each}}
+			{{else}}
+					<h1 class="text-center"><i class="ion-flash-off x3"></i></h1>
+			{{/if}}
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>

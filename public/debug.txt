@@ -1,0 +1,8597 @@
+*** 13:06:29
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 13:06:33
+method: martin
+view: 
+["account","martin"]
+*** 13:07:01
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 13:07:02
+method: martin
+view: 
+["account","martin"]
+*** 13:07:28
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:07:28
+method: martin
+view: 
+["account","martin"]
+*** 13:07:28
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 13:07:47
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:07:47
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 13:07:47
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 13:08:13
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:08:14
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 13:08:14
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 13:08:42
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:08:42
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 13:08:43
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 13:08:58
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:08:59
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 13:08:59
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 13:09:38
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 13:09:39
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 13:10:22
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 13:10:24
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 13:11:00
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 13:11:02
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 13:12:04
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 13:12:05
+method: martin
+view: 
+["account","martin"]
+Unknown column 'linkeding' in 'field list'
+query was: select id,username,title,location,bio,avatar,facebook,twitter,linkeding,youtube  
+			from users 
+			where username = 'martin'
+AccountController->show
+*** 13:12:17
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:12:17
+method: martin
+view: 
+["account","martin"]
+Unknown column 'linkeding' in 'field list'
+query was: select id,username,title,location,bio,avatar,facebook,twitter,linkeding,youtube  
+			from users 
+			where username = 'martin'
+AccountController->show
+*** 13:12:17
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 13:12:39
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:12:40
+method: martin
+view: 
+["account","martin"]
+Unknown column 'linkeding' in 'field list'
+query was: select id,username,title,caption,location,bio,avatar,facebook,twitter,linkeding,youtube  
+			from users 
+			where username = 'martin'
+AccountController->show
+*** 13:12:40
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 13:13:25
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:13:25
+method: martin
+view: 
+["account","martin"]
+Unknown column 'linkeding' in 'field list'
+query was: select id,username,title,caption,location,bio,avatar,facebook,twitter,linkeding,youtube  
+			from users 
+			where username = 'martin'
+AccountController->show
+*** 13:13:25
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 13:13:35
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:13:35
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 13:13:36
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 13:36:15
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 13:36:17
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 13:36:35
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 13:36:36
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 13:36:54
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:36:54
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 13:36:54
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 13:37:20
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 14:52:34
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:52:34
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 14:52:34
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 14:52:36
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 14:52:36
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 15:08:12
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 15:08:12
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 15:08:13
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 15:08:13
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 15:08:29
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 15:08:29
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 15:08:30
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 15:08:30
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 15:10:13
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 15:10:13
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 15:10:14
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 15:10:14
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 15:11:12
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 15:11:12
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 15:11:13
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 15:11:13
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 15:11:38
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 15:11:38
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 15:11:38
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 15:11:38
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 15:11:54
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 15:11:54
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 15:11:54
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 15:11:54
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 15:12:15
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 15:12:15
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 15:12:15
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 15:12:16
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 15:12:38
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 15:12:38
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 15:12:38
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 15:12:38
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 15:12:48
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 15:12:48
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 15:12:48
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 15:12:48
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 15:18:38
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 15:18:38
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 15:18:39
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 15:18:39
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 15:18:57
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 15:18:58
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 15:18:58
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 15:18:58
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 15:19:30
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 15:46:33
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 15:46:33
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 15:46:34
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 16:44:16
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:44:16
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 16:44:16
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:26:51
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:26:51
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:26:52
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:27:00
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:27:00
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:27:00
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:27:27
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:27:27
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:27:28
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:28:20
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:28:20
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:28:20
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:28:28
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:28:29
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:28:29
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:28:32
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 19:28:32
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 19:29:18
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:29:18
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 19:29:18
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 19:29:18
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 19:29:32
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:29:32
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 19:29:33
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 19:29:33
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 19:29:41
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:29:42
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 19:29:42
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 19:29:42
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 19:29:47
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:29:48
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 19:29:48
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 19:29:48
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 19:31:09
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:31:09
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 19:31:09
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 19:31:09
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 19:31:11
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:32:26
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:32:27
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:32:27
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:32:33
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 19:32:41
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:33:04
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:33:04
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:33:05
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:33:35
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:33:36
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:33:36
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:34:11
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:34:11
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:34:11
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:34:37
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:34:37
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:34:38
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:34:41
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 19:34:42
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:36:40
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:09:14
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:09:14
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:09:14
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:09:21
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 20:09:22
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 22:30:00
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 22:30:00
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 22:30:01
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:01:37
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:01:37
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:01:38
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:01:39
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:01:39
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:02:19
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:02:20
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:02:20
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:02:20
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 20:02:33
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:03:04
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:03:04
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:03:57
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:03:59
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:04:29
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:04:30
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:04:30
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:04:42
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:04:43
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:04:43
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:05:25
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:05:25
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:05:25
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:05:40
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:05:40
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:05:40
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:06:00
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:06:00
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:06:00
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:06:26
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:06:26
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:06:27
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:07:19
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:07:19
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:07:19
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:07:37
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:07:38
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:07:38
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:07:57
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:07:57
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:07:57
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:09:10
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:09:10
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:09:11
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:09:25
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:09:25
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:09:26
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:09:34
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:09:56
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:10:10
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:18:17
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:18:17
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:19:07
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:19:07
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:19:08
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:19:08
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 20:19:42
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:19:42
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:19:42
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:19:42
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 20:19:53
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:19:53
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:19:54
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:19:54
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 20:23:39
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:23:40
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:23:40
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 20:23:56
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:23:56
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:23:56
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:23:56
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 20:26:52
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:26:52
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:26:52
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:26:53
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 20:28:30
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:28:30
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:28:30
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:28:31
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 20:29:12
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:29:12
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:29:12
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:29:12
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 20:29:40
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:29:40
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:29:40
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:29:40
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 20:30:14
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:30:14
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:30:15
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:30:15
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 20:30:52
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:30:53
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:30:53
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:30:53
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 20:31:28
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:31:29
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:31:29
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:31:29
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 20:31:53
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:31:53
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:31:54
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:31:54
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 20:32:14
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:32:14
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:32:14
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:32:14
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 20:32:24
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:32:24
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:32:24
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:32:24
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 20:32:39
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:32:39
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:32:40
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:32:40
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 20:34:12
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:34:32
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:35:00
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:35:00
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:35:01
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:35:11
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:35:11
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:35:50
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:35:50
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 20:35:50
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 20:35:50
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 20:36:18
+method: Alicia%20Kirchner
+view: Alicia
+["tags","Alicia%20Kirchner"]
+TagsController->show
+*** 20:36:51
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:36:51
+method: Alicia%20Kirchner
+view: Alicia
+["tags","Alicia%20Kirchner"]
+TagsController->show
+*** 20:36:51
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/tags\/Alicia%20Kirchner"}]
+*** 20:37:33
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:37:33
+method: Alicia%20Kirchner
+view: Alicia
+["tags","Alicia%20Kirchner"]
+TagsController->show
+*** 20:37:34
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/tags\/Alicia%20Kirchner"}]
+*** 20:37:37
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:37:39
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 20:37:39
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 20:37:59
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:39:03
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:39:03
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:39:04
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:39:07
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:39:29
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:39:29
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:39:30
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:39:51
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:39:51
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:39:52
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:40:25
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:40:25
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:40:25
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:40:27
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:44:20
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:44:20
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:44:21
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:45:44
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:45:44
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:45:45
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:46:08
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:46:08
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:46:08
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:46:59
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:46:59
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:47:00
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:47:21
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:47:21
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:47:22
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:48:22
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:48:23
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:48:23
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:48:45
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:48:46
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:48:46
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:49:10
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:49:42
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:51:43
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:51:43
+method: martin
+view: 
+["account","martin"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') as created
+			from users 
+			where username =  'martin'' at line 2
+query was: select id,username,title,caption,location,bio,avatar,facebook,twitter,linkedin,youtube,
+			from_unixtime(created_ts, '%Y %M %d %H:%i')) as created
+			from users 
+			where username =  'martin'
+AccountController->show
+*** 20:51:44
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:52:20
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:52:21
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:52:21
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:52:38
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:52:38
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:52:38
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 20:52:47
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:52:47
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 20:52:47
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 21:05:40
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:05:42
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 21:05:42
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 21:06:33
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:06:33
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 21:06:34
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 21:06:34
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 21:26:25
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:26:25
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:26:25
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 23:22:03
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 23:22:04
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 23:22:04
+method: free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs
+view: 
+["posts","free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs"]
+PostsController->show
+*** 23:22:05
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 23:22:05
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 23:22:05
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs"}]
+*** 23:22:05
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"18"}]
+*** 23:22:59
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 23:23:00
+method: free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs
+view: 
+["posts","free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs"]
+PostsController->show
+*** 23:23:00
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs"}]
+*** 23:23:00
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"18"}]
+*** 23:23:57
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 23:39:24
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 23:39:24
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 23:39:50
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 23:39:50
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 23:39:50
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 23:39:50
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 23:40:19
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 13:46:55
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:46:55
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 13:46:56
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 13:47:11
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:47:11
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 13:47:12
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 13:34:06
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:34:07
+method: chekkkk
+view: 
+["posts","chekkkk"]
+PostsController->show
+*** 13:34:07
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"28"}]
+*** 13:34:07
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/chekkkk"}]
+*** 13:34:38
+method: adasd
+view: 
+["posts","adasd"]
+PostsController->show
+*** 13:34:38
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"35"}]
+*** 14:28:47
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 14:29:37
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 14:29:38
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 14:29:46
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 14:30:01
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 14:41:48
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:41:48
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 14:41:49
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 13:16:26
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:16:26
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 13:16:26
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 13:16:39
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 13:16:39
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 13:18:04
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 13:18:05
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:18:06
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 13:18:06
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 14:28:55
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:28:56
+method: chekkkk
+view: 
+["posts","chekkkk"]
+PostsController->show
+*** 14:28:56
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/chekkkk"}]
+*** 14:28:56
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"28"}]
+*** 14:29:48
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:29:48
+method: chekkkk
+view: 
+["posts","chekkkk"]
+PostsController->show
+*** 14:29:49
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"28"}]
+*** 14:29:49
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/chekkkk"}]
+*** 14:30:01
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:30:01
+method: chekkkk
+view: 
+["posts","chekkkk"]
+PostsController->show
+*** 14:30:02
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"28"}]
+*** 14:30:02
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/chekkkk"}]
+*** 14:30:09
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:30:10
+method: chekkkk
+view: 
+["posts","chekkkk"]
+PostsController->show
+*** 14:30:10
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"28"}]
+*** 14:30:10
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/chekkkk"}]
+*** 14:30:29
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:30:29
+method: chekkkk
+view: 
+["posts","chekkkk"]
+PostsController->show
+*** 14:30:30
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"28"}]
+*** 14:30:30
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/chekkkk"}]
+*** 14:35:43
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:35:43
+method: adasd
+view: 
+["posts","adasd"]
+PostsController->show
+*** 14:35:44
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"35"}]
+*** 14:35:44
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/adasd"}]
+*** 14:47:19
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:47:19
+method: adasd
+view: 
+["posts","adasd"]
+PostsController->show
+*** 14:47:19
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"35"}]
+*** 14:47:19
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/adasd"}]
+*** 14:49:09
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:49:09
+method: adasd
+view: 
+["posts","adasd"]
+PostsController->show
+*** 14:49:10
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"35"}]
+*** 14:49:10
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/adasd"}]
+*** 14:49:51
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:49:51
+method: adasd
+view: 
+["posts","adasd"]
+PostsController->show
+*** 14:49:52
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"35"}]
+*** 14:49:52
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/adasd"}]
+*** 14:50:31
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:50:31
+method: adasd
+view: 
+["posts","adasd"]
+PostsController->show
+*** 14:50:31
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"35"}]
+*** 14:50:32
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/adasd"}]
+*** 14:53:37
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:53:37
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 14:53:38
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 14:53:38
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 15:12:14
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 15:12:14
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 15:12:14
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 15:12:14
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 15:12:42
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 15:12:43
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 15:12:43
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 15:12:43
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 15:36:12
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 15:36:12
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 15:36:12
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 15:36:12
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 15:37:01
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 15:37:01
+method: localice
+view: 
+["posts","localice"]
+PostsController->show
+*** 15:37:01
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"7"}]
+*** 15:37:01
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/localice"}]
+*** 13:33:10
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:33:11
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/login"}]
+*** 10:22:33
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 10:22:34
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 10:22:34
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 10:24:06
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 10:24:07
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 10:24:07
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 10:25:02
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 10:25:03
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 10:25:03
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 10:25:42
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 10:25:43
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 10:25:43
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 10:26:13
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 10:26:13
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 10:27:00
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 10:27:52
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 10:27:52
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 10:27:53
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 10:28:15
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 10:28:16
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 10:28:16
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 10:35:06
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 10:35:06
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 10:35:06
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 10:35:27
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 10:35:27
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 10:35:27
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 10:35:50
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 10:35:51
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 10:35:51
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 11:19:07
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 11:19:08
+method: controle-su-vehiculo-desde-su-casa-u-oficina
+view: 
+["posts","controle-su-vehiculo-desde-su-casa-u-oficina"]
+PostsController->show
+*** 11:19:08
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"5"}]
+*** 11:19:08
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/controle-su-vehiculo-desde-su-casa-u-oficina"}]
+*** 11:20:34
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 11:20:34
+method: controle-su-vehiculo-desde-su-casa-u-oficina
+view: 
+["posts","controle-su-vehiculo-desde-su-casa-u-oficina"]
+PostsController->show
+*** 11:20:34
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"5"}]
+*** 11:20:34
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/controle-su-vehiculo-desde-su-casa-u-oficina"}]
+*** 11:21:04
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 11:21:05
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 11:21:05
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/soporte"}]
+*** 11:21:05
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 11:21:06
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 11:21:07
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 11:21:07
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 11:21:07
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/soporte"}]
+*** 11:23:31
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 11:23:31
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 11:23:31
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 11:23:31
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/soporte"}]
+*** 11:23:34
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 11:23:34
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 11:23:34
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 11:23:35
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/soporte"}]
+*** 11:23:54
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 11:23:54
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 11:23:54
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 11:23:54
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/soporte"}]
+*** 11:24:32
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 11:24:32
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 11:24:33
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/soporte"}]
+*** 11:24:33
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 11:26:05
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 11:26:06
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 11:26:08
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 11:26:08
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 11:26:08
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 11:26:08
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/soporte"}]
+*** 11:26:10
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 11:26:10
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 11:26:10
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/soporte"}]
+*** 11:26:10
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 19:25:14
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:25:14
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:25:15
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:25:21
+method: controle-su-vehiculo-desde-su-casa-u-oficina
+view: 
+["posts","controle-su-vehiculo-desde-su-casa-u-oficina"]
+PostsController->show
+*** 19:25:22
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"5"}]
+*** 19:26:10
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:26:10
+method: controle-su-vehiculo-desde-su-casa-u-oficina
+view: 
+["posts","controle-su-vehiculo-desde-su-casa-u-oficina"]
+PostsController->show
+*** 19:26:11
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"5"}]
+*** 19:26:11
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/controle-su-vehiculo-desde-su-casa-u-oficina"}]
+*** 19:26:50
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:26:50
+method: controle-su-vehiculo-desde-su-casa-u-oficina
+view: 
+["posts","controle-su-vehiculo-desde-su-casa-u-oficina"]
+PostsController->show
+*** 19:26:50
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"5"}]
+*** 19:26:50
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/controle-su-vehiculo-desde-su-casa-u-oficina"}]
+*** 19:29:04
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:29:05
+method: controle-su-vehiculo-desde-su-casa-u-oficina
+view: 
+["posts","controle-su-vehiculo-desde-su-casa-u-oficina"]
+PostsController->show
+*** 19:29:05
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"5"}]
+*** 19:29:05
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/controle-su-vehiculo-desde-su-casa-u-oficina"}]
+*** 19:29:27
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:29:27
+method: controle-su-vehiculo-desde-su-casa-u-oficina
+view: 
+["posts","controle-su-vehiculo-desde-su-casa-u-oficina"]
+PostsController->show
+*** 19:29:27
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"5"}]
+*** 19:29:27
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/controle-su-vehiculo-desde-su-casa-u-oficina"}]
+*** 19:29:39
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:29:39
+method: controle-su-vehiculo-desde-su-casa-u-oficina
+view: 
+["posts","controle-su-vehiculo-desde-su-casa-u-oficina"]
+PostsController->show
+*** 19:29:39
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"5"}]
+*** 19:29:39
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/controle-su-vehiculo-desde-su-casa-u-oficina"}]
+*** 19:31:10
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:31:10
+method: controle-su-vehiculo-desde-su-casa-u-oficina
+view: 
+["posts","controle-su-vehiculo-desde-su-casa-u-oficina"]
+PostsController->show
+*** 19:31:10
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"5"}]
+*** 19:31:10
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/controle-su-vehiculo-desde-su-casa-u-oficina"}]
+*** 19:33:14
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:33:15
+method: controle-su-vehiculo-desde-su-casa-u-oficina
+view: 
+["posts","controle-su-vehiculo-desde-su-casa-u-oficina"]
+PostsController->show
+*** 19:33:15
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"5"}]
+*** 19:33:15
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/controle-su-vehiculo-desde-su-casa-u-oficina"}]
+*** 19:34:31
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:34:31
+method: controle-su-vehiculo-desde-su-casa-u-oficina
+view: 
+["posts","controle-su-vehiculo-desde-su-casa-u-oficina"]
+PostsController->show
+*** 19:34:31
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"5"}]
+*** 19:34:31
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/controle-su-vehiculo-desde-su-casa-u-oficina"}]
+*** 19:34:58
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:35:18
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:35:19
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:35:19
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:36:01
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 19:36:02
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 19:36:04
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:36:05
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 19:36:05
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 19:36:05
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/soporte"}]
+*** 19:36:12
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:36:13
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 19:36:13
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 19:36:13
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/soporte"}]
+*** 19:36:27
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:36:27
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 19:36:28
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 19:36:28
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/soporte"}]
+*** 19:36:43
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:37:03
+method: adasd
+view: 
+["posts","adasd"]
+PostsController->show
+*** 19:37:04
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"35"}]
+*** 19:37:49
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:37:49
+method: adasd
+view: 
+["posts","adasd"]
+PostsController->show
+*** 19:37:50
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"35"}]
+*** 19:37:50
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/adasd"}]
+*** 19:38:07
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:38:07
+method: adasd
+view: 
+["posts","adasd"]
+PostsController->show
+*** 19:38:07
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"35"}]
+*** 19:38:07
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/adasd"}]
+*** 19:38:09
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:38:10
+method: adasd
+view: 
+["posts","adasd"]
+PostsController->show
+*** 19:38:10
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"35"}]
+*** 19:38:10
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/adasd"}]
+*** 19:38:16
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:38:17
+method: adasd
+view: 
+["posts","adasd"]
+PostsController->show
+*** 19:38:17
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/adasd"}]
+*** 19:38:17
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"35"}]
+*** 19:38:20
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:38:20
+method: adasd
+view: 
+["posts","adasd"]
+PostsController->show
+*** 19:38:20
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"35"}]
+*** 19:38:20
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/adasd"}]
+*** 19:39:58
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:39:58
+method: adasd
+view: 
+["posts","adasd"]
+PostsController->show
+*** 19:39:59
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"35"}]
+*** 19:39:59
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/adasd"}]
+*** 19:40:06
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:40:07
+method: controle-su-vehiculo-desde-su-casa-u-oficina
+view: 
+["posts","controle-su-vehiculo-desde-su-casa-u-oficina"]
+PostsController->show
+*** 19:40:08
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"5"}]
+*** 19:40:10
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:40:11
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 19:40:12
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 19:42:37
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:42:38
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:42:38
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:42:43
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 19:42:43
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 19:42:46
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:42:48
+method: controle-su-vehiculo-desde-su-casa-u-oficina
+view: 
+["posts","controle-su-vehiculo-desde-su-casa-u-oficina"]
+PostsController->show
+*** 19:42:48
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"5"}]
+*** 19:44:39
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 19:45:10
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 16:08:03
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:08:03
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 16:08:04
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 16:08:09
+method: controle-su-vehiculo-desde-su-casa-u-oficina
+view: 
+["posts","controle-su-vehiculo-desde-su-casa-u-oficina"]
+PostsController->show
+*** 16:08:09
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"5"}]
+*** 16:09:08
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:09:08
+method: controle-su-vehiculo-desde-su-casa-u-oficina
+view: 
+["posts","controle-su-vehiculo-desde-su-casa-u-oficina"]
+PostsController->show
+*** 16:09:09
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"5"}]
+*** 16:09:09
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/controle-su-vehiculo-desde-su-casa-u-oficina"}]
+*** 16:09:21
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 16:09:23
+method: corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77
+view: 
+["posts","corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"]
+PostsController->show
+*** 16:09:23
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"15"}]
+*** 16:10:01
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:10:01
+method: corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77
+view: 
+["posts","corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"]
+PostsController->show
+*** 16:10:01
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"15"}]
+*** 16:10:01
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"}]
+*** 16:10:08
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:10:09
+method: corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77
+view: 
+["posts","corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"]
+PostsController->show
+*** 16:10:09
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"}]
+*** 16:10:09
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"15"}]
+*** 16:10:18
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:10:18
+method: corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77
+view: 
+["posts","corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"]
+PostsController->show
+*** 16:10:18
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"15"}]
+*** 16:10:18
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"}]
+*** 16:10:40
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 16:10:44
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 16:10:44
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 16:12:28
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:12:29
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 16:12:29
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa"}]
+*** 16:12:29
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 16:17:24
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:17:24
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 16:17:24
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 16:17:25
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa"}]
+*** 16:17:55
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:17:55
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 16:17:55
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 16:17:55
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa"}]
+*** 16:18:50
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:18:50
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 16:18:50
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 16:18:50
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa"}]
+*** 16:20:54
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:20:55
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 16:20:55
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 16:20:55
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa"}]
+*** 16:21:25
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:21:26
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 16:21:26
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 16:21:26
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa"}]
+*** 16:24:21
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:24:21
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 16:24:21
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 16:24:21
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa"}]
+*** 16:24:52
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:24:53
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 16:24:53
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 16:24:53
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa"}]
+*** 16:26:54
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:26:54
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 16:26:55
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 16:26:55
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa"}]
+*** 16:31:18
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:31:18
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 16:31:19
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 16:31:19
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa"}]
+*** 16:32:43
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:32:43
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 16:32:44
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 16:32:44
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa"}]
+*** 16:33:04
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:33:04
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 16:33:04
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 16:33:05
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa"}]
+*** 16:33:22
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:33:22
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 16:33:23
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 16:33:23
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa"}]
+*** 16:36:15
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:36:15
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 16:36:16
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 16:36:18
+method: controle-su-vehiculo-desde-su-casa-u-oficina
+view: 
+["posts","controle-su-vehiculo-desde-su-casa-u-oficina"]
+PostsController->show
+*** 16:36:19
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"5"}]
+*** 16:36:31
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 16:36:34
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 16:36:35
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 16:37:44
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:37:44
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 16:37:45
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 16:37:45
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 16:38:07
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:38:07
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 16:38:08
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 16:38:08
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 16:38:19
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:38:19
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 16:38:19
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 16:38:19
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 16:38:29
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:38:30
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 16:38:30
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 16:38:30
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 16:39:02
+method: corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77
+view: 
+["posts","corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"]
+PostsController->show
+*** 16:39:03
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"15"}]
+*** 16:39:08
+method: controle-su-vehiculo-desde-su-casa-u-oficina
+view: 
+["posts","controle-su-vehiculo-desde-su-casa-u-oficina"]
+PostsController->show
+*** 16:39:08
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"5"}]
+*** 16:39:23
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 16:39:24
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 23:41:38
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 23:41:38
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 23:41:38
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 23:41:41
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 23:41:41
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 23:42:35
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 23:42:35
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 23:42:35
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 23:42:35
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 23:42:43
+method: asdasd
+view: 
+["tags","asdasd"]
+TagsController->show
+*** 23:43:24
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 23:43:24
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 23:43:47
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 23:43:47
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 23:43:47
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 23:43:47
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 23:46:39
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 23:46:39
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 23:46:39
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 23:46:39
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 23:50:59
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 23:50:59
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 23:50:59
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"22"}]
+*** 23:50:59
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 00:01:45
+method: Alicia%20Kirchner
+view: Alicia
+["tags","Alicia%20Kirchner"]
+TagsController->show
+*** 00:01:48
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 00:01:48
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 00:01:51
+method: 3
+view: 
+["tags","3"]
+TagsController->show
+*** 00:01:53
+method: sdfsdf
+view: 
+["posts","sdfsdf"]
+PostsController->show
+*** 00:01:53
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"19"}]
+*** 00:01:55
+method: 11
+view: 
+["tags","11"]
+TagsController->show
+*** 00:01:57
+method: ffffffffff
+view: 
+["posts","ffffffffff"]
+PostsController->show
+*** 00:01:57
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"20"}]
+*** 00:02:10
+method: adasd
+view: 
+["posts","adasd"]
+PostsController->show
+*** 00:02:10
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"35"}]
+*** 00:02:12
+method: 5
+view: 
+["tags","5"]
+TagsController->show
+*** 00:02:14
+method: sdfsdf
+view: 
+["posts","sdfsdf"]
+PostsController->show
+*** 00:02:14
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"19"}]
+*** 10:28:51
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 10:28:51
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 10:28:51
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 10:29:07
+method: corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77
+view: 
+["posts","corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"]
+PostsController->show
+*** 10:29:07
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"15"}]
+*** 10:29:22
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 10:29:23
+method: corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77
+view: 
+["posts","corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"]
+PostsController->show
+*** 10:29:23
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"15"}]
+*** 10:29:23
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"}]
+*** 17:31:26
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:31:27
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:31:29
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 17:31:35
+method: localice
+view: 
+["posts","localice"]
+PostsController->show
+*** 17:31:36
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"7"}]
+*** 17:31:51
+method: corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77
+view: 
+["posts","corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"]
+PostsController->show
+*** 17:31:52
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"15"}]
+*** 17:32:38
+method: adasd
+view: 
+["posts","adasd"]
+PostsController->show
+*** 17:32:38
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"35"}]
+*** 17:33:22
+method: controle-su-vehiculo-desde-su-casa-u-oficina
+view: 
+["posts","controle-su-vehiculo-desde-su-casa-u-oficina"]
+PostsController->show
+*** 17:33:23
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"5"}]
+*** 17:33:51
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:34:17
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 17:34:18
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 17:34:27
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:35:01
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:35:01
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:35:02
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 17:35:15
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 17:35:16
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 17:36:01
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:36:01
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 17:36:02
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 17:36:02
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/soporte"}]
+*** 17:36:38
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:36:38
+method: soporte
+view: 
+["posts","soporte"]
+PostsController->show
+*** 17:36:38
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"9"}]
+*** 17:36:38
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/soporte"}]
+*** 17:36:49
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:37:09
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:37:09
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:37:09
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 17:37:28
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:37:28
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:37:29
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 17:37:57
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:37:57
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:37:57
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 17:38:09
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:38:09
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:38:09
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 17:49:17
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:49:17
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:49:18
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 17:49:25
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:49:25
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:49:26
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 17:49:40
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:49:40
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:49:40
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 17:49:50
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:49:50
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:49:50
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 17:50:01
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:50:01
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:50:01
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 17:50:06
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 17:50:07
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 17:50:24
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:50:52
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:50:52
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:50:53
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 17:51:04
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:51:04
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:51:05
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 17:51:50
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 17:51:50
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 17:56:13
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:56:13
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 17:56:13
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 17:56:13
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa"}]
+*** 17:58:52
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:58:52
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 17:58:52
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 17:58:52
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa"}]
+*** 17:59:12
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:59:12
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 17:59:12
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 17:59:12
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa"}]
+*** 17:59:24
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:59:25
+method: tecnologa
+view: 
+["posts","tecnologa"]
+PostsController->show
+*** 17:59:25
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa"}]
+*** 17:59:25
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"8"}]
+*** 17:59:39
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 18:22:14
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 18:22:15
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 18:22:15
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
+*** 19:52:37
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:52:37
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:52:38
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:53:27
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:53:28
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:53:28
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:53:45
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:53:46
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:53:46
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:53:51
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:53:51
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:53:52
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:54:17
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:54:18
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:54:18
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:55:07
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:55:07
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:55:08
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:55:31
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:55:31
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:55:32
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:56:00
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:56:00
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:56:00
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:56:15
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:56:15
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:56:15
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:57:12
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:57:12
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:57:12
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:57:41
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:57:41
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:57:41
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:58:03
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:58:03
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:58:04
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:58:15
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:58:16
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:58:16
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:58:25
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:58:25
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:58:25
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:58:42
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:58:42
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:58:42
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:59:01
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:59:01
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:59:01
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:59:24
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:59:24
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:59:24
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:59:33
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:59:33
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:59:33
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 19:59:38
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:59:38
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 19:59:39
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:01:31
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:01:31
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:01:31
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:02:37
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:02:37
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:02:37
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:04:30
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:04:30
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:04:31
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:04:49
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:04:49
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:04:49
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:05:41
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:05:41
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:05:42
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:05:51
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:05:52
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:05:52
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:05:57
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:05:57
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:05:57
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:20:09
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:20:09
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:20:09
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:20:17
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:20:17
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:20:18
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:20:24
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:20:25
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:20:25
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:21:31
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:21:32
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:21:32
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:23:59
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:23:59
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:24:00
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:24:06
+method: search
+view: 
+["posts","search"]
+Column 'title' in where clause is ambiguous
+query was: select posts.*, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and ( title like '%ass%' ) 
+			group by posts.id 
+			order by CASE
+			when title like 'ass %' then 0
+			when title like 'ass %' then 1
+			when title like '% ass %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":"ass"}]
+*** 20:24:07
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by CASE
+			when title like ' %' then 0
+			when' at line 9
+query was: select posts.*, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by CASE
+			when title like ' %' then 0
+			when title like ' %' then 1
+			when title like '%  %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":""}]
+*** 20:24:10
+method: search
+view: 
+["posts","search"]
+Column 'title' in where clause is ambiguous
+query was: select posts.*, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and ( title like '%hola%' ) 
+			group by posts.id 
+			order by CASE
+			when title like 'hola %' then 0
+			when title like 'hola %' then 1
+			when title like '% hola %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":"hola"}]
+*** 20:24:43
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:24:43
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:24:44
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:24:50
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by CASE
+			when title like ' %' then 0
+			when' at line 9
+query was: select posts.*, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by CASE
+			when title like ' %' then 0
+			when title like ' %' then 1
+			when title like '%  %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":""}]
+*** 20:24:52
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by CASE
+			when title like 'ec %' then 0
+			wh' at line 9
+query was: select posts.*, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by CASE
+			when title like 'ec %' then 0
+			when title like 'ec %' then 1
+			when title like '% ec %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":"ec"}]
+*** 20:24:53
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'posts.like '%ecno%'  or  title posts.caption '%ecno%' ) 
+			group by posts.id 
+	' at line 9
+query was: select posts.*, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and ( title posts.like '%ecno%'  or  title posts.caption '%ecno%' ) 
+			group by posts.id 
+			order by CASE
+			when title like 'ecno %' then 0
+			when title like 'ecno %' then 1
+			when title like '% ecno %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":"ecno"}]
+*** 20:24:55
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by CASE
+			when title like 'ec %' then 0
+			wh' at line 9
+query was: select posts.*, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by CASE
+			when title like 'ec %' then 0
+			when title like 'ec %' then 1
+			when title like '% ec %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":"ec"}]
+*** 20:24:56
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'posts.like '%econo%'  or  title posts.caption '%econo%' ) 
+			group by posts.id ' at line 9
+query was: select posts.*, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and ( title posts.like '%econo%'  or  title posts.caption '%econo%' ) 
+			group by posts.id 
+			order by CASE
+			when title like 'econo %' then 0
+			when title like 'econo %' then 1
+			when title like '% econo %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":"econo"}]
+*** 20:24:57
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'posts.like '%econo%'  or  title posts.caption '%econo%' ) 
+			group by posts.id ' at line 9
+query was: select posts.*, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and ( title posts.like '%econo%'  or  title posts.caption '%econo%' ) 
+			group by posts.id 
+			order by CASE
+			when title like 'econo %' then 0
+			when title like 'econo %' then 1
+			when title like '% econo %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":"econo"}]
+*** 20:25:33
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'posts.title like '%econ%'  or  title posts.caption like '%econ%' ) 
+			group by ' at line 9
+query was: select posts.*, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and ( title posts.title like '%econ%'  or  title posts.caption like '%econ%' ) 
+			group by posts.id 
+			order by CASE
+			when title like 'econ %' then 0
+			when title like 'econ %' then 1
+			when title like '% econ %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":"econ"}]
+*** 20:26:17
+method: search
+view: 
+["posts","search"]
+Column 'title' in order clause is ambiguous
+query was: select posts.*, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and ( posts.title like '%econo%'  or  posts.caption like '%econo%' ) 
+			group by posts.id 
+			order by CASE
+			when title like 'econo %' then 0
+			when title like 'econo %' then 1
+			when title like '% econo %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":"econo"}]
+*** 20:27:23
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as match or  posts.caption like '%econ%' as match ) 
+			group by posts.id 
+			or' at line 9
+query was: select posts.*, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and ( posts.title like '%econ%' as match or  posts.caption like '%econ%' as match ) 
+			group by posts.id 
+			order by CASE
+			when match like 'econ %' then 0
+			when match like 'econ %' then 1
+			when match like '% econ %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":"econ"}]
+*** 20:27:35
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as match or  posts.caption like '%econ%' as match ) 
+			group by posts.id 
+			or' at line 9
+query was: select posts.*, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and ( posts.title like '%econ%' as match or  posts.caption like '%econ%' as match ) 
+			group by posts.id 
+			order by CASE
+			when match like 'econ %' then 0
+			when match like 'econ %' then 1
+			when match like '% econ %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":"econ"}]
+*** 20:28:00
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"econo"}]
+*** 20:31:19
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:31:20
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:31:20
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:31:23
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by CASE
+			when posts.title like ' %' then 0
+	' at line 9
+query was: select posts.*, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by CASE
+			when posts.title like ' %' then 0
+			when posts.title like ' %' then 1
+			when posts.title like '%  %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":""}]
+*** 20:31:24
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by CASE
+			when posts.title like 'ec %' then 0' at line 9
+query was: select posts.*, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by CASE
+			when posts.title like 'ec %' then 0
+			when posts.title like 'ec %' then 1
+			when posts.title like '% ec %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":"ec"}]
+*** 20:31:26
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"econo"}]
+*** 20:32:28
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:32:29
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:32:29
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:32:32
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by CASE
+			when posts.title like 'ec %' then 0' at line 9
+query was: select posts.*, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by CASE
+			when posts.title like 'ec %' then 0
+			when posts.title like 'ec %' then 1
+			when posts.title like '% ec %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":"ec"}]
+*** 20:32:32
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"econ"}]
+*** 20:32:33
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"econo"}]
+*** 20:33:24
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:33:24
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:33:24
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:33:26
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by CASE
+			when posts.title like 'e %' then 0
+' at line 9
+query was: select posts.*, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by CASE
+			when posts.title like 'e %' then 0
+			when posts.title like 'e %' then 1
+			when posts.title like '% e %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":"e"}]
+*** 20:33:27
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"econo"}]
+*** 20:33:42
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:33:42
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:33:42
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:36:12
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:36:12
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:36:12
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:36:14
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by CASE
+			when posts.title like 'ec %' then 0' at line 9
+query was: select posts.*, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by CASE
+			when posts.title like 'ec %' then 0
+			when posts.title like 'ec %' then 1
+			when posts.title like '% ec %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":"ec"}]
+*** 20:36:14
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"eco"}]
+*** 20:36:14
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"econo"}]
+*** 20:36:15
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"econo"}]
+*** 20:37:10
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"econ"}]
+*** 20:38:06
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:38:06
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:38:06
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:38:09
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by CASE
+			when posts.title like 'ec %' then 0' at line 9
+query was: select posts.title, posts.slug, files.name as image 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by CASE
+			when posts.title like 'ec %' then 0
+			when posts.title like 'ec %' then 1
+			when posts.title like '% ec %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":"ec"}]
+*** 20:38:09
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by CASE
+			when posts.title like 'ec %' then 0' at line 9
+query was: select posts.title, posts.slug, files.name as image 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by CASE
+			when posts.title like 'ec %' then 0
+			when posts.title like 'ec %' then 1
+			when posts.title like '% ec %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":"ec"}]
+*** 20:38:10
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"econo"}]
+*** 20:39:56
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:39:56
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:39:56
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:39:58
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by CASE
+			when posts.title like ' %' then 0
+	' at line 9
+query was: select posts.title, posts.slug, files.name as image 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by CASE
+			when posts.title like ' %' then 0
+			when posts.title like ' %' then 1
+			when posts.title like '%  %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":""}]
+*** 20:39:59
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by CASE
+			when posts.title like ' %' then 0
+	' at line 9
+query was: select posts.title, posts.slug, files.name as image 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by CASE
+			when posts.title like ' %' then 0
+			when posts.title like ' %' then 1
+			when posts.title like '%  %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":""}]
+*** 20:40:02
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by CASE
+			when posts.title like ' %' then 0
+	' at line 9
+query was: select posts.title, posts.slug, files.name as image 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by CASE
+			when posts.title like ' %' then 0
+			when posts.title like ' %' then 1
+			when posts.title like '%  %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":""}]
+*** 20:42:04
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:42:05
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:42:05
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:42:07
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by CASE
+			when posts.title like ' %' then 0
+	' at line 9
+query was: select posts.title, posts.slug, files.name as image 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by CASE
+			when posts.title like ' %' then 0
+			when posts.title like ' %' then 1
+			when posts.title like '%  %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":""}]
+*** 20:42:08
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by CASE
+			when posts.title like ' %' then 0
+	' at line 9
+query was: select posts.title, posts.slug, files.name as image 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by CASE
+			when posts.title like ' %' then 0
+			when posts.title like ' %' then 1
+			when posts.title like '%  %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":""}]
+*** 20:42:09
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by CASE
+			when posts.title like ' %' then 0
+	' at line 9
+query was: select posts.title, posts.slug, files.name as image 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by CASE
+			when posts.title like ' %' then 0
+			when posts.title like ' %' then 1
+			when posts.title like '%  %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":""}]
+*** 20:43:04
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:43:04
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:43:04
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:43:06
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by case 
+			when posts.title like ' %' then 0
+' at line 9
+query was: select posts.title, posts.slug, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by case 
+			when posts.title like ' %' then 0
+			when posts.title like ' %' then 1
+			when posts.title like '%  %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":""}]
+*** 20:43:07
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by case 
+			when posts.title like ' %' then 0
+' at line 9
+query was: select posts.title, posts.slug, files.name as image, privacy.icon 
+			from posts 
+			left join privacy on privacy.id = posts.privacy_id 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by case 
+			when posts.title like ' %' then 0
+			when posts.title like ' %' then 1
+			when posts.title like '%  %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":""}]
+*** 20:44:03
+method: undefined
+view: 
+["posts","undefined"]
+PostsController->show
+*** 20:44:05
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:44:06
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:44:07
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:44:07
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:44:08
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by case 
+			when posts.title like ' %' then 0
+' at line 8
+query was: select posts.id, posts.lang, posts.title, posts.slug, posts.user_id, files.name as image 
+			from posts 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by case 
+			when posts.title like ' %' then 0
+			when posts.title like ' %' then 1
+			when posts.title like '%  %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":""}]
+*** 20:44:09
+method: search
+view: 
+["posts","search"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+			group by posts.id 
+			order by case 
+			when posts.title like ' %' then 0
+' at line 8
+query was: select posts.id, posts.lang, posts.title, posts.slug, posts.user_id, files.name as image 
+			from posts 
+			left join files on files.post_id = posts.id and files.position = 1 
+			left join users on users.id = posts.user_id 
+			where posts.user_id = '1' 
+			and posts.lang = users.lang  
+			and posts.privacy_id = 1 
+			and () 
+			group by posts.id 
+			order by case 
+			when posts.title like ' %' then 0
+			when posts.title like ' %' then 1
+			when posts.title like '%  %' then 2
+			else 3 end
+PostsController->search
+POST [{"words":""}]
+*** 20:45:45
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:45:45
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:45:45
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:45:47
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:45:48
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:45:49
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:46:18
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:46:18
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:46:18
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:46:20
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"e"}]
+*** 20:46:20
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"eo"}]
+*** 20:46:21
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"e"}]
+*** 20:46:21
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"eco"}]
+*** 20:46:22
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"econo"}]
+*** 20:46:57
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:46:58
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:46:58
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:47:00
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"e"}]
+*** 20:47:01
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"econom"}]
+*** 20:47:02
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"economia"}]
+*** 20:47:38
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:47:38
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:47:38
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:47:40
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"e"}]
+*** 20:47:41
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"econom"}]
+*** 20:48:15
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:48:15
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:48:15
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:48:17
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"e"}]
+*** 20:48:17
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"econo"}]
+*** 20:48:26
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:48:26
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:48:27
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:48:28
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"ec"}]
+*** 20:48:29
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"econo"}]
+*** 20:48:30
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"econom"}]
+*** 20:48:33
+method: corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77
+view: 
+["posts","corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"]
+PostsController->show
+*** 20:48:34
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"15"}]
+*** 20:49:09
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"ec"}]
+*** 20:49:09
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"e"}]
+*** 20:49:10
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:49:13
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"partes"}]
+*** 20:49:20
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:49:21
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"ca"}]
+*** 20:49:22
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"casa"}]
+*** 20:49:25
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:49:27
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"forma"}]
+*** 20:49:29
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"forma "}]
+*** 20:49:30
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"form"}]
+*** 20:49:34
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:49:35
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:49:36
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"sopo"}]
+*** 20:49:36
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"soporte"}]
+*** 20:49:37
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"soporte"}]
+*** 20:49:39
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:49:40
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"a"}]
+*** 20:49:41
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"adasd"}]
+*** 20:49:43
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:49:47
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"apoyo"}]
+*** 20:49:51
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"apoy"}]
+*** 20:49:55
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:49:55
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:50:45
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:50:46
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:50:50
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"para"}]
+*** 20:50:58
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:51:00
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"a"}]
+*** 20:51:01
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:52:07
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:52:07
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:52:08
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:52:10
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"para"}]
+*** 20:52:11
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"p"}]
+*** 20:52:12
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:52:17
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"esto"}]
+*** 20:52:20
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:52:20
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:52:21
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"test"}]
+*** 20:52:30
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"tes"}]
+*** 20:52:32
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":""}]
+*** 20:52:46
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"radical"}]
+*** 20:54:04
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:54:05
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:54:05
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:54:07
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"radi"}]
+*** 20:54:35
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:54:54
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:54:54
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:54:54
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:55:26
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:55:26
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:55:26
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:56:12
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:56:12
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:56:12
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:56:15
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"radi"}]
+*** 20:56:34
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:56:34
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:56:34
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:56:36
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"radia"}]
+*** 20:56:38
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"radica"}]
+*** 20:56:39
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"radic"}]
+*** 20:56:40
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"radi"}]
+*** 20:56:42
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"rad"}]
+*** 20:56:43
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"radi"}]
+*** 20:57:16
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:57:16
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:57:16
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:57:19
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"radica"}]
+*** 20:57:29
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:57:30
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:57:30
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:57:33
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"radica"}]
+*** 20:57:36
+method: free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs
+view: 
+["posts","free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs"]
+PostsController->show
+*** 20:57:36
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"18"}]
+*** 20:58:49
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:58:50
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:58:50
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:58:50
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:58:53
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"radica"}]
+*** 20:58:55
+method: free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs
+view: 
+["posts","free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs"]
+PostsController->show
+*** 20:58:55
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"18"}]
+*** 20:59:47
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:59:47
+method: free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs
+view: 
+["posts","free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs"]
+PostsController->show
+*** 20:59:48
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"18"}]
+*** 20:59:48
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs"}]
+*** 20:59:52
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"radica"}]
+*** 20:59:54
+method: free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs
+view: 
+["posts","free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs"]
+PostsController->show
+*** 20:59:54
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"18"}]
+*** 21:00:06
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:00:06
+method: free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs
+view: 
+["posts","free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs"]
+PostsController->show
+*** 21:00:06
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs"}]
+*** 21:00:06
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"18"}]
+*** 21:00:09
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"radica"}]
+*** 21:00:11
+method: free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs
+view: 
+["posts","free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs"]
+PostsController->show
+*** 21:00:11
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"18"}]
+*** 21:06:41
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:06:41
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:06:41
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 21:07:23
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:07:24
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:07:24
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 21:09:52
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:09:53
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:09:53
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 21:10:02
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:10:02
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:10:03
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 21:10:30
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:10:30
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:10:30
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 21:10:54
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:10:54
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:10:54
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 21:11:36
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:11:36
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:11:36
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 21:11:42
+method: free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs
+view: 
+["posts","free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs"]
+PostsController->show
+*** 21:11:42
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"18"}]
+*** 21:11:43
+method: free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs
+view: 
+["posts","free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs"]
+PostsController->show
+*** 21:11:43
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"18"}]
+*** 21:11:44
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:11:45
+method: free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs
+view: 
+["posts","free-radicals-how-anarchy-and-serendipity-fueled-science-from-newton-to-tesla-to-steve-jobs"]
+PostsController->show
+*** 21:11:45
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"18"}]
+*** 07:48:06
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 07:48:07
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 07:48:08
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 07:51:50
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 07:51:50
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 07:51:51
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 07:51:54
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"c"}]
+*** 07:51:55
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"crisi"}]
+*** 07:51:55
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"crisi"}]
+*** 07:51:57
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"cris"}]
+*** 07:51:59
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"crisis"}]
+*** 07:52:39
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"crisis"}]
+*** 07:52:41
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 07:52:41
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 07:52:41
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 07:52:43
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"cr"}]
+*** 07:52:43
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"cri"}]
+*** 07:52:45
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"crisi"}]
+*** 07:53:39
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 07:53:39
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 07:53:39
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 07:53:42
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"gfdgf"}]
+*** 07:53:43
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"gfdgff"}]
+*** 07:53:44
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"gfdgffd"}]
+*** 07:54:15
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 07:54:15
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 07:54:15
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 07:54:18
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"gfhg"}]
+*** 07:56:59
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"gfhgv"}]
+*** 07:57:00
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"gfhgvv"}]
+*** 07:57:01
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"gfhgvvv"}]
+*** 07:57:38
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 07:57:38
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 07:57:38
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 07:57:41
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"hghg"}]
+*** 07:57:41
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"hghgg"}]
+*** 07:57:43
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"hghggf"}]
+*** 07:57:46
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"hghggff"}]
+*** 07:58:50
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 07:58:50
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 07:58:50
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 07:58:53
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"hjhg"}]
+*** 07:59:25
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 07:59:25
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 07:59:26
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 07:59:28
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"ghgf"}]
+*** 07:59:29
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"ghgff"}]
+*** 07:59:30
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"ghgffg"}]
+*** 08:00:09
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:00:09
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 08:00:10
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 08:00:11
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"asd"}]
+*** 08:00:12
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"asdf"}]
+*** 08:00:14
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"asdfss"}]
+*** 08:00:16
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"asdfssd"}]
+*** 08:00:18
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"asdfssds"}]
+*** 08:00:59
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:00:59
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 08:00:59
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 08:01:01
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"h"}]
+*** 08:01:03
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"hggg"}]
+*** 08:01:03
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"hgggf"}]
+*** 08:01:04
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"hgggff"}]
+*** 08:01:05
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"hgggffg"}]
+*** 08:01:06
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"hgggffgf"}]
+*** 08:01:07
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"hgggffgff"}]
+*** 08:01:08
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"hgggffgfff"}]
+*** 08:13:59
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:13:59
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 08:13:59
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 08:14:15
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:14:16
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 08:14:16
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 08:14:22
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:14:22
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 08:14:22
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 08:14:24
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"asdd"}]
+*** 08:15:13
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"asdd"}]
+*** 08:15:14
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:15:14
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 08:15:15
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 08:16:33
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:16:34
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 08:16:34
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 08:16:36
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"assd"}]
+*** 08:16:37
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"assdd"}]
+*** 08:16:37
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"assddd"}]
+*** 08:16:39
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"assddd"}]
+*** 08:16:43
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"tecnolo"}]
+*** 08:16:48
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"tecnolo"}]
+*** 08:16:51
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"denunci"}]
+*** 08:16:55
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 08:16:55
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 08:19:45
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:19:45
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4
+query was: select tags.tag 
+				from tags 
+				left join posts_tags on posts_tags.tag_id = tags.id 
+				where posts_tags.post_id =
+PostsController->show
+*** 08:19:45
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 08:19:45
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 08:20:04
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:20:05
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4
+query was: select tags.tag 
+				from tags 
+				left join posts_tags on posts_tags.tag_id = tags.id 
+				where posts_tags.post_id =
+PostsController->show
+*** 08:20:05
+method: tags
+view: 
+["posts","tags"]
+PostsController->tags
+POST [{"post_id":"16"}]
+*** 08:20:05
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 08:20:26
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:20:27
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4
+query was: select tags.tag 
+				from tags 
+				left join posts_tags on posts_tags.tag_id = tags.id 
+				where posts_tags.post_id =
+PostsController->show
+*** 08:20:27
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 08:20:52
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:20:52
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 08:20:53
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 08:21:21
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:21:21
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 08:21:22
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 08:21:32
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:21:32
+method: denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario
+view: 
+["posts","denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"]
+PostsController->show
+*** 08:21:33
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/denuncian-en-la-justicia-a-alicia-kirchner-por-recortar-574-millones-en-un-plan-alimentario"}]
+*** 08:21:35
+method: Alicia%20Kirchner
+view: Alicia
+["tags","Alicia%20Kirchner"]
+TagsController->show
+*** 08:21:37
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 08:21:46
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:21:47
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 08:21:47
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 08:24:45
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:24:45
+method: oko-some-test-are-performed-now
+view: 
+["posts","oko-some-test-are-performed-now"]
+PostsController->show
+*** 08:24:45
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/oko-some-test-are-performed-now"}]
+*** 08:24:50
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"tecn"}]
+*** 08:24:51
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"tecno"}]
+*** 08:24:54
+method: tecnologa-propia
+view: 
+["posts","tecnologa-propia"]
+PostsController->show
+*** 08:25:54
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:25:54
+method: tecnologa-propia
+view: 
+["posts","tecnologa-propia"]
+PostsController->show
+*** 08:25:54
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa-propia"}]
+*** 08:26:34
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:26:34
+method: tecnologa-propia
+view: 
+["posts","tecnologa-propia"]
+PostsController->show
+*** 08:26:34
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa-propia"}]
+*** 08:26:37
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"asdad"}]
+*** 08:26:43
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"asdad"}]
+*** 08:26:44
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:26:44
+method: tecnologa-propia
+view: 
+["posts","tecnologa-propia"]
+PostsController->show
+*** 08:26:45
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa-propia"}]
+*** 08:26:50
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:26:50
+method: tecnologa-propia
+view: 
+["posts","tecnologa-propia"]
+PostsController->show
+*** 08:26:50
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa-propia"}]
+*** 08:26:54
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"asdssd"}]
+*** 08:38:18
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 08:38:19
+method: tecnologa-propia
+view: 
+["posts","tecnologa-propia"]
+PostsController->show
+*** 08:38:19
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/tecnologa-propia"}]
+*** 17:37:24
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:37:24
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:37:24
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 17:37:27
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"blog"}]
+*** 17:37:44
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"blog"}]
+*** 17:38:06
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:38:06
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:38:07
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 17:38:09
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"blog"}]
+*** 17:38:12
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"blog"}]
+*** 17:38:19
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"tesla"}]
+*** 17:38:23
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"tesl"}]
+*** 17:38:36
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"blog "}]
+*** 17:38:56
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:38:56
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:38:56
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 17:38:59
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"blog "}]
+*** 17:39:25
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 17:39:26
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:39:26
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 17:39:28
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"blog "}]
+*** 17:39:29
+method: search
+view: 
+["posts","search"]
+PostsController->search
+POST [{"words":"blog"}]
+*** 11:49:12
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 11:49:12
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 11:49:12
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 11:49:20
+method: corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77
+view: 
+["posts","corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"]
+PostsController->show
+*** 11:49:50
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 11:49:50
+method: corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77
+view: 
+["posts","corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"]
+PostsController->show
+*** 11:49:51
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"}]
+*** 11:50:01
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 11:50:02
+method: corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77
+view: 
+["posts","corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"]
+PostsController->show
+*** 11:50:02
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"}]
+*** 11:50:16
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 11:50:16
+method: corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77
+view: 
+["posts","corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"]
+PostsController->show
+*** 11:50:16
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"}]
+*** 11:50:32
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 11:50:32
+method: corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77
+view: 
+["posts","corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"]
+PostsController->show
+*** 11:50:32
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"}]
+*** 11:50:41
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 11:50:41
+method: corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77
+view: 
+["posts","corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"]
+PostsController->show
+*** 11:50:42
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/corrupci%C3%B3n-y-una-econom%C3%ADa-en-crisis-derrumban-apoyo-a-rousseff-al-77"}]
+*** 22:24:50
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 22:24:50
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 22:24:50
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]

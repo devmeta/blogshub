@@ -1,0 +1,24 @@
+@import url("overpass.css");
+
+html {
+  background-color: #232323;
+}
+
+body {
+  background-color: #232323;
+  color:#ccc;
+  font-weight: 300;
+  font-family: "overpassregular";
+}
+
+.container {
+  background-color: #232323;
+}
+
+a {
+  color: red!important;
+}
+
+a:hover {
+  color: orange!important;
+}

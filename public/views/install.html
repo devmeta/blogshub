@@ -1,0 +1,122 @@
+<div class="col-md-8">
+<h1 class="page-header"><i class='ion-flag'></i> Getting started</h1>
+
+<h3>1. Cloning caldero</h3>
+
+<p>Git clone</p>
+<pre><code data-language="shell">git clone git@github.com:devmeta/caldero.git
+</code></pre>
+
+<h3>2. Dump SQL schema</h3>
+<p>Create a database named caldero and run ... </p>
+
+<pre><code data-language="schema">SET NAMES utf8;
+SET time_zone = '+00:00';
+SET foreign_key_checks = 0;
+SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
+
+DROP TABLE IF EXISTS `files`;
+CREATE TABLE `files` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL DEFAULT '',
+  `title` varchar(255) NOT NULL DEFAULT '',
+  `content` text NOT NULL,
+  `tag` varchar(20) NOT NULL DEFAULT 'post',
+  `position` varchar(20) NOT NULL DEFAULT '1',
+  `parent_id` int(11) NOT NULL DEFAULT '0',
+  `file_size` int(20) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `files` (`id`, `name`, `title`, `content`, `tag`, `position`, `parent_id`, `file_size`) VALUES
+(1, '001-kv_ducatomercancias_es.jpg', 'ducatomercancias', '', 'post', '3',  1,  0),
+(2, 'ga_lp570-4_sc_gal8.jpg', '', '', 'post', '2',  1,  0),
+(3, 'hw078083.jpg', '', '', 'post', '1',  1,  0);
+
+DROP TABLE IF EXISTS `posts`;
+CREATE TABLE `posts` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) NOT NULL,
+  `slug` varchar(255) NOT NULL,
+  `excerpt` varchar(255) NOT NULL,
+  `content` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `posts` (`id`, `title`, `slug`, `excerpt`, `content`) VALUES
+(1, 'Hello World!', 'hello',  'First post ',  'Hello, this is my First post .');
+</code></pre>
+
+<h3>3. Check your DB access config</h3>
+<p>Open your config file</p>
+<pre><code data-language="shell">
+$ nano /var/www/caldero/vendor/caldero/includes/config.php
+</code></pre>
+
+<p>Edit with your database credentials</p>
+<pre data-language="php"><code>
+define('DBHOST','localhost');
+define('DBUSER','root');
+define('DBPASS','********');
+define('DBNAME','caldero');
+</code></pre>
+
+<h3>4. jQuery</h3>
+<p>Hook caldero jquery route handlers</p>
+<pre data-language="javascript"><code>
+
+// Applies just when post tag is displayed
+
+/* route handlers */
+
+$(document).on('post-tag','body',function(){
+  $('.slick-std').slick({  
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    cssEase: 'linear'
+  });
+});
+
+</code></pre>
+<h3>jQuery <i>onshow</i> handlers</h3>
+<p>Hook caldero on every render</p>
+<pre><code data-language="javascript">
+$(document).on('display','body',function(){
+  // Applies on every page displayed
+});
+</code></pre>
+
+<p>Hook caldero when one view is displayed with a handler</p>
+<pre><code data-language="javascript">
+$(document).on('home','body',function(){
+  // Applies just when home page is displayed
+});
+</code></pre>
+
+
+<h3>5. Nginx settings</h3>
+<p>Create a new nginx entry like this</p>
+<pre data-language="shell"><code>
+server {
+
+        root /var/www/caldero;
+
+        index index.php index.html index.htm;
+
+        server_name caldero;
+
+        location / {
+                try_files $uri $uri/ /index.php$is_args$args;
+        }
+
+        location ~ \.php$ {
+                fastcgi_pass unix:/var/run/php5-fpm.sock;
+                fastcgi_index index.php;
+                include fastcgi_params;
+        }
+}
+</code></pre>

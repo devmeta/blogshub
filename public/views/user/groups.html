@@ -1,0 +1,34 @@
+<div class="col-md-8 center-block">
+	<div class="col-md-4">
+		<h2><i class='ion-android-desktop'></i> ${_j('title')}</h2>
+		<div class="list-group">
+			<a href="/user/devices" class="list-group-item"><i class='ion-android-wifi'></i> ${_l('Devices')}</a>
+			<a href="/user/groups" class="list-group-item active"><i class='ion-ios-people'></i> ${_l('Groups')}</a>
+		</div>
+	</div>
+	<div class="col-md-8">
+		<h3><i class='ion-person'></i> ${_l('Groups')} <a href="#_user_group" role="button" class="text-success" data-toggle="modal" title="${_l('Add')}" data-placement="right"><i class="ion-android-add-circle"></i></a></h3>
+		<table class="table">
+			<tr>
+				<th>#</th>
+				<th>${_l('Title')}</th>
+				<th>${_l('Created_At')}</th>
+				<th><i class="ion-ios-gear"></i></th>
+			</tr>
+			{{each groups}}
+			<tr>
+			  	<td>${$value.id}</a>
+			  	<td>${$value.title}</td>
+			  	<td>${$value.timespan}</td>
+			  	<td><a href="#_user_group" data-post='{"id":${$value.id}}' role="button" class="text-success" data-toggle="modal" title="${_l('Edit')}" data-placement="left"><i class="ion-compose x15"></i></a></td>
+			{{/each}}
+		</table>
+<!--nav>
+  <ul class="pagination">
+    <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+    <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+    ...
+  </ul>
+</nav-->
+	</div>
+</div>

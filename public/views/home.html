@@ -1,0 +1,29 @@
+<div class="ls ls2 cover with-ion">
+	<h1 class=""><i class="ion-checkmark-circled"></i> ${_l('Welcome_Title_2')}</h1>
+	<p> ${_l('Welcome_Caption_2')}  </p>
+	<span class="bottom-right white"> ${count} ${_l('Accounts_Created')} </span>
+	<div class="group-control">&nbsp;</div>
+	<div class="group-control">&nbsp;</div>	
+	<!--div class="text-center">
+		<a href="/signup" class="btn btn-lg btn-success"><i class="ion-person-add"></i> Crear tu cuenta ahora</a>
+	</div-->
+</div>
+
+<div class="bg bg1">
+	<h1>${_l('Newsletter_Title')}</h1>
+	<p>${_l('Newsletter_Caption')}</p>
+	<form class="form" action="/newsletter/add">
+		<div class="form-group row">
+			<div class="col-lg-3 col-sm-4 col-xs-6">
+				<input type="email" name="email" class="form-control" id="suscribe-email" placeholder="${_l('Signup_Email')}" data-validation-email-message="${_l('Email_Valid')}" required />
+			</div>
+			<button type="submit" class="btn btn-success"><i class="ion-checkmark-circled"></i> ${_l('Newsletter_Button')}</button>
+		</div>
+		<div class="alert col-md-4 suscribe-response hide"></div>
+		<div class="clearfix"></div>
+		<div class="checkbox">
+		    <input type="checkbox" id="terms" name="terms" data-validation-required-message="${_l('Agree_Tos_Message')}" required />
+		    <label for="terms"> ${_l('I_Agree')}  <a href="#_tos_-lang" role="button" data-toggle="modal"> ${_l('Tos_And_Privacy')} </a> </label>
+		</div>	
+	</form>
+</div>

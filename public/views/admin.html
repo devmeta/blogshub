@@ -1,0 +1,40 @@
+<div class="col-md-8 center-block">
+	<div class="col-md-4">
+		<h2>&nbsp;&nbsp;<i class='ion-android-desktop'></i> ${_j('title')}</h2>
+		<div class="list-group">
+			<a href="/admin/users" class="list-group-item"><i class='ion-person'></i> ${_l('Users')} <span class="badge">${users_count}</span></a>
+			<a href="/admin/posts" class="list-group-item"><i class='ion-compose'></i> ${_l('Posts')} <span class="badge">${posts_count}</span></a>
+		</div>
+		<div class="list-group online"></div>
+	</div>
+	<div class="col-md-8">
+		<div class="group-control">&nbsp;</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h4>&nbsp;&nbsp;<i class='ion-person'></i> ${_l('Last')} ${_l('Users')}</h4>
+				<div class="list-group">
+			{{if users != null && users.length}}
+				{{each users}}
+				  <a href="/account/${$value.username}" class="list-group-item">${$value.username} <span class="text-success">${$value.activity_path}</span> <span class="badge">${$value.timespan}</span></a>
+				{{/each}}
+			{{else}}
+				<h1 class="text-center"><i class="ion-flash-off x3"></i></h1>
+			{{/if}}
+				</div>
+			</div>		
+
+			<div class="col-md-12">
+				<h4>&nbsp;&nbsp;<i class='ion-compose'></i> ${_l('Last')} ${_l('Posts')} <a class="text-success" href="#_admin_post" role="button" data-toggle="modal" title="${_l('Add')}" data-placement="right"><i class="ion-android-add-circle x1"></i></a></h4>
+				<div class="list-group">
+			{{if posts != null && posts.length}}
+				{{each posts}}
+				  <a href="#_admin_post" data-post='{"id":${$value.id}}' role="button" class="list-group-item" data-toggle="modal"><i class="${$value.icon}"></i> ${$value.title} <span class="badge">${$value.lang}</span> <span class="badge">${$value.timespan}</span></a>
+				{{/each}}
+			{{else}}
+				<h1 class="text-center"><i class="ion-flash-off x3"></i></h1>
+			{{/if}}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
