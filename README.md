@@ -4,8 +4,9 @@
     zcat vendor/caldero/schema/schema.sql.gz | mysql -u root -p******** blogs
 
 <h3>Configure DB Access</h3>
-
-    nano vendor/caldero/config.php</code>
+  
+    cp vendor/caldero/config.default.php config.php
+    nano vendor/caldero/config.php
 
 
 <h3>Nginx</h3>
