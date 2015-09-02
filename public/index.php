@@ -3,8 +3,8 @@
 session_start();
 ob_start();
 
-include '../vendor/caldero/includes/defines.php';
 include '../vendor/caldero/includes/functions.php';
+include '../vendor/caldero/includes/defines.php';
 include '../vendor/caldero/config.php';
 include '../app/helpers/Utils.php';
 include '../app/helpers/Str.php';
@@ -31,6 +31,12 @@ $blog = DB::query('select users.*, styles.name as style
 	from users 
 	left join styles on styles.id = users.style_id 
 	where users.username = \'' . $blogname . '\'',1);
+
+define('LOCALE',$blog['lang']);
+
+if(is_file( PATH_LOCALE . LOCALE . '.php')){
+	include PATH_LOCALE . LOCALE . '.php';
+}
 
 if( ! $blog){
 	$blog['title'] = _l('Site_Title');

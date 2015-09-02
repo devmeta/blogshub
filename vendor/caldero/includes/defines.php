@@ -1,5 +1,6 @@
 <?php 
 
+use App\Helpers\DB as DB;
 
 //@ini_set('display_errors', 'off');
 ini_set('upload_max_filesize', '100M');
@@ -28,23 +29,3 @@ define('PATH_UPLOAD',	PATH_BASE . '../blogs/public/upload/');
 define('REMOTE_ADDR',$_SERVER['REMOTE_ADDR']);
 define('HTTP_USER_AGENT',$_SERVER['HTTP_USER_AGENT']);
 define('LOCALE_DEFAULT','es');
-
-function get_flag(){
-	$locale= isset($_SESSION['language']) ? $_SESSION['language'] : ( isset($_COOKIE['language']) ? $_COOKIE['language'] : LOCALE_DEFAULT );
-	if(isset($_REQUEST['lang'])){
-		if(isset($_SESSION['language'])){
-			unset($_SESSION['language']);
-		}
-		$locale = $_REQUEST['lang'];
-		$_SESSION['language'] = $locale;
-	}
-	return $locale;
-}
-
-$flag = get_flag();
-
-define('LOCALE',$flag);
-
-if(is_file( PATH_LOCALE . LOCALE . '.php')){
-	include PATH_LOCALE . LOCALE . '.php';
-}
