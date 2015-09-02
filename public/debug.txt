@@ -8635,3 +8635,210 @@ view:
 ["posts","search"]
 PostsController->search
 POST [{"words":"test"}]
+*** 14:01:30
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:01:31
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 14:01:31
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 14:02:11
+method: test
+view: 
+["posts","test"]
+PostsController->show
+*** 14:02:12
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:02:12
+method: test
+view: 
+["posts","test"]
+PostsController->show
+*** 14:02:13
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/test"}]
+*** 14:02:55
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:02:55
+method: google
+view: 
+["posts","google"]
+PostsController->show
+*** 14:02:55
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/google"}]
+*** 14:03:15
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:03:15
+method: google
+view: 
+["posts","google"]
+PostsController->show
+*** 14:03:15
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/google"}]
+*** 14:03:26
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:03:26
+method: google
+view: 
+["posts","google"]
+PostsController->show
+*** 14:03:26
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/google"}]
+*** 14:03:37
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:03:37
+method: google
+view: 
+["posts","google"]
+PostsController->show
+*** 14:03:37
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/google"}]
+*** 14:05:10
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:05:10
+method: google
+view: 
+["posts","google"]
+PostsController->show
+*** 14:05:11
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/google"}]
+*** 14:06:57
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:06:58
+method: google
+view: 
+["posts","google"]
+PostsController->show
+*** 14:06:58
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/google"}]
+*** 14:07:09
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:07:09
+method: google
+view: 
+["posts","google"]
+PostsController->show
+*** 14:07:09
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/google"}]
+*** 14:07:17
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:07:17
+method: google
+view: 
+["posts","google"]
+PostsController->show
+*** 14:07:18
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/google"}]
+*** 14:07:38
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:07:39
+method: google
+view: 
+["posts","google"]
+PostsController->show
+*** 14:07:39
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/google"}]
+*** 14:07:42
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 14:07:46
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 14:07:49
+method: martin
+view: 
+["account","martin"]
+AccountController->show

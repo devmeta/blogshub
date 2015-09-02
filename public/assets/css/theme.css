@@ -148,6 +148,8 @@ footer a {
   margin-bottom: 0;
   background-color: #fff;
   min-height: 74px!important;
+  border: none;
+  border-radius: 0;
 }
 
 .navbar>li>a{
