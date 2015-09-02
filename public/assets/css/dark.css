@@ -11,7 +11,7 @@ body {
   font-family: "overpassregular";
 }
 
-.container {
+body > .container {
   background-color: #232323;
 }
 

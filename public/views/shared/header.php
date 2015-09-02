@@ -1,7 +1,7 @@
-    <nav class="navbar navbar-default" role="navigation">
-      <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -12,7 +12,7 @@
   					<small><?php echo $config['blog']['caption'];?></small>
     			</a>
         </div>
-        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar nav-pills pull-right"> 
           <?php if( isset($config['blog']['id']) ):?>
             <li>

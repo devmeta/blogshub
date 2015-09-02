@@ -9,6 +9,10 @@ body {
   font-family: "Roboto";
 }
 
+body > .container {
+  background-color: #fff;
+}
+
 .navbar {
 	background-color: #bf383a;
 }
@@ -24,8 +28,4 @@ body {
 .navbar .nav a:hover {
 	background-color: #922425!important;
 	color: #fff!important;
-}
-
-.container {
-  background-color: #fff;
 }
