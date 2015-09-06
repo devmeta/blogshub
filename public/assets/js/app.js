@@ -101,13 +101,16 @@ $(document).on('display','body',function(){
   if($('.fbcount1').length){
     share.jsonRequest('http://api.facebook.com/restserver.php?method=links.getStats&urls=' + location.href + '&callback=share.fbCountCallback');
   }
+
   setTimeout(function(){
     $.ajax({
       method:'post',
+      async: true,
       url:'/api/ip2geo',
       data : { path : location.pathname },
       cache: false
     });          
   },500);
+  
   Rainbow.color();
 });
