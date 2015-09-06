@@ -51,7 +51,7 @@ class PostsController {
 
 		global $config;
 
-		$entry = DB::query('select posts.id, posts.title, posts.updated_ts, posts.user_id, posts.caption, posts.content, users.disqus, from_unixtime(posts.updated_ts, \'%Y %M %d %H:%i\') as date_updated, users.title as user   
+		$entry = DB::query('select posts.id, posts.slug, posts.title, posts.updated_ts, posts.user_id, posts.caption, posts.content, users.disqus, from_unixtime(posts.updated_ts, \'%Y %M %d %H:%i\') as date_updated, users.title as user   
 			from posts 
 			left join users on users.id = posts.user_id
 			where posts.slug = \'' . urldecode($segments[1]) . '\'
@@ -67,7 +67,7 @@ class PostsController {
 				where post_id = " . $entry['id'] . " 
 				order by position",0);
 
-			$more = DB::query('select posts.title, posts.updated_ts, posts.slug, posts.hits, posts.caption, users.title as user, files.name as image 
+			$more = DB::query('select posts.title, posts.created_ts, posts.updated_ts, posts.slug, posts.hits, posts.caption, users.title as user, files.name as image 
 				from posts 
 				left join files on files.post_id = posts.id and files.position = 1
 				left join users on users.id = posts.user_id
@@ -90,8 +90,13 @@ class PostsController {
 				$more[$i]['timespan'] = timespan($row['updated_ts']);
 			}
 			
-			DB::write('update posts set hits = hits + 1 where id =  ' . $entry['id']);
-			// DB::write('insert into hits set user_agent = \'' . $_SERVER['HTTP_USER_AGENT'] . '\', ip = \'' . $_SERVER['REMOTE_ADDR'] . '\', post_id = ' . $entry['id'] . ', created_ts = ' . time());
+			$exists = DB::query("select id from hits where ip ='" . $_SERVER['REMOTE_ADDR'] . "' and path = '/posts/" . $entry['slug'] . "' and user_id = " . $config['blog']['id'] . " limit 1",2,'id');
+
+			//debug("select id from hits where ip ='" . $_SERVER['REMOTE_ADDR'] . "' and path = '/posts/" . $entry['slug'] . "' and user_id = " . $config['blog']['id'] . " limit 1");
+
+			if( ! $exists ){
+				DB::write('update posts set hits = hits + 1 where id =  ' . $entry['id']);
+			}
 
 			return array(
 				'view'	=> "post",
