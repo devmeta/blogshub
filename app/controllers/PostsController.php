@@ -67,7 +67,7 @@ class PostsController {
 				where post_id = " . $entry['id'] . " 
 				order by position",0);
 
-			$more = DB::query('select posts.title, posts.updated_ts, posts.slug, posts.caption, users.title as user, files.name as image 
+			$more = DB::query('select posts.title, posts.updated_ts, posts.slug, posts.hits, posts.caption, users.title as user, files.name as image 
 				from posts 
 				left join files on files.post_id = posts.id and files.position = 1
 				left join users on users.id = posts.user_id
@@ -76,8 +76,8 @@ class PostsController {
 				and posts.user_id = ' . $entry['user_id'] . ' 
 				and posts.lang = users.lang  
 				group by posts.id
-				order by updated_ts desc 
-				limit 5',0);
+				order by hits desc 
+				limit 4',0);
 
 			$tags = DB::query('select tags.tag 
 				from tags 

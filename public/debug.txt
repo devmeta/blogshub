@@ -1267,3 +1267,110 @@ view:
 ["api","ip2geo"]
 ApiController->ip2geo
 POST [{"path":"\/"}]
+*** 14:33:08
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:33:09
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 14:33:09
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 14:33:28
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:33:28
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 14:33:29
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 14:33:37
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:33:37
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 14:33:37
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 14:34:40
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:34:40
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 14:34:40
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 14:35:06
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:35:07
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 14:35:07
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 14:36:09
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:36:10
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 14:36:10
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 14:36:37
+method: devmeta-blogs-milestone-para-la-versi%C3%B3n-libre-de-errores
+view: 
+["posts","devmeta-blogs-milestone-para-la-versi%C3%B3n-libre-de-errores"]
+PostsController->show
