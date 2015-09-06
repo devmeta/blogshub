@@ -62,18 +62,33 @@
 		<div class="col-md-6 col-xs-6">
 		{{/if}}
 			<div class="row">
-				<a href="/posts/${slug}">
-				<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-					<div class="flipper">
-						<div class="front cover" style="background-image: url(${_j('baseurl')}/upload/posts/th-${image});">
-							<h1><span>{{html title.split(' ').join('</span><span>')}}</span></h1><small>${timespan}</small>
+				<div class="photo box_hover">
+					<p>
+						<a href="/posts/${slug}" title="${title}">
+							<img src="${_j('baseurl')}/upload/posts/th-${image}" alt="${caption}" class="img-responsive pull-left img-rounded"> 
+						</a>
+					</p>					
+					<div class="caption col-lg-12 animate">
+						<div class="blur"></div>
+						<div class="caption-date">
+							<h5 class="title">
+								${created}
+							</h5>
+						</div>						
+						<div class="caption-text">
+							<h3 class="title">
+								<a href="/posts/${slug}" title="${title}">${title}</a>
+							</h3>
 						</div>
-						<div class="back cover" style="background: #fff url(${_j('baseurl')}/upload/posts/th-${image});background-blend-mode: difference;">
-							<p><span>{{html caption.split(' ').join('</span><span>')}}</span></p>
+						<div class="caption-summary">
+							<h3 class="title">
+								<a href="/posts/${slug}" title="${title}">
+									${caption}
+								</a>
+							</h3>
 						</div>
 					</div>
 				</div>
-				</a>
 			</div>
 		{{/each}}
 		</div>		

@@ -34,6 +34,6 @@ return array(
         '//assets/css/font-awesome-animation.css', 
         '//assets/css/slick.css',         
         '//assets/css/theme.css',         
-        '//assets/css/flip.css', 
+        '//assets/css/box-hover.css', 
     )
 );
