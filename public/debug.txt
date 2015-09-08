@@ -2595,3 +2595,133 @@ view:
 ["api","ip2geo"]
 ApiController->ip2geo
 POST [{"path":"\/"}]
+*** 16:17:42
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:17:42
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 16:17:43
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 16:17:52
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:17:53
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 16:17:53
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 16:20:49
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:20:50
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 16:21:18
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:21:18
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 16:21:19
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 16:23:42
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:23:42
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 16:23:43
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 16:24:18
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:24:18
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 16:24:19
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 16:25:26
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:25:26
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 16:25:27
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 16:26:02
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:26:02
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 16:26:03
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]

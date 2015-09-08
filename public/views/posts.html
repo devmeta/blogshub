@@ -13,8 +13,9 @@
 					</div>
 					<div class="ch-caption">
 						<h5>
-							<i class="ion-android-time"></i> ${created} &nbsp;
+							<i class="ion-android-time"></i> ${created} 
 							<i class="ion-eye"></i> ${hits}
+							<i class="ion-chatbubbles"></i> <a href="http://${username}.devmeta.net/posts/${slug}#disqus_thread">0</a>
 						</h5>
 						<h3>{{html caption}}</h3>
 						<p>
@@ -35,3 +36,19 @@
 		<p>${blog.bio}</p>
 	</div>
 </div>
+
+{{if disqus == 1}}
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'devmetablogs';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{{/if}}

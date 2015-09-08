@@ -12,7 +12,7 @@ class PostsController {
 
 		if( ! in_array($config['blog']['username'],$reserved)){
 
-			$posts = DB::query('select posts.*, files.name as image, privacy.icon, users.title as user, users.avatar 
+			$posts = DB::query('select posts.*, files.name as image, privacy.icon, users.username, users.disqus, users.title as user, users.avatar 
 				from posts 
 				left join privacy on privacy.id = posts.privacy_id 
 				left join files on files.post_id = posts.id and files.position = 1 
@@ -40,6 +40,7 @@ class PostsController {
 		} 
 		
 		return array(
+			'disqus' => $posts[0]['disqus'],
 			'view' => "posts",
 			'count' => $count,
 			'blog'	=> $config['blog'],

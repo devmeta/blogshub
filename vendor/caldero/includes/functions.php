@@ -222,7 +222,7 @@ function timespan($ts) {
 		$ratio = $mins / 40320 ;
 		$d = round($ratio);
 		$s = $d > 1 ? "es":"";
-		$x3 = $d . "mo";//.$s;
+		$x3 = $d . "m";//.$s;
 	} elseif($mins > 10079 && $mins < 40319){ // semanas
 		$ratio = $mins / 10080 ;
 		$d = round($ratio);
@@ -237,7 +237,7 @@ function timespan($ts) {
 		$x3 = min2hour(round($mins));
 	} else {
 		$s = $mins > 1 ? "s":"";
-		$x3 = $mins . "m";//.$s;
+		$x3 = $mins . "’";//.$s;
 	}
 	
 	return __($x3);
