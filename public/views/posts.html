@@ -28,10 +28,8 @@
 	</div>
 	<div class="col-md-3 col-md-offset1 text-center">
 		<div class="group-control">&nbsp;</div>
-		<div class="group-control">&nbsp;</div>
-		<h4>${_l('About_Author')}</h4>
 		{{if blog.avatar != null && blog.avatar != 'default.png'}}
-		<a href="/account/${blog.username}"><img class="img-circle" src="${_j('baseurl')}/upload/profile/th-${blog.avatar}"></a>
+		<a href="/account/${blog.username}"><img class="img-circle" title="${_l('About_Author')}" src="${_j('baseurl')}/upload/profile/th-${blog.avatar}"></a>
 		{{/if}}
 		<h4><a href="/account/${blog.username}">${blog.author}</a></h4>
 		<p>${blog.bio}</p>
