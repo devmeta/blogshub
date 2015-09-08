@@ -2,6 +2,7 @@
 
 $lang['es'] = 'Castillian';
 $lang['en'] = 'English';
+$lang['Download_Audio'] = 'Download audio';
 $lang['Member_Since'] = 'Member since';
 $lang['Posts_Count'] = 'Posts';
 $lang['Share_With'] = 'Share with';

@@ -32,13 +32,17 @@ $blog = DB::query('select users.*, styles.name as style
 	left join styles on styles.id = users.style_id 
 	where users.username = \'' . $blogname . '\'',1);
 
+if( ! $blog ){
+	$blog['lang'] = "es";
+}
+
 define('LOCALE',$blog['lang']);
 
 if(is_file( PATH_LOCALE . LOCALE . '.php')){
 	include PATH_LOCALE . LOCALE . '.php';
 }
 
-if( ! $blog){
+if( ! $blog['title'] ){
 	$blog['title'] = _l('Site_Title');
 	$blog['caption'] = _l('Site_Slogan');
 }

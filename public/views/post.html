@@ -55,41 +55,26 @@
 	{{if more.length}}
 		<div class="group-control">&nbsp;</div>
 		<h4>${_l('More')}</h4>
-		<div class="col-md-6 col-xs-6">
+		<div class="col-md-6 col-sm-3 col-xs-6">
 		{{each more}}
 		{{if $index == Math.floor(more.length / 2)}}
 		</div>
-		<div class="col-md-6 col-xs-6">
+		<div class="col-md-6 col-sm-3 col-xs-6">
 		{{/if}}
 			<div class="row">
-				<div class="photo box_hover">
-					<p>
-						<a href="/posts/${slug}" title="${title}">
-							<img src="${_j('baseurl')}/upload/posts/th-${image}" alt="${caption}" class="img-responsive pull-left img-rounded"> 
-						</a>
-					</p>					
-					<div class="caption col-lg-12 animate">
-						<div class="blur"></div>
-						<div class="caption-date">
-							<h5 class="title">
-								<i class="ion-android-time"></i> ${created} &nbsp;
-								<i class="ion-eye"></i> ${hits}
-							</h5>
-						</div>						
-						<div class="caption-text">
-							<h3 class="title">
-								<a href="/posts/${slug}" title="${title}">${title}</a>
-							</h3>
-						</div>
-						<div class="caption-summary">
-							<h3 class="title">
-								<a href="/posts/${slug}" title="${title}">
-									${caption}
-								</a>
-							</h3>
+				<a href="/posts/${slug}">
+					<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipper">
+							<div class="front cover" style="background-image: url(${_j('baseurl')}/upload/posts/th-${image});">
+								<h1><span>{{html title.split(' ').join('</span><span>')}}</span></h1><small><i class="ion-android-time"></i> ${created} &nbsp;
+							<i class="ion-eye"></i> ${hits}</small>
+							</div>
+							<div class="back cover" style="background: #fff url(${_j('baseurl')}/upload/posts/th-${image});background-blend-mode: difference;">
+								<p><span>{{html caption.split(' ').join('</span><span>')}}</span></p>
+							</div>
 						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 		{{/each}}
 		</div>		
@@ -104,7 +89,7 @@
 		<div class="col-md-6 col-xs-6 text-center">
 			<div class="row">
 			{{if blog.avatar != null && blog.avatar != 'default.png'}}
-				<a href="/account/${blog.username}"><img class="img-circle" src="${_j('baseurl')}/upload/profile/th-${blog.avatar}"></a>
+				<a href="/account/${blog.username}"><img class="img-responsive img-circle" src="${_j('baseurl')}/upload/profile/th-${blog.avatar}"></a>
 			{{/if}}	
 			</div>
 		</div>	

@@ -94,7 +94,9 @@ $(document).on('click', '.goup', function(e) {
 });
 
 $(document).on('display','body',function(){
+
   $( ".search-results").remove();
+
   if($('.twcnt1').length){
     share.jsonRequest('http://urls.api.twitter.com/1/urls/count.json?url=' + location.href + '&callback=share.twitterCountCallback');
   }
@@ -111,6 +113,13 @@ $(document).on('display','body',function(){
       cache: false
     });          
   },500);
+
+  if( $("audio").length){
+    $("audio").each(function(){
+      $(this).after('<div><a href="' + $(this).attr('src') + '" target="_blank"><i class="ion-android-download"></i> ' + _l('Download_Audio') + '</a></div>');
+    });
+  }
+
   
   Rainbow.color();
 });

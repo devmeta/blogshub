@@ -51,6 +51,13 @@ class PostsController {
 
 		global $config;
 
+		if( ! isset($config['blog']['id'])){
+			return array(
+				'view' => "blog-missing",
+				'blogname' => $blog
+			);
+		}
+
 		$entry = DB::query('select posts.id, posts.slug, posts.title, posts.updated_ts, posts.user_id, posts.caption, posts.content, users.disqus, from_unixtime(posts.updated_ts, \'%Y %M %d %H:%i\') as date_updated, users.title as user   
 			from posts 
 			left join users on users.id = posts.user_id
@@ -60,6 +67,7 @@ class PostsController {
 		if($entry) {
 
 			$entry['content'] = str_replace("/upload/",$config['baseurl'] . "/upload/",$entry['content']);
+
 			//$entry['created'] = date('Y, m d H:i',$entry['created_ts']);
 
 			$files = DB::query("select name as image  

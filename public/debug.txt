@@ -1,328 +1,1122 @@
-*** 17:12:16
-method: anuncio-de-nuestro-servicio-gratuito-de-blogs
-view: 
-["posts","anuncio-de-nuestro-servicio-gratuito-de-blogs"]
-select id from hits where ip ='127.0.0.1' and path = '/posts/' and user_id = 1 limit 1
-PostsController->show
-*** 17:13:03
-method: index
-view: index
-["posts"]
-PostsController->index
-*** 17:13:05
-method: anuncio-de-nuestro-servicio-gratuito-de-blogs
-view: 
-["posts","anuncio-de-nuestro-servicio-gratuito-de-blogs"]
-select id from hits where ip ='127.0.0.1' and path = '/posts/anuncio-de-nuestro-servicio-gratuito-de-blogs' and user_id = 1 limit 1
-PostsController->show
-*** 17:13:06
-method: index
-view: index
-["posts"]
-PostsController->index
-*** 17:13:08
-method: anuncio-de-nuestro-servicio-gratuito-de-blogs
-view: 
-["posts","anuncio-de-nuestro-servicio-gratuito-de-blogs"]
-select id from hits where ip ='127.0.0.1' and path = '/posts/anuncio-de-nuestro-servicio-gratuito-de-blogs' and user_id = 1 limit 1
-PostsController->show
-*** 17:13:09
-method: index
-view: index
-["posts"]
-PostsController->index
-*** 17:20:20
+>>>>>>>>>>>>
+/var/www/blogshub/vendor/caldero/includes/../../../app/locale/es.php
+>>>>>>>>>>>>
+/var/www/blogshub/vendor/caldero/includes/../../../app/locale/es.php
+>>>>>>>>>>>>
+/var/www/blogshub/vendor/caldero/includes/../../../app/locale/es.php
+*** 14:37:10
 method: detect
 view: 
 ["api","detect"]
 ApiController->detect
 POST [{"id":"es"}]
-*** 17:20:21
-method: index
-view: index
-["posts"]
-PostsController->index
-*** 17:20:21
+>>>>>>>>>>>>
+/var/www/blogshub/vendor/caldero/includes/../../../app/locale/es.php
+*** 14:37:10
+method: devmetddda-blogs-milestone-para-la-version-libre-de-errores
+view: 
+["posts","devmetddda-blogs-milestone-para-la-version-libre-de-errores"]
+------------------------
+PostsController->show
+>>>>>>>>>>>>
+/var/www/blogshub/vendor/caldero/includes/../../../app/locale/es.php
+*** 14:37:11
 method: ip2geo
 view: 
 ["api","ip2geo"]
 ApiController->ip2geo
-POST [{"path":"\/"}]
-*** 17:20:27
+POST [{"path":"\/posts\/devmetddda-blogs-milestone-para-la-version-libre-de-errores"}]
+1
+si
+1
+si
+1
+si
+*** 14:37:59
 method: detect
 view: 
 ["api","detect"]
 ApiController->detect
 POST [{"id":"es"}]
-*** 17:20:28
-method: index
-view: index
-["posts"]
-PostsController->index
-*** 17:20:28
+1
+si
+*** 14:37:59
+method: devmetddda-blogs-milestone-para-la-version-libre-de-errores
+view: 
+["posts","devmetddda-blogs-milestone-para-la-version-libre-de-errores"]
+------------------------
+PostsController->show
+1
+si
+*** 14:38:00
 method: ip2geo
 view: 
 ["api","ip2geo"]
 ApiController->ip2geo
-POST [{"path":"\/"}]
-*** 17:20:56
+POST [{"path":"\/posts\/devmetddda-blogs-milestone-para-la-version-libre-de-errores"}]
+*** 14:39:05
 method: detect
 view: 
 ["api","detect"]
 ApiController->detect
 POST [{"id":"es"}]
-*** 17:20:57
-method: index
-view: index
-["posts"]
-PostsController->index
-*** 17:20:57
-method: ip2geo
+*** 14:39:05
+method: devmetddda-blogs-milestone-para-la-version-libre-de-errores
 view: 
-["api","ip2geo"]
-ApiController->ip2geo
-POST [{"path":"\/"}]
-*** 17:21:23
-method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
-view: 
-["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+["posts","devmetddda-blogs-milestone-para-la-version-libre-de-errores"]
+------------------------
 PostsController->show
-*** 17:21:24
+*** 14:39:06
 method: ip2geo
 view: 
 ["api","ip2geo"]
 ApiController->ip2geo
-POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
-*** 17:21:53
+POST [{"path":"\/posts\/devmetddda-blogs-milestone-para-la-version-libre-de-errores"}]
+*** 14:39:25
 method: detect
 view: 
 ["api","detect"]
 ApiController->detect
 POST [{"id":"es"}]
-*** 17:21:53
-method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+*** 14:39:26
+method: devmetddda-blogs-milestone-para-la-version-libre-de-errores
 view: 
-["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+["posts","devmetddda-blogs-milestone-para-la-version-libre-de-errores"]
+------------------------
 PostsController->show
-*** 17:21:54
+*** 14:39:26
 method: ip2geo
 view: 
 ["api","ip2geo"]
 ApiController->ip2geo
-POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
-*** 17:22:10
+POST [{"path":"\/posts\/devmetddda-blogs-milestone-para-la-version-libre-de-errores"}]
+*** 14:52:17
 method: detect
 view: 
 ["api","detect"]
 ApiController->detect
 POST [{"id":"es"}]
-*** 17:22:11
-method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+*** 14:52:17
+method: devmetddda-blogs-milestone-para-la-version-libre-de-errores
 view: 
-["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+["posts","devmetddda-blogs-milestone-para-la-version-libre-de-errores"]
+------------------------
+1
 PostsController->show
-*** 17:22:11
+*** 14:52:18
 method: ip2geo
 view: 
 ["api","ip2geo"]
 ApiController->ip2geo
-POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
-*** 17:22:25
-method: anuncio-de-nuestro-servicio-gratuito-de-blogs
-view: 
-["posts","anuncio-de-nuestro-servicio-gratuito-de-blogs"]
-PostsController->show
-*** 17:22:26
-method: ip2geo
-view: 
-["api","ip2geo"]
-ApiController->ip2geo
-POST [{"path":"\/posts\/anuncio-de-nuestro-servicio-gratuito-de-blogs"}]
-*** 17:23:00
-method: detect
-view: 
-["api","detect"]
-ApiController->detect
-POST [{"id":"es"}]
-*** 17:23:00
-method: anuncio-de-nuestro-servicio-gratuito-de-blogs
-view: 
-["posts","anuncio-de-nuestro-servicio-gratuito-de-blogs"]
-PostsController->show
-*** 17:23:01
-method: ip2geo
-view: 
-["api","ip2geo"]
-ApiController->ip2geo
-POST [{"path":"\/posts\/anuncio-de-nuestro-servicio-gratuito-de-blogs"}]
-*** 17:23:11
-method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
-view: 
-["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
-PostsController->show
-*** 17:23:12
-method: ip2geo
-view: 
-["api","ip2geo"]
-ApiController->ip2geo
-POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
-*** 17:23:16
-method: convertite-en-autor-empez-a-publicar-hoy
-view: 
-["posts","convertite-en-autor-empez-a-publicar-hoy"]
-PostsController->show
-*** 17:23:17
-method: ip2geo
-view: 
-["api","ip2geo"]
-ApiController->ip2geo
-POST [{"path":"\/posts\/convertite-en-autor-empez-a-publicar-hoy"}]
-*** 17:23:31
-method: como-analizar-el-trafico-de-tu-web-sin-usar-google-analytics
-view: 
-["posts","como-analizar-el-trafico-de-tu-web-sin-usar-google-analytics"]
-PostsController->show
-*** 17:23:32
-method: ip2geo
-view: 
-["api","ip2geo"]
-ApiController->ip2geo
-POST [{"path":"\/posts\/como-analizar-el-trafico-de-tu-web-sin-usar-google-analytics"}]
-*** 17:23:48
+POST [{"path":"\/posts\/devmetddda-blogs-milestone-para-la-version-libre-de-errores"}]
+*** 14:52:25
 method: index
 view: index
 ["posts"]
 PostsController->index
-*** 17:23:48
+*** 14:52:25
 method: ip2geo
 view: 
 ["api","ip2geo"]
 ApiController->ip2geo
 POST [{"path":"\/"}]
-*** 17:23:54
-method: devmeta-blogs-milestone-para-la-versi%C3%B3n-libre-de-errores
-view: 
-["posts","devmeta-blogs-milestone-para-la-versi%C3%B3n-libre-de-errores"]
-PostsController->show
-*** 17:23:55
-method: ip2geo
-view: 
-["api","ip2geo"]
-ApiController->ip2geo
-POST [{"path":"\/posts\/devmeta-blogs-milestone-para-la-versi%C3%B3n-libre-de-errores"}]
-*** 17:23:59
-method: index
-view: index
-["posts"]
-PostsController->index
-*** 17:24:00
-method: ip2geo
-view: 
-["api","ip2geo"]
-ApiController->ip2geo
-POST [{"path":"\/"}]
-*** 17:24:01
-method: devmeta-blogs-milestone-para-la-versi%C3%B3n-libre-de-errores
-view: 
-["posts","devmeta-blogs-milestone-para-la-versi%C3%B3n-libre-de-errores"]
-PostsController->show
-*** 17:24:02
-method: ip2geo
-view: 
-["api","ip2geo"]
-ApiController->ip2geo
-POST [{"path":"\/posts\/devmeta-blogs-milestone-para-la-versi%C3%B3n-libre-de-errores"}]
-*** 17:24:07
-method: index
-view: index
-["posts"]
-PostsController->index
-*** 17:24:08
-method: ip2geo
-view: 
-["api","ip2geo"]
-ApiController->ip2geo
-POST [{"path":"\/"}]
-*** 17:24:28
-method: anuncio-de-nuestro-servicio-gratuito-de-blogs
-view: 
-["posts","anuncio-de-nuestro-servicio-gratuito-de-blogs"]
-PostsController->show
-*** 17:24:29
-method: ip2geo
-view: 
-["api","ip2geo"]
-ApiController->ip2geo
-POST [{"path":"\/posts\/anuncio-de-nuestro-servicio-gratuito-de-blogs"}]
-*** 17:24:32
-method: index
-view: index
-["posts"]
-PostsController->index
-*** 17:24:33
-method: ip2geo
-view: 
-["api","ip2geo"]
-ApiController->ip2geo
-POST [{"path":"\/"}]
-*** 17:24:45
-method: anuncio-de-nuestro-servicio-gratuito-de-blogs
-view: 
-["posts","anuncio-de-nuestro-servicio-gratuito-de-blogs"]
-PostsController->show
-*** 17:24:46
-method: ip2geo
-view: 
-["api","ip2geo"]
-ApiController->ip2geo
-POST [{"path":"\/posts\/anuncio-de-nuestro-servicio-gratuito-de-blogs"}]
-*** 17:24:51
-method: index
-view: index
-["posts"]
-PostsController->index
-*** 17:24:52
-method: ip2geo
-view: 
-["api","ip2geo"]
-ApiController->ip2geo
-POST [{"path":"\/"}]
-*** 17:26:36
-method: detect
-view: 
-["api","detect"]
-ApiController->detect
-POST [{"id":"es"}]
-*** 17:26:36
-method: index
-view: index
-["posts"]
-PostsController->index
-*** 17:26:37
-method: ip2geo
-view: 
-["api","ip2geo"]
-ApiController->ip2geo
-POST [{"path":"\/"}]
-*** 17:26:38
-method: nuevas-herramientas-para-publicar-tus-artculos
-view: 
-["posts","nuevas-herramientas-para-publicar-tus-artculos"]
-PostsController->show
-*** 17:26:39
-method: ip2geo
-view: 
-["api","ip2geo"]
-ApiController->ip2geo
-POST [{"path":"\/posts\/nuevas-herramientas-para-publicar-tus-artculos"}]
-*** 17:26:41
+*** 14:52:28
 method: como-transmitir-capturas-de-tu-webcam-en-vivo-linux
 view: 
 ["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-linux"]
+------------------------
+1
 PostsController->show
-*** 17:26:41
+*** 14:52:29
 method: ip2geo
 view: 
 ["api","ip2geo"]
 ApiController->ip2geo
 POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-linux"}]
+*** 19:50:21
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:50:21
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-linux
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-linux"]
+------------------------
+1
+PostsController->show
+*** 19:50:22
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-linux"}]
+*** 19:53:57
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 19:53:57
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-linux
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-linux"]
+------------------------
+1
+PostsController->show
+*** 19:53:58
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-linux"}]
+*** 20:01:11
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:01:12
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-linux
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-linux"]
+------------------------
+1
+PostsController->show
+*** 20:01:12
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-linux"}]
+*** 20:01:55
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:01:55
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-linux
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-linux"]
+------------------------
+1
+PostsController->show
+*** 20:01:56
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-linux"}]
+*** 20:02:51
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:02:51
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-linux
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-linux"]
+------------------------
+1
+PostsController->show
+*** 20:02:52
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-linux"}]
+*** 20:04:28
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:04:28
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-linux
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-linux"]
+------------------------
+1
+PostsController->show
+*** 20:04:29
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-linux"}]
+*** 20:04:43
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:04:46
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:05:25
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:05:25
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:05:26
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:06:07
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:06:08
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:06:08
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:08:43
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:08:43
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:08:44
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:09:01
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:09:02
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:09:02
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:11:17
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:11:18
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:11:18
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:15:33
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:15:33
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:15:34
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:16:20
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:16:21
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:16:21
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:16:26
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:16:26
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:16:27
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:19:24
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:19:24
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:19:25
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:19:33
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:19:33
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:19:34
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:19:44
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:19:44
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:19:45
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:19:52
+method: como-analizar-el-trafico-de-tu-web-sin-usar-google-analytics
+view: 
+["posts","como-analizar-el-trafico-de-tu-web-sin-usar-google-analytics"]
+------------------------
+1
+PostsController->show
+*** 20:19:52
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-analizar-el-trafico-de-tu-web-sin-usar-google-analytics"}]
+*** 20:20:09
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:20:09
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:20:10
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:21:44
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:21:44
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:21:45
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:21:54
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:21:55
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:21:55
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:22:04
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:22:04
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:22:05
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:22:15
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:22:15
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:22:16
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:23:16
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:23:16
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:23:17
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:24:48
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:24:49
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:24:49
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:24:55
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:24:55
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:24:55
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:24:59
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:24:59
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:25:00
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:25:02
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:25:02
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:25:03
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:25:31
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:25:31
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:25:32
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:27:13
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:27:13
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:27:14
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:27:45
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:27:45
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:27:46
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:28:17
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:28:17
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:28:18
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:29:10
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:29:11
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:29:11
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 20:29:34
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:29:35
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-windows
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-windows"]
+------------------------
+1
+PostsController->show
+*** 20:29:35
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-windows"}]
+*** 21:01:22
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:01:23
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:01:23
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 21:01:26
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:01:26
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:01:26
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 21:02:19
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:02:19
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:02:20
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 21:02:54
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:02:54
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:02:55
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 21:02:59
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:02:59
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:03:00
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 21:03:09
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:03:09
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:03:10
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 21:03:16
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:03:17
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:03:17
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 21:04:21
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:04:21
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:04:22
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 21:04:31
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:04:32
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 21:04:32
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 21:04:46
+method: nuevas-herramientas-para-publicar-tus-artculos
+view: 
+["posts","nuevas-herramientas-para-publicar-tus-artculos"]
+------------------------
+1
+PostsController->show
+*** 21:04:47
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/nuevas-herramientas-para-publicar-tus-artculos"}]
+*** 21:05:28
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 21:05:28
+method: nuevas-herramientas-para-publicar-tus-artculos
+view: 
+["posts","nuevas-herramientas-para-publicar-tus-artculos"]
+------------------------
+1
+PostsController->show
+*** 21:05:29
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/nuevas-herramientas-para-publicar-tus-artculos"}]
+*** 21:05:34
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-linux
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-linux"]
+------------------------
+1
+PostsController->show
+*** 21:05:34
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-linux"}]
+*** 23:00:38
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 23:00:38
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-linux
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-linux"]
+PostsController->show
+*** 23:00:39
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-linux"}]
+*** 23:03:32
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 23:03:33
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-linux
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-linux"]
+PostsController->show
+*** 23:03:33
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-linux"}]
+*** 23:03:38
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-linux"}]
+*** 23:07:38
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 23:07:38
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-linux
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-linux"]
+PostsController->show
+*** 23:07:39
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-linux"}]
+*** 23:08:01
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 23:08:01
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-linux
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-linux"]
+PostsController->show
+*** 23:08:02
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-linux"}]
+*** 23:08:17
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 23:08:17
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-linux
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-linux"]
+PostsController->show
+*** 23:08:19
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-linux"}]
+*** 23:08:58
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 23:08:59
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-linux
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-linux"]
+PostsController->show
+*** 23:08:59
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-linux"}]
+*** 23:10:58
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 23:10:58
+method: como-transmitir-capturas-de-tu-webcam-en-vivo-linux
+view: 
+["posts","como-transmitir-capturas-de-tu-webcam-en-vivo-linux"]
+PostsController->show
+*** 23:10:59
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/como-transmitir-capturas-de-tu-webcam-en-vivo-linux"}]
+*** 23:11:22
+method: martin
+view: 
+["account","martin"]
+AccountController->show
+*** 23:11:22
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/account\/martin"}]
