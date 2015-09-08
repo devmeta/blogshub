@@ -1,4 +1,4 @@
-<div class="col-md-7">
+<div class="col-md-6">
 	<div class="group-control">&nbsp;</div>
 	{{if tags.length}}
 	<div class="">
@@ -51,33 +51,36 @@
 	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 	{{/if}}
 </div>
-<div class="col-md-5">
+<div class="col-md-6">
 	{{if more.length}}
 		<div class="group-control">&nbsp;</div>
 		<h4>${_l('More')}</h4>
-		<div class="col-md-6 col-sm-3 col-xs-6">
+		<ul class="ch-grid">
 		{{each more}}
 		{{if $index == Math.floor(more.length / 2)}}
-		</div>
-		<div class="col-md-6 col-sm-3 col-xs-6">
+		</ul>
+		<ul class="ch-grid">
 		{{/if}}
-			<div class="row">
-				<a href="/posts/${slug}">
-					<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-						<div class="flipper">
-							<div class="front cover" style="background-image: url(${_j('baseurl')}/upload/posts/th-${image});">
-								<h1><span>{{html title.split(' ').join('</span><span>')}}</span></h1><small><i class="ion-android-time"></i> ${created} &nbsp;
-							<i class="ion-eye"></i> ${hits}</small>
-							</div>
-							<div class="back cover" style="background: #fff url(${_j('baseurl')}/upload/posts/th-${image});background-blend-mode: difference;">
-								<p><span>{{html caption.split(' ').join('</span><span>')}}</span></p>
-							</div>
-						</div>
+			<li>
+				<div class="ch-item" style="background-image: url(${_j('baseurl')}/upload/posts/th-${image})">
+					<div class="ch-title">
+						<h3>{{html title}}</h3>
+						<p>${_l('Written_By')} ${user}</p>
+						<img class="img-circle" src="${_j('baseurl')}/upload/profile/ty-${avatar}">
+
 					</div>
-				</a>
-			</div>
+					<div class="ch-caption">
+						<h3>{{html caption}}</h3>
+						<p>
+							<a href="/posts/${slug}"><i class="ion-ios-glasses"></i> ${_l('View')}</a>
+							<i class="ion-android-time"></i> ${created} &nbsp;
+							<i class="ion-eye"></i> ${hits}
+						</p>
+					</div>
+				</div>
+			</li>
 		{{/each}}
-		</div>		
+		</ul>		
 	{{/if}}
 		<div class="group-control">&nbsp;</div>
 		<div class="group-control">&nbsp;</div>

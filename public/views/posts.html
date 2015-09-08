@@ -1,27 +1,30 @@
 <div class="col-md-12">
 	<div class="col-md-9">
 		<div class="group-control">&nbsp;</div>
-		<div class="row">
+		<ul class="ch-grid">
 		{{each posts}}
-			<div class="col-md-3 col-sm-3 col-xs-6">
-				<div class="row">
-					<a href="/posts/${slug}">
-						<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-							<div class="flipper">
-								<div class="front cover" style="background-image: url(${_j('baseurl')}/upload/posts/th-${image});">
-									<h1><span>{{html title.split(' ').join('</span><span>')}}</span></h1><small><i class="ion-android-time"></i> ${created} &nbsp;
-								<i class="ion-eye"></i> ${hits}</small>
-								</div>
-								<div class="back cover" style="background: #fff url(${_j('baseurl')}/upload/posts/th-${image});background-blend-mode: difference;">
-									<p><span>{{html caption.split(' ').join('</span><span>')}}</span></p>
-								</div>
-							</div>
-						</div>
-					</a>
+			<li>
+				<div class="ch-item" style="background-image: url(${_j('baseurl')}/upload/posts/th-${image})">
+					<div class="ch-title">
+						<h3>{{html title}}</h3>
+						<p>${_l('Written_By')} ${user}</p>
+						<img class="img-circle" src="${_j('baseurl')}/upload/profile/ty-${avatar}">
+
+					</div>
+					<div class="ch-caption">
+						<h5>
+							<i class="ion-android-time"></i> ${created} &nbsp;
+							<i class="ion-eye"></i> ${hits}
+						</h5>
+						<h3>{{html caption}}</h3>
+						<p>
+							<a href="/posts/${slug}"><i class="ion-ios-glasses"></i> ${_l('View')}</a>
+						</p>
+					</div>
 				</div>
-			</div>
+			</li>
 		{{/each}}
-		</div>
+		</ul>
 	</div>
 	<div class="col-md-3 col-md-offset1 text-center">
 		<div class="group-control">&nbsp;</div>

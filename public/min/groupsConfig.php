@@ -18,11 +18,13 @@ return array(
         '//assets/js/bootstrap.min.js',
         '//assets/js/bootstrap-lightbox.min.js',
         '//assets/js/slick.min.js',        
+        '//assets/js/modernizr.custom.79639.js',
         '//assets/js/rainbow-custom.min.js',
         '//assets/js/engine.js',
         '//assets/js/composer.js',
         '//assets/js/forms.js',
         '//assets/js/app.js',
+        '//assets/js/toucheffects.js',
         '//assets/js/share-counter.js',
     ),
     'css' => array(
@@ -34,6 +36,7 @@ return array(
         '//assets/css/font-awesome-animation.css', 
         '//assets/css/slick.css',         
         '//assets/css/theme.css',         
-        '//assets/css/flip.css', 
+        //'//assets/css/flip.css', 
+        '//assets/css/circle-tiles.css'
     )
 );
