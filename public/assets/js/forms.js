@@ -28,6 +28,32 @@ function newsletter_add(json){
   },1000);
 }
 
+function disqus_comments_count(){
+  var disqusPublicKey = "XXjc1IvtLbgPm70Nkl7WZoQtqiy0GS4knkamSG1EtgZEi4XLwrmMsRqNZKHAUCTX";
+  var disqusShortname = "devmetablogs";
+  var urlArray = [];
+
+  $('.count-comments').each(function () {
+    var url = $(this).attr('data-disqus-url');
+    urlArray.push('link:' + url);
+  });
+
+  $.ajax({
+    type: 'GET',
+    url: "https://disqus.com/api/3.0/threads/set.jsonp",
+    data: { api_key: disqusPublicKey, forum : disqusShortname, thread : urlArray },
+    cache: false,
+    dataType: 'jsonp',
+    success: function (result) {
+      for (var i in result.response) {
+        var count = result.response[i].posts;
+        $('span[data-disqus-url="' + result.response[i].link + '"]').html(count);
+      }
+    }
+  });
+}
+
+
 function post_tags(post_id){
   $.ajax({
     type:"POST",

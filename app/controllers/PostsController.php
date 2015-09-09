@@ -59,7 +59,7 @@ class PostsController {
 			);
 		}
 
-		$entry = DB::query('select posts.id, posts.slug, posts.title, posts.updated_ts, posts.user_id, posts.caption, posts.content, users.disqus, from_unixtime(posts.updated_ts, \'%Y %M %d %H:%i\') as date_updated, users.title as user   
+		$entry = DB::query('select posts.id, posts.slug, posts.title, posts.updated_ts, posts.user_id, posts.caption, posts.content, users.disqus, users.username, from_unixtime(posts.updated_ts, \'%Y %M %d\') as date_updated, users.title as user   
 			from posts 
 			left join users on users.id = posts.user_id
 			where posts.slug = \'' . urldecode($segments[1]) . '\'

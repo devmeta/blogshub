@@ -123,3 +123,11 @@ $(document).on('display','body',function(){
   
   Rainbow.color();
 });
+
+$(document).on('posts','body',function(){
+  disqus_comments_count();
+});
+
+$(document).on('post','body',function(){
+  disqus_comments_count();
+});
