@@ -1,7 +1,7 @@
 <?php namespace App\Controllers;
 
 use App\Helpers\DB as DB;
-use App\Models\Str as Str;
+use App\Helpers\Str as Str;
 use App\Models\Post as Post;
 
 class PostsController {
@@ -32,7 +32,8 @@ class PostsController {
 
 			foreach($posts as $i => $row){
 				$posts[$i]['i'] = ($i+1);
-				$posts[$i]['timespan'] = timespan($row['updated_ts']);
+				$posts[$i]['title'] = Str::words($posts[$i]['caption'],15);
+				$posts[$i]['caption'] = Str::words($posts[$i]['caption'],15);
 			}
 
 			$count = DB::query('select count(*) from users',2,'count(*)');
@@ -59,7 +60,7 @@ class PostsController {
 			);
 		}
 
-		$entry = DB::query('select posts.id, posts.slug, posts.title, posts.updated_ts, posts.user_id, posts.caption, posts.content, users.disqus, users.username, from_unixtime(posts.updated_ts, \'%Y %M %d\') as date_updated, users.title as user   
+		$entry = DB::query('select posts.id, posts.slug, posts.title, posts.updated_ts, posts.user_id, posts.caption, posts.content, users.disqus, users.username, from_unixtime(posts.updated_ts, \'%d %b %Y\') as date_updated, users.title as user   
 			from posts 
 			left join users on users.id = posts.user_id
 			where posts.slug = \'' . urldecode($segments[1]) . '\'
@@ -68,8 +69,6 @@ class PostsController {
 		if($entry) {
 
 			$entry['content'] = str_replace("/upload/",$config['baseurl'] . "/upload/",$entry['content']);
-
-			//$entry['created'] = date('Y, m d H:i',$entry['created_ts']);
 
 			$files = DB::query("select name as image  
 				from files 
@@ -94,14 +93,7 @@ class PostsController {
 				where posts_tags.post_id = ' . $entry['id'],
 				4,'tag');
 
-			foreach($more as $i => $row){
-				$more[$i]['i'] = ($i+1);
-				$more[$i]['timespan'] = timespan($row['updated_ts']);
-			}
-			
 			$exists = DB::query("select id from hits where ip ='" . $_SERVER['REMOTE_ADDR'] . "' and path = '/posts/" . $entry['slug'] . "' and user_id = " . $config['blog']['id'] . " limit 1",2,'id');
-
-			//debug("select id from hits where ip ='" . $_SERVER['REMOTE_ADDR'] . "' and path = '/posts/" . $entry['slug'] . "' and user_id = " . $config['blog']['id'] . " limit 1");
 
 			if( ! $exists ){
 				DB::write('update posts set hits = hits + 1 where id =  ' . $entry['id']);

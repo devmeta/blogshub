@@ -67,15 +67,16 @@
 						<h3>{{html title}}</h3>
 						<p>${_l('Written_By')} ${user}</p>
 						<img class="img-circle" src="${_j('baseurl')}/upload/profile/ty-${avatar}">
-
 					</div>
 					<div class="ch-caption">
+						<h5>
+							<i class="ion-android-time"></i> ${created} 
+							<i class="ion-eye"></i> ${hits}
+							<i class="ion-chatbubbles"></i> <span class="count-comments" data-disqus-url="http://${username}.devmeta.net/posts/${slug}">0</span> 
+						</h5>
 						<h3>{{html caption}}</h3>
 						<p>
-							<a href="/posts/${slug}"><i class="ion-ios-glasses"></i> ${_l('View')}</a>
-							<i class="ion-android-time"></i> ${created} 
-							<i class="ion-eye"></i> ${hits} 
-							<i class="ion-chatbubbles"></i> <span class="count-comments" data-disqus-url="http://${username}.devmeta.net/posts/${slug}">0</span> 
+							<a href="/posts/${slug}" class="btn btn-sm btn-success"><i class="ion-ios-glasses"></i> ${_l('Read')}</a>
 						</p>
 					</div>
 				</div>

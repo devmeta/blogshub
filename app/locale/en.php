@@ -3,7 +3,6 @@
 $lang['es'] = 'Castillian';
 $lang['en'] = 'English';
 $lang['Written_By'] = 'By';
-$lang['View'] = 'View';
 $lang['Download_Audio'] = 'Download audio';
 $lang['Member_Since'] = 'Member since';
 $lang['Posts_Count'] = 'Posts';

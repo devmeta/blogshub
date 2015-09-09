@@ -4,6 +4,7 @@ $lang['es'] = 'Castellano';
 $lang['en'] = 'Inglés';
 $lang['Written_By'] = 'Por';
 $lang['View'] = 'Ver';
+$lang['Read'] = 'Leer';
 $lang['Download_Audio'] = 'Descargar audio';
 $lang['Member_Since'] = 'Miembro desde';
 $lang['Posts_Count'] = 'Publicaciones';

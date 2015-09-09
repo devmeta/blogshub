@@ -2,7 +2,11 @@
 
 class Str extends \DateTime {
 
-	static function words($words){
+	static function words($str,$words=30,$del='...'){
+		return str_word_count($str) < $words ? $str : implode(' ',array_slice(explode(' ',$str),0,$words)) . ' ' . $del;
+	}
+
+	static function cwords($words){
 
 		$wcount =  str_word_count($words);
 
