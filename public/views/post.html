@@ -8,7 +8,7 @@
 	</div>
 	{{/if}}
 	<h1>${entry.title}</h1>
-	<p><small>${entry.date_updated}</small> &nbsp; <i class="ion-chatbubbles"></i> <span class="count-comments" data-disqus-url="http://${entry.username}.devmeta.net/posts/${entry.slug}">0</span></p>
+	<p><small>${entry.date_updated}</small> {{if entry.disqus == "1"}} &nbsp; <i class="ion-chatbubbles"></i> <span class="count-comments" data-disqus-url="http://${entry.username}.devmeta.net/posts/${entry.slug}">0</span>{{/if}}</p>
 	<div class="widget-social">
 		<a href="https://www.facebook.com/sharer.php?u=${location}&t=${entry.title}" title="${_l('Share_With')} Facebook" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-facebook"></i><span class="badge social-count fbcount1"></span></a>
 		<a href="https://twitter.com/intent/tweet?text=${entry.title} ${location}" title="${_l('Share_With')} Twitter" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-twitter"></i><span class="badge social-count twcnt1"></span></a>
