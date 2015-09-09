@@ -1,7 +1,7 @@
 <?php namespace App\Controllers;
 
 use App\Helpers\DB as DB;
-use App\Models\Str as Str;
+use App\Helpers\Str as Str;
 use App\Models\Post as Post;
 
 class TagsController {
@@ -14,7 +14,7 @@ class TagsController {
 
 			$tag = urldecode($segments[1]);
 
-			$posts = DB::query('select posts.*, files.name as image, privacy.icon 
+			$posts = DB::query('select posts.*, files.name as image, privacy.icon, users.username, users.disqus, users.title as user, users.avatar 
 				from posts_tags 
 				left join posts on posts.id = posts_tags.post_id 
 				left join tags on tags.id = posts_tags.tag_id 
@@ -36,8 +36,8 @@ class TagsController {
 			}
 
 			foreach($posts as $i => $row){
-				$posts[$i]['i'] = ($i+1);
-				$posts[$i]['timespan'] = timespan($row['updated_ts']);
+				$posts[$i]['title'] = Str::words($row['title'],15);
+				$posts[$i]['caption'] = Str::words($row['caption'],15);
 			}
 
 			$count = DB::query('select count(*) from users',2,'count(*)');

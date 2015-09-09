@@ -31,9 +31,8 @@ class PostsController {
 			}
 
 			foreach($posts as $i => $row){
-				$posts[$i]['i'] = ($i+1);
-				$posts[$i]['title'] = Str::words($posts[$i]['title'],15);
-				$posts[$i]['caption'] = Str::words($posts[$i]['caption'],15);
+				$posts[$i]['title'] = Str::words($row['title'],15);
+				$posts[$i]['caption'] = Str::words($row['caption'],15);
 			}
 
 			$count = DB::query('select count(*) from users',2,'count(*)');

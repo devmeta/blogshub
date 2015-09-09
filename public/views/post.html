@@ -57,30 +57,26 @@
 		<h4>${_l('More')}</h4>
 		<ul class="ch-grid">
 		{{each more}}
-		{{if $index == Math.floor(more.length / 2)}}
-		</ul>
-		<ul class="ch-grid">
-		{{/if}}
-			<li>
-				<div class="ch-item" style="background-image: url(${_j('baseurl')}/upload/posts/th-${image})">
-					<div class="ch-title">
-						<h3>{{html title}}</h3>
-						<p>${_l('Written_By')} ${user}</p>
-						<img class="img-circle" src="${_j('baseurl')}/upload/profile/ty-${avatar}">
-					</div>
-					<div class="ch-caption">
-						<h5>
-							<i class="ion-android-time"></i> ${created} 
-							<i class="ion-eye"></i> ${hits}
-							<i class="ion-chatbubbles"></i> <span class="count-comments" data-disqus-url="http://${username}.devmeta.net/posts/${slug}">0</span> 
-						</h5>
-						<h3>{{html caption}}</h3>
-						<p>
-							<a href="/posts/${slug}" class="btn btn-sm btn-success"><i class="ion-ios-glasses"></i> ${_l('Read')}</a>
-						</p>
-					</div>
+		<li>
+			<div class="ch-item" style="background-image: url(${_j('baseurl')}/upload/posts/th-${image})">
+				<div class="ch-title">
+					<h3>{{html title}}</h3>
+					<p>${_l('Written_By')} ${user}</p>
+					<img class="img-circle" src="${_j('baseurl')}/upload/profile/ty-${avatar}">
 				</div>
-			</li>
+				<div class="ch-caption">
+					<h5>
+						<i class="ion-android-time"></i> ${created} 
+						<i class="ion-eye"></i> ${hits}
+						<i class="ion-chatbubbles"></i> <span class="count-comments" data-disqus-url="http://${username}.devmeta.net/posts/${slug}">0</span> 
+					</h5>
+					<h3>{{html caption}}</h3>
+					<p>
+						<a href="/posts/${slug}" class="btn btn-sm btn-success"><i class="ion-ios-glasses"></i> ${_l('Read')}</a>
+					</p>
+				</div>
+			</div>
+		</li>
 		{{/each}}
 		</ul>		
 	{{/if}}
