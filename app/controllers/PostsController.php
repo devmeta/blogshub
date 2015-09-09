@@ -32,7 +32,7 @@ class PostsController {
 
 			foreach($posts as $i => $row){
 				$posts[$i]['i'] = ($i+1);
-				$posts[$i]['title'] = Str::words($posts[$i]['caption'],15);
+				$posts[$i]['title'] = Str::words($posts[$i]['title'],15);
 				$posts[$i]['caption'] = Str::words($posts[$i]['caption'],15);
 			}
 
@@ -86,6 +86,11 @@ class PostsController {
 				group by posts.id
 				order by hits desc 
 				limit 4',0);
+
+			foreach($more as $i => $row){
+				$more[$i]['title'] = Str::words($more[$i]['title'],15);
+				$more[$i]['caption'] = Str::words($more[$i]['caption'],15);
+			}
 
 			$tags = DB::query('select tags.tag 
 				from tags 

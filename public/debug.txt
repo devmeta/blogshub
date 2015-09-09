@@ -3056,3 +3056,76 @@ view:
 ["api","ip2geo"]
 ApiController->ip2geo
 POST [{"path":"\/"}]
+*** 16:40:59
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 16:41:00
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 16:41:00
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 17:06:16
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 17:06:17
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:42:05
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:42:06
+method: index
+view: index
+["posts"]
+PostsController->index
+*** 20:42:06
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/"}]
+*** 20:42:09
+method: convertite-en-autor-empez-a-publicar-hoy
+view: 
+["posts","convertite-en-autor-empez-a-publicar-hoy"]
+PostsController->show
+*** 20:42:09
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/convertite-en-autor-empez-a-publicar-hoy"}]
+*** 20:42:17
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 20:42:18
+method: convertite-en-autor-empez-a-publicar-hoy
+view: 
+["posts","convertite-en-autor-empez-a-publicar-hoy"]
+PostsController->show
+*** 20:42:18
+method: ip2geo
+view: 
+["api","ip2geo"]
+ApiController->ip2geo
+POST [{"path":"\/posts\/convertite-en-autor-empez-a-publicar-hoy"}]
