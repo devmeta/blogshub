@@ -74,7 +74,7 @@ class PostsController {
 				where post_id = " . $entry['id'] . " 
 				order by position",0);
 
-			$more = DB::query('select posts.title, posts.created_ts, posts.updated_ts, posts.slug, posts.hits, posts.caption, users.title as user, files.name as image, users.avatar 
+			$more = DB::query('select posts.title, posts.created_ts, posts.updated_ts, posts.slug, posts.hits, posts.caption, users.username, users.title as user, files.name as image, users.avatar 
 				from posts 
 				left join files on files.post_id = posts.id and files.position = 1
 				left join users on users.id = posts.user_id
