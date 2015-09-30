@@ -12,31 +12,44 @@
  **/
 
 return array(
-    'js' => array(
-        '//assets/js/jquery-2.1.3.min.js',
-        '//assets/js/jquery.tmpl.min.js',
-        '//assets/js/bootstrap.min.js',
-        '//assets/js/bootstrap-lightbox.min.js',
-        '//assets/js/slick.min.js',        
-        '//assets/js/modernizr.custom.79639.js',
-        '//assets/js/rainbow-custom.min.js',
-        '//assets/js/engine.js',
-        '//assets/js/composer.js',
-        '//assets/js/forms.js',
-        '//assets/js/app.js',
-        '//assets/js/toucheffects.js',
-        '//assets/js/share-counter.js',
+    'js.plain' => array(
+        '//assets/js/jquery-2.1.4.min.js',
+        '//assets/js/bootstrap.min.js'        
     ),
-    'css' => array(
+    'css.plain' => array(
         '//assets/css/bootstrap.min.css', 
-        '//assets/css/bootstrap-lightbox.min.css',
-        '//assets/css/paraiso-dark.css', 
         '//assets/css/ionicons.min.css', 
-        '//assets/css/font-awesome.min.css', 
-        '//assets/css/font-awesome-animation.css', 
-        '//assets/css/slick.css',         
-        '//assets/css/theme.css',         
-        //'//assets/css/flip.css', 
+        '//assets/css/theme.css',
+        '//assets/css/ltcircular.css',
         '//assets/css/circle-tiles.css'
+    ),
+    'js.default' => array(
+        '//assets/js/jquery-2.1.4.min.js',
+        '//assets/js/bootstrap.min.js',
+        '//assets/js/slick.min.js',
+        '//assets/js/app.js'
+    ),
+    'css.default' => array(
+        '//assets/css/bootstrap.min.css', 
+        '//assets/css/ionicons.min.css', 
+        '//assets/css/slick.css',
+        '//assets/css/theme.css',
+        '//assets/css/circle-tiles.css'
+    ),
+    'js.admin' => array(
+        '//assets/js/jquery-2.1.4.min.js',
+        '//assets/js/jquery-ui-1.10.4.custom.min.js',
+        '//assets/js/bootstrap.min.js',
+        '//assets/js/summernote.min.js',
+        '//assets/js/dropzone.js',
+        '//assets/js/admin/app.js'
+    ),
+    'css.admin' => array(
+        '//assets/css/bootstrap.min.css', 
+        '//assets/css/font-awesome.min.css', 
+        '//assets/css/ionicons.min.css', 
+        '//assets/css/summernote.css', 
+        '//assets/css/dropzone.css', 
+        '//assets/css/theme.css'
     )
 );

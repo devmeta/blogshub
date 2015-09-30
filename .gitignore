@@ -1,3 +1,10 @@
-/public/debug.txt
-/public/upload/
-/vendor/caldero/config.php
+/bootstrap/compiled.php
+/vendor
+/public/upload
+/config/config.php
+composer.phar
+composer.lock
+.env.*.php
+.env.php
+.DS_Store
+Thumbs.db
