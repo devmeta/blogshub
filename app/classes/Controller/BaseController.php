@@ -17,30 +17,29 @@ class BaseController {
 			$geoip = self::ip2geolocation($ip);
 			$hit = new \Model\Hit();
 
-			var_dump($geoip);
 			if($geoip)
 			{
-				if($geoip->city)
+				if(isset($geoip->city))
 				{
 					$hit->city = $geoip->city;
 				}
 
-				if($geoip->country)
+				if(isset($geoip->country))
 				{
 					$hit->country = $geoip->country;
 				}
 
-				if($geoip->region)
+				if(isset($geoip->region))
 				{
 					$hit->region = $geoip->region;
 				}
 
-				if($geoip->latitude)
+				if(isset($geoip->latitude))
 				{
 					$hit->latitude = $geoip->latitude;
 				}
 
-				if($geoip->longitude)
+				if(isset($geoip->longitude))
 				{
 					$hit->longitude = $geoip->longitude;
 				}
