@@ -1,130 +1,54 @@
 <?php namespace Controller;
 
-class BlogController extends \Controller\BaseController {
+class BlogController extends \Controller\BaseController  {
 
 	static $layout = "default";
 		
 	public function index(){
 		$blog = config('blog');
-
-		if($blog)
-		{
-
-			$posts = \Model\Post::fetch([
+		return \Bootie\App::view('blog.index',[
+			'posts'	=> \Model\Post::paginate([
+				'id' => 'DESC'
+			],[
 				'user_id' => $blog->data->id 
-			]);
-
-			/* all tags */
-			foreach($posts as $post){
-				$posts_ids[] = $post->id;
-			}
-
-			if(count($posts_ids)){
-				$tag_obs = \Model\PostTag::fetch([
-					'post_id IN(' . implode(',',$posts_ids) . ')'
-				]);
-
-				foreach($tag_obs as $tag){
-					$tags_ids[] = $tag->tag_id;
-				}
-			}
-
-			if(count($tags_ids)){
-				$tags = \Model\Tag::fetch([
-					'id IN(' . implode(',',array_unique($tags_ids)) . ')'
-				]);
-			}
-
-
-			return \Bootie\App::view('blog.index',[
-				'posts'	=> $posts,
-				'tags'	=> $tags				
-			]);
-		}
-
-		return \Bootie\App::view('errors.missing');
-	}
-
-	public function tag($path,$tag){
-		$blog = config('blog');
-		$posts_ids = $tag_obs = $tags_ids = $tags =  [];
-
-		$tag_id = \Model\Tag::column([
-			'tag' => $tag
+			],6),
+			'tags'	=> self::find_all_tags(),
 		]);
-
-		if(is_numeric($tag_id)){
-
-			/* find posts by tag */
-
-			$tag_obs = \Model\PostTag::fetch([
-				'tag_id' => $tag_id
-			]);
-
-			foreach($tag_obs as $tag2){
-				$posts_ids[] = $tag2->post_id;
-			}
-
-			if(count($posts_ids)){
-				$posts = \Model\Post::fetch([
-					'id IN(' . implode(',',array_unique($posts_ids)) . ')'
-				]);
-			}
-
-
-			$posts_all = \Model\Post::fetch([
-				'user_id' => $blog->data->id 
-			]);
-
-			/* all tags */
-			foreach($posts_all as $post2){
-				$posts_ids[] = $post2->id;
-			}
-
-			if(count($posts_ids)){
-				$tag_obs = \Model\PostTag::fetch([
-					'post_id IN(' . implode(',',$posts_ids) . ')'
-				]);
-
-				foreach($tag_obs as $tag2){
-					$tags_ids[] = $tag2->tag_id;
-				}
-			}
-
-			if(count($tags_ids)){
-				$tags = \Model\Tag::fetch([
-					'id IN(' . implode(',',array_unique($tags_ids)) . ')'
-				]);
-			}
-
-			return \Bootie\App::view('blog.tags',[
-				'posts'	=> $posts,
-				'tags'	=> $tags,
-				'tag'	=> $tag
-			]);
-		}
-
-		return \Bootie\App::view('errors.missing');			
 	}
 
-	public function show($path,$slug){
+	public function tag($tag){
+		return \Bootie\App::view('blog.tags',[
+			'posts'	=> self::find_by_tag($tag),
+			'tags'	=> self::find_all_tags(),
+			'tag'	=> $tag
+		]);
+	}
+
+	public function show($slug){
 
 		$tags_ids = [];
 		$blog = config('blog');
 
 		$entry = \Model\Post::row([
 			'slug' => urldecode($slug),
-			'user_id' => $blog->data->id
+			'user_id' => $blog->data->id 
 		]);
 
 		if($entry) {
 
+			$meta = new \stdClass();
+			$meta->og_title = $entry->title;
+			$meta->og_description = $entry->caption;
 			$posts_ids = $related = [];
 
 			foreach($entry->tags() as $tag){
 				if( isset($tag->id)){
 					$tags_ids[] = $tag->id;
 				}
+			}
+
+			if(count($entry->files())){
+				$meta->og_image = site_url('upload/posts/std/' . $entry->files()[0]->name);
 			}
 
 			if(count($tags_ids)){
@@ -144,11 +68,9 @@ class BlogController extends \Controller\BaseController {
 				}
 			}
 
-			$entry->hits = $entry->hits+1;
-			$entry->save();
-			
 			return \Bootie\App::view('blog.entry',[
 				'entry'	=> $entry,
+				'meta'	=> $meta,
 				'related' => $related
 			]);
 		} 
@@ -156,7 +78,7 @@ class BlogController extends \Controller\BaseController {
 		return \Bootie\App::view('errors.missing');
 	}
 
-	public function files($path,$id){
+	public function files($id){
 		$files = [];
 
 		if($id){
@@ -166,5 +88,59 @@ class BlogController extends \Controller\BaseController {
 		}
 
 		return $files;
-	}	
+	}
+
+	public function find_by_tag($tag){
+
+		$blog = config('blog');
+		
+		$tag_id = \Model\Tag::column([
+			'tag' => $tag,
+			'user_id' => $blog->data->id 
+		]);
+
+		if(is_numeric($tag_id)){
+
+			$posts_ids = \Model\PostTag::select('fetch','post_id',null,[
+				'tag_id' => $tag_id
+			]);
+
+			if(count($posts_ids)){
+				$posts = \Model\Post::paginate([
+					'id' => 'DESC'
+				],[
+					'id IN(' . implode(',',array_unique($posts_ids)) . ')'
+				],6);
+			}
+
+			return $posts;
+		}
+
+		return FALSE;
+
+	}
+
+	public function find_all_tags(){
+
+		$blog = config('blog');
+
+		$posts_ids = \Model\Post::select('fetch','id',null,[
+			'user_id' => $blog->data->id 
+		]);
+
+		if(count($posts_ids)){
+
+			$tags_ids = \Model\PostTag::select('fetch','tag_id',null,[
+				'post_id IN(' . implode(',',$posts_ids) . ')'
+			]);
+
+			if(count($tags_ids)){
+				return \Model\Tag::fetch([
+					'id IN(' . implode(',',array_unique($tags_ids)) . ')'
+				]);
+			}
+		}
+
+		return FALSE;
+	}
 }

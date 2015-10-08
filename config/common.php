@@ -65,6 +65,7 @@ function config($file = 'config', $clear = FALSE)
 
 	if(empty($configs[$file]))
 	{
+		//$configs[$file] = new \Micro\Config($file);
 		require(SP . 'config/' . $file . EXT);
 		$configs[$file] = (object) $config;
 		//print dump($configs);
@@ -101,6 +102,21 @@ function dd()
 	die($string);
 }
 
+function segments($i=0)
+{
+	$args = explode('/', rtrim(PATH, '/'));
+	if( $i )
+	{
+		if( isset($args[$i]))
+		{
+			return $args[$i];
+		}
+
+		return false;
+	}
+	
+	return $args;
+}
 
 /**
  * Safely fetch a $_POST value, defaulting to the value provided if the key is
@@ -187,146 +203,59 @@ function log_message($message)
  * @param int $c the HTTP status code
  * @param string $method either location or redirect
  */
-function redirect($url = NULL, $message = '', $code = 302, $method = 'location')
+function redirect($url = NULL, $messages = array(), $code = 302, $method = 'location')
 {
 	if(strpos($url, '://') === FALSE)
 	{
 		$url = site_url($url);
 	}
 
-	if($message !== '')
+	if( ! empty($messages))
 	{
-		flash($message);
+		flash($messages);
 	}
 
-	//print dump($url);
+	if( AJAX_REQUEST )
+	{
+		return ['redirect' => $url];
+	}
 
 	header($method == 'refresh' ? "Refresh:0;url = $url" : "Location: $url", TRUE, $code);
 }
 
-function flash($message, $type = 'success')
+function flash($messages)
 {
-	if( session($type))
+	foreach($messages as $type => $text)
 	{
-		unset($_SESSION[$type]);
-	}
+		if( session($type))
+		{
+			unset($_SESSION[$type]);
+		}
 
-	$_SESSION[$type] = $message;
+		$_SESSION[$type] = $text;
+	}
 }
 
 function messages(){
-	$types = ['success','danger','warning','info'];
+	
+	$types = [
+		'success' => "ion-checkmark-circled",
+		'danger' => "ion-close-circled",
+		'warning' => "ion-alert-circled",
+		'info' => "ion-information-circled"
+	];
+
 	$messages = [];
-	foreach($types as $type){
-		if( $message = session($type)){
-			$messages[] = "<div class='alert alert-{$type}'>{$message}</div>";
+
+	foreach($types as $type => $icon){
+		if( $text = session($type)){
+			$messages[] = "<div class='alert alert-{$type}'><i class='{$icon}'></i> &nbsp; {$text}</div>";
 			unset($_SESSION[$type]);
 		}
 	}
 
 	return implode('',$messages);
 }
-
-
-function timespan($ts) 
-{
-	$mins = (time() - $ts) / 60;
-	$mins = round($mins);
-	$x3="";
-	
-	if($mins==0)
-	{
-		$x3="now";
-	} 
-	elseif($mins > 483840)
-	{ // años
-		$ratio = $mins / 483840 ;
-		$d = round($ratio);
-		$s = $d > 1 ? "s":"";
-		$x3 = $d . "y";//.$s;
-	} 
-	elseif($mins > 40319)
-	{ // meses
-		$ratio = $mins / 40320 ;
-		$d = round($ratio);
-		$s = $d > 1 ? "es":"";
-		$x3 = $d . "m";//.$s;
-	} 
-	elseif($mins > 10079 && $mins < 40319)
-	{ // semanas
-		$ratio = $mins / 10080 ;
-		$d = round($ratio);
-		$s = $d > 1 ? "s":"";
-		$x3 = $d . "w";//.$s;
-	} 
-	elseif($mins > 1439 && $mins < 10079)
-	{ // dias
-		$ratio = $mins / 1440 ;
-		$d = round($ratio);
-		$s = $d > 1 ? "s":"";
-		$x3 = $d . "d";//.$s;
-	} 
-	elseif($mins > 59 && $mins < 1439)
-	{ // horas
-		$x3 = min2hour(round($mins));
-	} 
-	else 
-	{
-		$s = $mins > 1 ? "s":"";
-		$x3 = $mins . "’";//.$s;
-	}
-	
-	return $x3;
-}
-
-function min2hour($mins) 
-{ 
-    if ($mins < 0) 
-    { 
-        $min = Abs($mins); 
-    } 
-    else 
-    { 
-        $min = $mins; 
-    } 
-
-    $H = Floor($min / 60); 
-    $M = ($min - ($H * 60)) / 100; 
-    $hours = $H +  $M; 
-
-    if ($mins < 0) 
-    { 
-        $hours = $hours * (-1); 
-    } 
-
-    $expl = explode(".", $hours); 
-    $H = $expl[0]; 
-
-    if (empty($expl[1])) 
-    { 
-        $expl[1] = 00; 
-    } 
-    
-    $M = $expl[1]; 
-    
-    if (strlen($M) < 2) 
-    { 
-        $M = $M . 0; 
-    }
-    
-    $hours = $H;
-    
-    if($M > 0 && $H < 3)
-    {
-    	$hours.= ":" . $M;
-    }
-    
-    $s = ($H > 1 || $M > 1) ? "s":"";
-    $hours.= "h";//.$s; 
-    
-    return $hours; 
-} 
-
 
 /*
  * Return the full URL to a path on this site or another.
@@ -550,6 +479,19 @@ function directory($dir, $recursive = TRUE)
 	return new \RecursiveIteratorIterator($i, \RecursiveIteratorIterator::SELF_FIRST);
 }
 
+function filename_unique($dir, $filename, $prepend = '')
+{
+
+    $info = pathinfo($filename);
+    $token = token();
+    $filename = $prepend . $token;
+
+    while (file_exists($dir . $prepend . $token . '.' . $info['extension'])) {
+    	$token = token();
+    }
+
+    return $filename . '.' . $info['extension'];
+}
 
 /**
  * Make sure that a directory exists and is writable by the current PHP process.
@@ -564,7 +506,7 @@ function directory_is_writable($dir, $chmod = 0755)
 	if(! is_dir($dir) AND ! mkdir($dir, $chmod, TRUE)) return FALSE;
 
 	// If it isn't writable, and can't be made writable
-	if(! is_writable($dir) AND !chmod($dir, $chmod)) return FALSE;
+	if(! is_writable($dir) AND ! chmod($dir, $chmod)) return FALSE;
 
 	return TRUE;
 }
@@ -653,5 +595,110 @@ function colorize($text, $color, $bold = FALSE)
 	// Escape string with color information
 	return"\033[" . ($bold ? '1' : '0') . ';' . $colors[$color] . "m$text\033[0m";
 }
+
+function timespan($ts) 
+{
+	$mins = (time() - $ts) / 60;
+	$mins = round($mins);
+	$span="";
+	
+	if($mins==0)
+	{
+		$span = "now";
+	} 
+	elseif($mins > 483840)
+	{ // años
+		/*
+		$ratio = round($mins / 483840) ;
+		$span = $ratio . "y";
+		*/
+		$span = date('Y M d',$ts);
+	} 
+	elseif($mins > 40319)
+	{ // meses
+		/*
+		$ratio = round($mins / 40320);
+		$span = $ratio . "m";;
+		*/
+		$span = date('Y M d',$ts);
+	} 
+	elseif($mins > 10079 && $mins < 40319)
+	{ // semanas
+		/*
+		$ratio = round($mins / 10080);
+		$span = $ratio . "w";;
+		*/
+		$span = date('M d',$ts);
+	} 
+	elseif($mins > 1439 && $mins < 10079)
+	{ // dias
+		$ratio = round($mins / 1440);
+		$span = $ratio . "d";
+	} 
+	elseif($mins > 59 && $mins < 1439)
+	{ // horas
+		$span = min2hour(round($mins));
+	} 
+	else 
+	{
+		$span = $mins . "’";
+	}
+	
+	return $span;
+}
+
+function min2hour($mins) 
+{ 
+    if ($mins < 0) 
+    { 
+        $min = Abs($mins); 
+    } 
+    else 
+    { 
+        $min = $mins; 
+    } 
+
+    $H = Floor($min / 60); 
+    $M = ($min - ($H * 60)) / 100; 
+    $hours = $H +  $M; 
+
+    if ($mins < 0) 
+    { 
+        $hours = $hours * (-1); 
+    } 
+
+    $expl = explode(".", $hours); 
+    $H = $expl[0]; 
+
+    if (empty($expl[1])) 
+    { 
+        $expl[1] = 00; 
+    } 
+    
+    $M = $expl[1]; 
+    
+    if (strlen($M) < 2) 
+    { 
+        $M = $M . 0; 
+    }
+    
+    $hours = $H;
+    
+    if($M > 0 && $H < 3)
+    {
+    	$hours.= ":" . $M;
+    }
+    
+    //$s = ($H > 1 || $M > 1) ? "s":"";
+    $hours.= "h";//.$s; 
+    
+    return $hours; 
+} 
+
+function words($str,$words=30,$del='...')
+{
+	return str_word_count($str) < $words ? $str : implode(' ',array_slice(explode(' ',$str),0,$words)) . ' ' . $del;
+}
+
 
 // End

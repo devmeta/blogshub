@@ -8,7 +8,7 @@
 				<span class="icon-bar"></span>
 			</button>
 			<a href="/" class="navbar-brand">
-				<i class='ion-erlenmeyer-flask x2'></i> <?php echo config('blog')->data->title;?> 
+				<i class='ion-mic-c x2'></i> <?php echo config('blog')->data->title;?> 
 			</a>
 		</div>
 		<div class=dev"collapse navbar-collapse" id="navbar-md">
