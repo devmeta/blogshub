@@ -68,6 +68,9 @@ class BlogController extends \Controller\BaseController  {
 				}
 			}
 
+			$entry->hits = $entry->hits + 1;
+			$entry->save();
+			
 			return \Bootie\App::view('blog.entry',[
 				'entry'	=> $entry,
 				'meta'	=> $meta,

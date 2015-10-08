@@ -1,5 +1,5 @@
 <div class="col-md-12">
-	<h1 class="page-header"><i class='ion-bug'></i> Error 404 Not Found</h1>
+	<h1 class="title-hero text-muted"><i class='ion-bug'></i> 404</h1>
     <blockquote>
 		<em>Our apologies for the temporary inconvenience.</em>
 	</blockquote>

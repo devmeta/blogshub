@@ -213,6 +213,12 @@ h4 small {
   font-size: 12px;
 }
 
+.title-hero {
+  font-size: 200px;
+  line-height: 200px;
+  font-weight: bold;
+}
+
 footer {
   position: fixed;
   z-index: 100;
