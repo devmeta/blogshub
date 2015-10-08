@@ -14,7 +14,8 @@ class BaseController {
 		if( $ip != '127.0.0.1' ) {
 
 			$blog = config('blog');
-			$geoip = self::ip2geolocation($ip);
+			//$geoip = self::ip2geolocation($ip);
+			$geoip = curl_request('http://www.telize.com/geoip/' . $ip);
 			$hit = new \Model\Hit();
 
 			if($geoip)
