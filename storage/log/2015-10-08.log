@@ -12,3 +12,7 @@
 14:23:08 127.0.0.1 [2] Missing argument 2 for Controller\BlogController::show() [/var/www/blogshub/app/classes/Controller/BlogController.php] (110)
 14:23:08 127.0.0.1 [8] Undefined variable: slug [/var/www/blogshub/app/classes/Controller/BlogController.php] (116)
 14:28:42 127.0.0.1 SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause' [/var/www/blogshub/vendor/bootie/bootie/Bootie/Database.php] (173)
+15:03:53 127.0.0.1 [2] Invalid argument supplied for foreach() [/var/www/blogshub/app/views/shared/sidebar.php] (6)
+15:04:29 127.0.0.1 [2] Invalid argument supplied for foreach() [/var/www/blogshub/app/views/shared/sidebar.php] (7)
+15:05:21 127.0.0.1 [2] Invalid argument supplied for foreach() [/var/www/blogshub/app/views/shared/sidebar.php] (8)
+15:05:37 127.0.0.1 [2] Invalid argument supplied for foreach() [/var/www/blogshub/app/views/shared/sidebar.php] (8)
