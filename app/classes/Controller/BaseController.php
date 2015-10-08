@@ -17,23 +17,45 @@ class BaseController {
 
 			$blog = self::$blog;
 			$geoip = self::ip2geolocation($ip);
-
 			$hit = new \Model\Hit();
-			$hit->city = $geoip->city;
-			$hit->country = $geoip->country;
-			$hit->region = $geoip->region;
-			$hit->latitude = $geoip->latitude;
-			$hit->longitude = $geoip->longitude;
+
+			if($geoip)
+			{
+				if($geoip->city)
+				{
+					$hit->city = $geoip->city;
+				}
+
+				if($geoip->country)
+				{
+					$hit->country = $geoip->country;
+				}
+
+				if($geoip->region)
+				{
+					$hit->region = $geoip->region;
+				}
+
+				if($geoip->latitude)
+				{
+					$hit->latitude = $geoip->latitude;
+				}
+
+				if($geoip->longitude)
+				{
+					$hit->longitude = $geoip->longitude;
+				}
+			}
+
 			$hit->path = $path;
 			$hit->user_id = $blog->data->id;
 			$hit->user_agent = getenv('HTTP_USER_AGENT');
 			$hit->created = TIME;
 			$hit->updated = TIME;
 			$hit->save();
-
+			
 			return TRUE;
 		}
-
 		return FALSE;
 	}	
 
