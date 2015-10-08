@@ -11,6 +11,7 @@
     <meta property="og:image" itemprop="image primaryImageOfPage" content="<?php echo isset($meta->og_image) ? $meta->og_image : '';?>" />
  	<link rel="shortcut icon" href="/assets/favicon.ico" rel="icon" type="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="/min/?g=css.default"> 
+	<link rel="stylesheet" type="text/css" href="/assets/css/<?php echo config('blog')->data->style->name;?>.css"> 
 	<script type="text/javascript" src="/min/?g=js.default"></script>
 </head>
 <body class="default">

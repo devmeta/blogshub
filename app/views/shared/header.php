@@ -8,15 +8,16 @@
 				<span class="icon-bar"></span>
 			</button>
 			<a href="/" class="navbar-brand">
-				<i class='ion-mic-c x2'></i> <?php echo config('blog')->data->title;?> 
+				<?php echo config('blog')->data->title;?> <em><?php echo config('blog')->data->caption;?></em>
 			</a>
 		</div>
-		<div class=dev"collapse navbar-collapse" id="navbar-md">
-			<ul class="nav navbar nav-pills pull-right">
-				<li>
-					<a href="http://blogs.devmeta.net"><i class="ion-speaker"></i> Crea tu Blog</a>
-				</li>
-			</ul>
+	<?php if( config('blog')->data ):?>
+		<div class="collapse navbar-collapse" id="navbar-md">
+	        <div class="pull-right search">
+	          <i class='ion-search'></i>
+	          <input type="text" class="form-control" placeholder="Buscar" /> &nbsp;&nbsp;
+	        </div>
 		</div>
+    <?php endif;?>
 	</div>
 </nav>

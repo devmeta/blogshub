@@ -47,7 +47,6 @@ h4 small {
 .navbar {
   margin-bottom: 0;
   padding:  4px;
-  background-color: #f1f1f1;
 }
 
 .navbar .nav-pills, .navbar .nav-pills > li > a {
@@ -87,8 +86,12 @@ h4 small {
 }
 
 .navbar-brand {
-  padding: 0 10px;
+  font-size: 28px;
   color: #4875B4;
+}
+
+.navbar-brand em {
+  font-size: 15px;
 }
 
 .navbar-brand i {
@@ -101,8 +104,35 @@ h4 small {
   max-width:none!important;
 }
 
+.navbar .search {
+  padding: 10px;
+  padding-bottom: 0;
+  position: relative;
+}
+
+.navbar .search input {
+  display: inline-block;
+  padding-left: 30px;
+  width: 180px;
+}
+
+.navbar .search i {
+  position: relative;
+  left: 28px;
+}
+
+.navbar .search-results {
+  width: 50%;
+  position: fixed;
+  right:10px;
+  top: 70px;
+}
+
+.navbar .search-results a {
+  color:#333!important;
+}
+
 .content {
-  background-color: #fff!important;
   position: relative;
   z-index: 2;
   min-height: 600px;

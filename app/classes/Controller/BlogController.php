@@ -143,4 +143,72 @@ class BlogController extends \Controller\BaseController  {
 
 		return FALSE;
 	}
+
+
+	public function search(){
+
+		global $db;
+
+		extract($_POST);
+
+		$posts = [];
+
+		if( isset($words) && strlen($words) > 3){
+
+			$keys = array_filter(array_values(explode(" ",$words)));
+			$where = [];
+
+			if(count($keys) > 10){
+				$keys = array_slice($keys, 0, 10);
+			}
+
+			foreach($keys as $key){
+				if(strlen($key) > 2){
+					$where[]= " posts.title like '%" . utf8_decode($key) . "%' ";
+					$where[]= " posts.caption like '%" . utf8_decode($key) . "%' ";
+					$where[]= " posts.content like '%" . utf8_decode($key) . "%' ";
+				}
+			}
+
+			$literal = utf8_decode(implode(' ',$keys));
+
+			$ors = implode(' or ', $where);
+
+			$posts = $db->fetch('select posts.id, posts.caption, posts.title, posts.slug, posts.updated, posts.user_id, files.name as image 
+				from posts 
+				left join files on files.post_id = posts.id and files.position = 1 
+				left join users on users.id = posts.user_id 
+				where posts.user_id = \'' . config('blog')->data->id . '\' 
+				and posts.lang = users.lang  
+				and posts.privacy_id = 1 
+				and (' . $ors . ') 
+				group by posts.id 
+				order by case 
+				when posts.title like \'' . $literal . ' %\' then 0
+				when posts.title like \'' . $literal . ' %\' then 1
+				when posts.title like \'% ' . $literal . ' %\' then 2
+				when posts.caption like \'' . $literal . ' %\' then 0
+				when posts.caption like \'' . $literal . ' %\' then 1
+				when posts.caption like \'% ' . $literal . ' %\' then 2
+				when posts.content like \'' . $literal . ' %\' then 0
+				when posts.content like \'' . $literal . ' %\' then 1
+				when posts.content like \'% ' . $literal . ' %\' then 2
+				else 3 end');
+
+		}
+
+		if(count($posts))
+		{
+			foreach($posts as $i => $post)
+			{
+				$post->updated = timespan($post->updated);
+				$post->caption = words($post->caption,30);
+			}
+		}
+
+		return [
+			'count' => count($posts),
+			'posts' => $posts
+		];
+	}	
 }

@@ -1,6 +1,6 @@
 <div class="col-md-9">
   	<h1 class="page-header"><?php echo $entry->title;?></h1>
-    <blockquote><em><?php echo $entry->caption;?><br><?php echo date('Y M d',$entry->created);?></em></blockquote>
+    <blockquote><em><?php echo $entry->caption;?><br><?php echo date('d M Y',$entry->created);?></em></blockquote>
     <div class="alert">
     <?php foreach($entry->tags() as $tag) : if( ! isset($tag->tag)) continue;?>
         <a href="/tag/<?php echo $tag->tag;?>" class="label label-success label-badge btn-tag-included"><?php echo $tag->tag;?></a>
@@ -9,13 +9,12 @@
     <div class="slick-dotted">
     <?php foreach($entry->files() as $file) : if( ! isset($file->name)) continue;?>
         <div class="image">
-            <img class="img-responsive" src="/upload/posts/sd-<?php echo $file->name;?>">
+            <img class="img-responsive" src="<?php echo config()->baseurl;?>/upload/posts/sd-<?php echo $file->name;?>">
         </div>
     <?php endforeach;?>
     </div>
     <?php echo str_replace("/upload/",config('blog')->baseurl . "/upload/",$entry->content);?>
     <hr>
-
 <?php if(config('blog')->data->disqus OR $entry->disqus):?>
     <div id="disqus_thread"></div>
     <script type="text/javascript">

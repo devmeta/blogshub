@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'MonacoRegular';
+    src: url('/assets/fonts/monaco/monaco-webfont.eot');
+    src: url('/assets/fonts/monaco/monaco-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/monaco/monaco-webfont.woff') format('woff'),
+         url('/assets/fonts/monaco/monaco-webfont.ttf') format('truetype'),
+         url('/assets/fonts/monaco/monaco-webfont.svg#MonacoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

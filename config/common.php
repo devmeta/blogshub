@@ -612,7 +612,7 @@ function timespan($ts)
 		$ratio = round($mins / 483840) ;
 		$span = $ratio . "y";
 		*/
-		$span = date('Y M d',$ts);
+		$span = date('d M Y',$ts);
 	} 
 	elseif($mins > 40319)
 	{ // meses
@@ -620,7 +620,7 @@ function timespan($ts)
 		$ratio = round($mins / 40320);
 		$span = $ratio . "m";;
 		*/
-		$span = date('Y M d',$ts);
+		$span = date('d M',$ts);
 	} 
 	elseif($mins > 10079 && $mins < 40319)
 	{ // semanas
@@ -628,7 +628,7 @@ function timespan($ts)
 		$ratio = round($mins / 10080);
 		$span = $ratio . "w";;
 		*/
-		$span = date('M d',$ts);
+		$span = date('d M',$ts);
 	} 
 	elseif($mins > 1439 && $mins < 10079)
 	{ // dias
