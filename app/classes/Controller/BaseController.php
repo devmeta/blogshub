@@ -2,8 +2,6 @@
 
 class BaseController {
 	
-	static $blog = [];
-
 	public function __construct(){
 		\Bootie\App::load_database();
 	}
@@ -15,10 +13,11 @@ class BaseController {
 
 		if( $ip != '127.0.0.1' ) {
 
-			$blog = self::$blog;
+			$blog = config('blog');
 			$geoip = self::ip2geolocation($ip);
 			$hit = new \Model\Hit();
 
+			var_dump($geoip);
 			if($geoip)
 			{
 				if($geoip->city)
@@ -53,7 +52,7 @@ class BaseController {
 			$hit->created = TIME;
 			$hit->updated = TIME;
 			$hit->save();
-			
+
 			return TRUE;
 		}
 		return FALSE;
