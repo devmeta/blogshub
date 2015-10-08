@@ -16,29 +16,21 @@
     <?php echo str_replace("/upload/",config('blog')->baseurl . "/upload/",$entry->content);?>
     <hr>
 
-
+<?php if(config('blog')->data->disqus OR $entry->disqus):?>
+    <div id="disqus_thread"></div>
     <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'devmetablogs'; // required: replace example with your forum shortname
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-
-    <?php if(config('blog')->data->disqus OR $entry->disqus):?>
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-    <?php endif;?>    
+        /* * * CONFIGURATION VARIABLES * * */
+        var disqus_shortname = 'devmetablogs';
+        
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
     </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript> 
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+<?php endif;?>
 </div>
 <div class="col-md-3">
     <ul class="ch-grid">
@@ -50,7 +42,9 @@
                         <h5>
                             <i class="ion-android-time"></i> <?php echo date('M d', $post->created);?>
                             <i class="ion-eye"></i> <?php echo $post->hits;?>
+                        <?php if(config('blog')->data->disqus OR $post->disqus):?>
                             <i class="ion-chatbubbles"></i> <span class="disqus-comment-count" data-disqus-url="http://<?php echo config('blog')->data->username;?>.devmeta.net/<?php echo $post->slug;?>">0</span> 
+                        <?php endif;?>
                         </h5>                 
                         <h3><?php echo $post->title;?></h3>
                     </div>

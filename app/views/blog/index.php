@@ -12,7 +12,9 @@
                         <span class="feature-attr">
                             <i class="ion-android-time"></i> <?php echo timespan($post->created);?>
                             <i class="ion-eye"></i> <?php echo $post->hits;?>
+                        <?php if(config('blog')->data->disqus OR $post->disqus):?>
                             <i class="ion-chatbubbles"></i> <span class="disqus-comment-count" data-disqus-url="http://<?php echo config('blog')->data->username;?>.devmeta.net/<?php echo $post->slug;?>">0</span> 
+                        <?php endif;?>
                         </span>
                     </a>
                 </li>
