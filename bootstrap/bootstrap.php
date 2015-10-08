@@ -7,6 +7,8 @@ $debug = FALSE;
 // System Start Time
 define('START_TIME', microtime(true));
 
+define('TIME', time());
+
 // System Start Memory
 define('START_MEMORY_USAGE', memory_get_usage());
 
