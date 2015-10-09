@@ -61,3 +61,5 @@
 17:00:07 127.0.0.1 Cannot use object of type stdClass as array [/var/www/blogshub/app/classes/Controller/BlogController.php] (204)
 23:25:31 127.0.0.1 [8] Undefined variable: tags [/var/www/blogshub/app/views/shared/sidebar.php] (6)
 23:26:51 127.0.0.1 [8] Undefined variable: tags [/var/www/blogshub/app/views/shared/sidebar.php] (6)
+23:51:32 127.0.0.1 [8] Undefined property: stdClass::$username [/var/www/blogshub/app/views/shared/sidebar.php] (4)
+23:52:00 127.0.0.1 [8] Undefined property: stdClass::$username [/var/www/blogshub/app/views/shared/sidebar.php] (4)

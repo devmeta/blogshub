@@ -5,12 +5,11 @@ class BlogController extends \Controller\BaseController  {
 	static $layout = "default";
 		
 	public function index(){
-		$blog = config('blog');
 		return \Bootie\App::view('blog.index',[
 			'posts'	=> \Model\Post::paginate([
 				'id' => 'DESC'
 			],[
-				'user_id' => $blog->data->id 
+				'user_id' => config('blog')->data->id 
 			],6),
 			'tags'	=> self::find_all_tags(),
 		]);
@@ -27,11 +26,10 @@ class BlogController extends \Controller\BaseController  {
 	public function show($slug){
 
 		$tags_ids = [];
-		$blog = config('blog');
 
 		$entry = \Model\Post::row([
 			'slug' => urldecode($slug),
-			'user_id' => $blog->data->id 
+			'user_id' => config('blog')->data->id
 		]);
 
 		if($entry) {
@@ -95,11 +93,9 @@ class BlogController extends \Controller\BaseController  {
 
 	public function find_by_tag($tag){
 
-		$blog = config('blog');
-		
 		$tag_id = \Model\Tag::column([
 			'tag' => $tag,
-			'user_id' => $blog->data->id 
+			'user_id' => config('blog')->data->id 
 		]);
 
 		if(is_numeric($tag_id)){
@@ -125,10 +121,8 @@ class BlogController extends \Controller\BaseController  {
 
 	public function find_all_tags(){
 
-		$blog = config('blog');
-
 		$posts_ids = \Model\Post::select('fetch','id',null,[
-			'user_id' => $blog->data->id 
+			'user_id' => config('blog')->data->id 
 		]);
 
 		if(count($posts_ids)){
