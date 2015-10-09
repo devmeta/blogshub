@@ -74,7 +74,7 @@ class BlogController extends \Controller\BaseController  {
 				'meta'	=> $meta,
 				'related' => $related
 			]);
-		} 
+		}
 
 		return \Bootie\App::view('errors.missing');
 	}
