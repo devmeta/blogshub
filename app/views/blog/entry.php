@@ -1,11 +1,13 @@
 <div class="col-md-9">
   	<h1 class="page-header"><?php echo $entry->title;?></h1>
     <blockquote><em><?php echo $entry->caption;?><br><?php echo date('d M Y',$entry->created);?></em></blockquote>
+<?php if($entry->tags()):?>
     <div class="alert">
     <?php foreach($entry->tags() as $tag) : if( ! isset($tag->tag)) continue;?>
         <a href="/tag/<?php echo $tag->tag;?>" class="label label-success label-badge btn-tag-included"><?php echo $tag->tag;?></a>
     <?php endforeach;?>
     </div> 
+<?php endif;?>
     <div class="slick-dotted">
     <?php foreach($entry->files() as $file) : if( ! isset($file->name)) continue;?>
         <div class="image">
@@ -32,6 +34,7 @@
 <?php endif;?>
 </div>
 <div class="col-md-3">
+    <?php include SP . 'app/views/shared/sidebar.php';?>
     <ul class="ch-grid">
     <?php foreach($related as $post):?>
         <li>    
