@@ -207,10 +207,12 @@ h4 small {
 
 .label-badge {
   display: inline-block;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 3px 7px;
+  font-weight: 400;
   min-width: 10px;
-  font-size: 12px;
+  font-size: 15px;
+  margin:0 5px 5px 0;
 }
 
 .title-hero {
