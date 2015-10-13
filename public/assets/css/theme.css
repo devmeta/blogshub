@@ -248,6 +248,6 @@ footer {
 }
 
 .entry-content blockquote {
-  font-family:monospace,monospace;
+  font-family:monospace,monospace!important;
   font-size:1em;
 }

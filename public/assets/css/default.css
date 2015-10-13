@@ -10,6 +10,10 @@ body {
   font-family: "Source Sans Pro";    
 }
 
+.navbar {
+  background-color: #fff;
+}
+
 .container {
   background-color: #fff;
 }
