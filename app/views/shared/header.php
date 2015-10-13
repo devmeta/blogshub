@@ -8,7 +8,9 @@
 				<span class="icon-bar"></span>
 			</button>
 			<a href="/" class="navbar-brand">
-				<?php echo config('blog')->data->title;?> <em><?php echo config('blog')->data->caption;?></em>
+				<i class='<?php echo config('blog')->data->icon ?: 'ion-speakerphone';?> x2 pull-left'></i>
+				<strong><?php echo config('blog')->data->title;?></strong>
+				<em><?php echo config('blog')->data->caption;?></em>
 			</a>
 		</div>
 	<?php if( config('blog')->data ):?>

@@ -32,6 +32,7 @@
     <?php include SP . 'app/views/shared/sidebar.php';?>
 </div>
 
+<?php if(getenv('REMOTE_ADDR') != '127.0.0.1'):?>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'devmetablogs'; // required: replace example with your forum shortname
@@ -43,4 +44,5 @@
         s.src = '//' + disqus_shortname + '.disqus.com/count.js';
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
-</script>
+</script> 
+<?php endif;?>

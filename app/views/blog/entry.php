@@ -1,6 +1,14 @@
 <div class="col-md-9">
   	<h1 class="page-header"><?php echo $entry->title;?></h1>
     <blockquote><em><?php echo $entry->caption;?><br><?php echo date('d M Y',$entry->created);?></em></blockquote>
+    <div class="widget-social">
+        <a href="https://www.facebook.com/sharer.php?u=${location}&t=${entry.title}" title="${_l('Share_With')} Facebook" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-facebook"></i><span class="badge social-count fbcount1"></span></a>
+        <a href="https://twitter.com/intent/tweet?text=${entry.title} ${location}" title="${_l('Share_With')} Twitter" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-twitter"></i><span class="badge social-count twcnt1"></span></a>
+        <a href="https://plus.google.com/share?url=${location}" title="${_l('Share_With')} Google+" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-googleplus"></i></a>
+        <a href="https://www.linkedin.com/cws/share?url=${location}" title="${_l('Share_With')} Linkedin" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-linkedin"></i></a>
+        <a href="http://pinterest.com/pin/create/link/?url=${location}&media=&description=${entry.caption}" title="${_l('Share_With')} Pinterest" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-pinterest"></i></a>
+    </div>
+        
 <?php if($entry->tags()):?>
     <div class="alert">
     <?php foreach($entry->tags() as $tag) : if( ! isset($tag->tag)) continue;?>
@@ -19,6 +27,7 @@
         <?php echo str_replace("/upload/",config('blog')->baseurl . "/upload/",$entry->content);?>
     </div>
     <hr>
+<?php if(getenv('REMOTE_ADDR') != '127.0.0.1'):?>
 <?php if(config('blog')->data->disqus OR $entry->disqus):?>
     <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -33,6 +42,7 @@
         })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+<?php endif;?>
 <?php endif;?>
 </div>
 <div class="col-md-3">
