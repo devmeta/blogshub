@@ -138,7 +138,7 @@ class BlogController extends \Controller\BaseController  {
 			}
 		}
 
-		return FALSE;
+		return [];
 	}
 
 
