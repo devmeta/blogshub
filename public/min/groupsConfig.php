@@ -27,6 +27,7 @@ return array(
         '//assets/js/jquery-2.1.4.min.js',
         '//assets/js/bootstrap.min.js',
         '//assets/js/slick.min.js',
+        '//assets/js/sharecount.js',
         '//assets/js/app.js'
     ),
     'css.default' => array(

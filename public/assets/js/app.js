@@ -45,6 +45,32 @@ $(function(){
     },250));
   });
 
+  if($('.pop-link').length){
+    $('.pop-link').click(function(e){
+      e.preventDefault();
+
+      var width = 500;
+      var height = 500;
+      // popup position
+      var
+          px = Math.floor(((screen.availWidth || 1024) - width) / 2),
+          py = Math.floor(((screen.availHeight || 700) - height) / 2);
+
+      // open popup
+      var popup = window.open($(this).attr('href'), "social", 
+          "width="+width+",height="+height+
+          ",left="+px+",top="+py+
+          ",location=0,menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1");
+      if (popup) {
+          popup.focus();
+          if (e.preventDefault) e.preventDefault();
+          e.returnValue = false;
+      }
+
+      return false;
+    });
+  }
+
   if($('.twcnt1').length){
     share.jsonRequest('http://urls.api.twitter.com/1/urls/count.json?url=' + location.href + '&callback=share.twitterCountCallback');
   }
