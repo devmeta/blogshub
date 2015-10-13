@@ -246,3 +246,8 @@ footer {
 .fx-fade-in {
   display: none;
 }
+
+.entry-content blockquote {
+  font-family:monospace,monospace;
+  font-size:1em;
+}

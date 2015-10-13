@@ -15,7 +15,9 @@
         </div>
     <?php endforeach;?>
     </div>
-    <?php echo str_replace("/upload/",config('blog')->baseurl . "/upload/",$entry->content);?>
+    <div class="entry-content">
+        <?php echo str_replace("/upload/",config('blog')->baseurl . "/upload/",$entry->content);?>
+    </div>
     <hr>
 <?php if(config('blog')->data->disqus OR $entry->disqus):?>
     <div id="disqus_thread"></div>
