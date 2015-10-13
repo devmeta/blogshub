@@ -123,6 +123,7 @@ h4 small {
   position: relative;
   top: 1px;
   left: 4px;
+  white-space: nowrap;
 }
 
 /* end main page title */
