@@ -24,7 +24,7 @@
     <?php endforeach;?>
     </div>
     <div class="entry-content">
-        <?php echo str_replace("/upload/",config('blog')->baseurl . "/upload/",$entry->content);?>
+        <?php echo str_replace("/upload/",config()->baseurl . "/upload/",$entry->content);?>
     </div>
 
     <div class="widget-social">
