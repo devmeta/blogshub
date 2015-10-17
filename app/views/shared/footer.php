@@ -7,6 +7,9 @@
 			<?php print round((microtime(true) - START_TIME), 5); ?>s
 		</span-->
 		<span class="label label-success label-badge" title="Crea tu Blog">
+			<i class="ion-ios-copy"></i>
+		</span>
+		<span class="label label-success label-badge" title="Crea tu Blog">
 			<a href="http://blogs.devmeta.net"><i class="ion-mic-c"></i></a>
 		</span>
 	</div>
