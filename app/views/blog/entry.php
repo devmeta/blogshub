@@ -35,7 +35,7 @@
         <a href="http://pinterest.com/pin/create/link/?url=<?php echo PATH;?>&media=&description=<?php print $entry->title;?>" title="Pinterest" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-pinterest"></i></a>
     </div>    
     <hr>
-<?php if(getenv('REMOTE_ADDR') != '127.0.0.1'):?>
+<?php if(getenv('REMOTE_ADDR') != '127.0.0.2'):?>
 <?php if(config('blog')->data->disqus OR $entry->disqus):?>
     <div id="disqus_thread"></div>
     <script type="text/javascript">
