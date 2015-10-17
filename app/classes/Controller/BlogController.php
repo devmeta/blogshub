@@ -16,10 +16,11 @@ class BlogController extends \Controller\BaseController  {
 	}
 
 	public function tag($tag){
+		$tag = urldecode($tag);
 		return \Bootie\App::view('blog.tags',[
 			'posts'	=> self::find_by_tag($tag),
 			'tags'	=> self::find_all_tags(),
-			'tag'	=> $tag
+			'tag'	=> $tag 
 		]);
 	}
 

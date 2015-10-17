@@ -2,7 +2,7 @@
     <blockquote>
         <em><i class='ion-pound'></i> <?php echo $tag;?></em>
     </blockquote>
-    <?php if(count($posts)):?>
+    <?php if($posts):?>
     <div class="scroll-content row">
         <div class="feature-list clearfix">
             <ul>
