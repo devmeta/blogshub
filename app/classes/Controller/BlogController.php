@@ -46,7 +46,7 @@ class BlogController extends \Controller\BaseController  {
 			}
 
 			if(count($entry->files())){
-				$meta->og_image = config()->baseurl . 'upload/posts/sd-' . $entry->files()[0]->name;
+				$meta->og_image = config()->baseurl . '/upload/posts/sd-' . $entry->files()[0]->name;
 			}
 
 			if(count($tags_ids)){
