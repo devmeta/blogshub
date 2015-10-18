@@ -324,13 +324,37 @@ footer {
   color: #fff;
 }
 
-@media (min-width: 768px){
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
   .feature-list li a {
-    padding-bottom:16%!important;
+    padding-bottom:73.33333333%!important;
   }
 }
 
-@media (min-width: 640px) and (max-width: 767px){
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+  .feature-list li a {
+    padding-bottom:16.6666666%!important;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .feature-list li a {
+    padding-bottom:16.666666666%!important;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .feature-list li a {
+    padding-bottom:33.3333333333%!important;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
   .feature-list li a {
     padding-bottom:33.333333333333%!important;
   }
