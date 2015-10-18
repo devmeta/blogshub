@@ -34,6 +34,7 @@ $(function(){
 
           if(json.posts){
             var str = '<div class="list-group search-results">';
+            str+='<a href="javascript:void(0)" onclick="$(\'.search-results\').fadeOut();" class="list-group-item text-right"><i class="ion-close"></i></a>';
             $(json.posts).each(function(i,post) {
               str+='<a href="/' + post.slug + '" class="list-group-item">' + post.title + '&nbsp;&nbsp;<small><i class="ion-android-time"></i> <em>' + post.updated + '</em></small><br><small>' + post.caption + '</small></a>';
             });

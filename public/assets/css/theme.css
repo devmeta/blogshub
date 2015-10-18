@@ -88,41 +88,22 @@ h4 small {
 }
 
 .navbar-brand {
-  font-size: 28px;
   color: #4875B4;
-  padding: 0.6em;
-  position: relative;
-  top: 12px;
-  height: 65px;
+  padding: 7px;
 }
 
 .navbar-brand i {
-  position: relative;
-  margin-right: 0.1em;
-  top: -10px;
-}
-
-.navbar-brand{
-  position: static;
 }
 
 .navbar-brand strong {
-  margin: 0;
-  letter-spacing: -1px;
-  font-size: 35px;
-  line-height: 20px;
-  color:#333;
-  text-align: left;
+  margin-left: 0.5em;
 }
 
 .navbar-brand em {
-  font-size: 15px;
+  font-size: 13px;
   display: block;
   font-size: 15px;
   color: #666;
-  position: relative;
-  top: 1px;
-  left: 4px;
   white-space: nowrap;
 }
 
@@ -151,7 +132,7 @@ h4 small {
 }
 
 .navbar .search-results {
-  width: 50%;
+  width:95%;
   position: fixed;
   right:10px;
   top: 70px;
@@ -340,3 +321,5 @@ footer {
   color: #fff;
 }
 
+@media (min-width: 768px){
+}

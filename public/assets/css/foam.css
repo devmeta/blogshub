@@ -31,7 +31,7 @@
 	list-style: none;
 	padding-left: 15px;
 }
-.feature-list li a{
+.feature-list li a {
 	overflow:hidden;
 	background-position:center center;
 	-webkit-background-size:cover;
@@ -69,7 +69,6 @@
 	line-height:1.2;
 	font-size:20px;
 	z-index:1;
-	width:70%
 }
 
 .feature-list li .feature-title span {
@@ -91,7 +90,6 @@
 	line-height:1.2;
 	font-size:16px;
 	z-index:1;
-	width:70%
 }
 
 .feature-list li .feature-descrip span {
