@@ -261,6 +261,9 @@ footer {
   font-family:monospace,monospace!important;
   font-size:1em;
 }
+.social {
+  margin-bottom: 1em;
+}
 
 .social a {
   position: relative;
@@ -322,4 +325,13 @@ footer {
 }
 
 @media (min-width: 768px){
+  .feature-list li a {
+    padding-bottom:16%!important;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 767px){
+  .feature-list li a {
+    padding-bottom:33.333333333333%!important;
+  }
 }
