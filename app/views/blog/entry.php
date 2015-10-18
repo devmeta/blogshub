@@ -2,6 +2,15 @@
   	<h1 class="page-header"><?php echo $entry->title;?></h1>
     <blockquote><em><?php echo $entry->caption;?><br><?php echo date('d M Y',$entry->created);?></em></blockquote>
 
+<?php if($entry->tags()):?>
+    <div class="alert">
+    <?php foreach($entry->tags() as $tag) : if( ! isset($tag->tag)) continue;?>
+        <a href="/tag/<?php echo $tag->tag;?>" class="label label-success label-badge btn-tag-included"><?php echo $tag->tag;?></a>
+    <?php endforeach;?>
+    </div> 
+<?php endif;?>
+
+
     <div class="social">
         <a class="pop-link facebook" href="https://www.facebook.com/sharer.php?u=<?php echo PATH;?>&t=<?php print $entry->title;?>" title="Facebook" data-external="true" data-placement="top"><i class="ion-social-facebook"></i><span class="badge social-count fbcnt"></span></a>
         <a class="pop-link twitter" href="https://twitter.com/intent/tweet?text=<?php print $entry->title;?> <?php echo PATH;?>" title="Twitter" data-external="true" data-placement="top"><i class="ion-social-twitter"></i><span class="badge social-count twcnt"></span></a>
@@ -10,13 +19,6 @@
         <a class="pop-link pinterest" href="http://pinterest.com/pin/create/link/?url=<?php echo PATH;?>&media=&description=<?php print $entry->title;?>" title="Pinterest" data-external="true" data-placement="top"><i class="ion-social-pinterest"></i></a>
     </div>    
         
-<?php if($entry->tags()):?>
-    <div class="alert">
-    <?php foreach($entry->tags() as $tag) : if( ! isset($tag->tag)) continue;?>
-        <a href="/tag/<?php echo $tag->tag;?>" class="label label-success label-badge btn-tag-included"><?php echo $tag->tag;?></a>
-    <?php endforeach;?>
-    </div> 
-<?php endif;?>
     <div class="slick-dotted">
     <?php foreach($entry->files() as $file) : if( ! isset($file->name)) continue;?>
         <div class="image">
@@ -24,6 +26,7 @@
         </div>
     <?php endforeach;?>
     </div>
+    <hr>
     <div class="entry-content">
         <?php echo str_replace("/upload/",config()->baseurl . "/upload/",$entry->content);?>
     </div>
