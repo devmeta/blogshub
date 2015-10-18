@@ -3,11 +3,11 @@
     <blockquote><em><?php echo $entry->caption;?><br><?php echo date('d M Y',$entry->created);?></em></blockquote>
 
     <div class="social">
-        <a class="facebook" href="https://www.facebook.com/sharer.php?u=<?php echo PATH;?>&t=<?php print $entry->title;?>" title="Facebook" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-facebook"></i><span class="badge social-count fbcnt"></span></a>
-        <a class="twitter" href="https://twitter.com/intent/tweet?text=<?php print $entry->title;?> <?php echo PATH;?>" title="Twitter" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-twitter"></i><span class="badge social-count twcnt"></span></a>
-        <a class="googleplus" href="https://plus.google.com/share?url=<?php echo PATH;?>" title="Google+" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-googleplus"></i></a>
-        <a class="linkedin" href="https://www.linkedin.com/cws/share?url=<?php echo PATH;?>" title="Linkedin" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-linkedin"></i></a>
-        <a class="pinterest" href="http://pinterest.com/pin/create/link/?url=<?php echo PATH;?>&media=&description=<?php print $entry->title;?>" title="Pinterest" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-pinterest"></i></a>
+        <a class="pop-link facebook" href="https://www.facebook.com/sharer.php?u=<?php echo PATH;?>&t=<?php print $entry->title;?>" title="Facebook" data-external="true" data-placement="top"><i class="ion-social-facebook"></i><span class="badge social-count fbcnt"></span></a>
+        <a class="pop-link twitter" href="https://twitter.com/intent/tweet?text=<?php print $entry->title;?> <?php echo PATH;?>" title="Twitter" data-external="true" data-placement="top"><i class="ion-social-twitter"></i><span class="badge social-count twcnt"></span></a>
+        <a class="pop-link googleplus" href="https://plus.google.com/share?url=<?php echo PATH;?>" title="Google+" data-external="true" data-placement="top"><i class="ion-social-googleplus"></i></a>
+        <a class="pop-link linkedin" href="https://www.linkedin.com/cws/share?url=<?php echo PATH;?>" title="Linkedin" data-external="true" data-placement="top"><i class="ion-social-linkedin"></i></a>
+        <a class="pop-link pinterest" href="http://pinterest.com/pin/create/link/?url=<?php echo PATH;?>&media=&description=<?php print $entry->title;?>" title="Pinterest" data-external="true" data-placement="top"><i class="ion-social-pinterest"></i></a>
     </div>    
         
 <?php if($entry->tags()):?>
@@ -29,12 +29,13 @@
     </div>
 
     <div class="social">
-        <a class="facebook" href="https://www.facebook.com/sharer.php?u=<?php echo PATH;?>&t=<?php print $entry->title;?>" title="Facebook" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-facebook"></i><span class="badge social-count fbcnt"></span></a>
-        <a class="twitter" href="https://twitter.com/intent/tweet?text=<?php print $entry->title;?> <?php echo PATH;?>" title="Twitter" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-twitter"></i><span class="badge social-count twcnt"></span></a>
-        <a class="googleplus" href="https://plus.google.com/share?url=<?php echo PATH;?>" title="Google+" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-googleplus"></i></a>
-        <a class="linkedin" href="https://www.linkedin.com/cws/share?url=<?php echo PATH;?>" title="Linkedin" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-linkedin"></i></a>
-        <a class="pinterest" href="http://pinterest.com/pin/create/link/?url=<?php echo PATH;?>&media=&description=<?php print $entry->title;?>" title="Pinterest" data-external="true" data-placement="top" class="pop-link"><i class="ion-social-pinterest"></i></a>
+        <a class="pop-link facebook" href="https://www.facebook.com/sharer.php?u=<?php echo PATH;?>&t=<?php print $entry->title;?>" title="Facebook" data-external="true" data-placement="top"><i class="ion-social-facebook"></i><span class="badge social-count fbcnt"></span></a>
+        <a class="pop-link twitter" href="https://twitter.com/intent/tweet?text=<?php print $entry->title;?> <?php echo PATH;?>" title="Twitter" data-external="true" data-placement="top"><i class="ion-social-twitter"></i><span class="badge social-count twcnt"></span></a>
+        <a class="pop-link googleplus" href="https://plus.google.com/share?url=<?php echo PATH;?>" title="Google+" data-external="true" data-placement="top"><i class="ion-social-googleplus"></i></a>
+        <a class="pop-link linkedin" href="https://www.linkedin.com/cws/share?url=<?php echo PATH;?>" title="Linkedin" data-external="true" data-placement="top"><i class="ion-social-linkedin"></i></a>
+        <a class="pop-link pinterest" href="http://pinterest.com/pin/create/link/?url=<?php echo PATH;?>&media=&description=<?php print $entry->title;?>" title="Pinterest" data-external="true" data-placement="top"><i class="ion-social-pinterest"></i></a>
     </div>    
+
     <hr>
 <?php if(getenv('REMOTE_ADDR') != '127.0.0.1'):?>
 <?php if(config('blog')->data->disqus OR $entry->disqus):?>
