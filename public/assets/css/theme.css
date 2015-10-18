@@ -257,10 +257,15 @@ footer {
   display: none;
 }
 
+.entry-content{
+  font-size: 18px;
+}
+
 .entry-content blockquote {
   font-family:monospace,monospace!important;
   font-size:1em;
 }
+
 .social {
   margin: 1em 0;
 }
