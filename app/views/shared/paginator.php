@@ -1,3 +1,4 @@
+<?php if (count($pages)>1):?>
 <nav class="text-center">
   <ul class="pagination">
     <li class="<?php echo $current < 2 ? 'disabled' : '';?>">
@@ -15,3 +16,4 @@
     </li>
   </ul>
 </nav>
+<?php endif;?>

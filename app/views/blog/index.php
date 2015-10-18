@@ -3,10 +3,10 @@
     <div class="scroll-content row">
         <div class="feature-list clearfix">
             <ul>
-            <?php foreach($posts as $i => $post):?>
+            <?php foreach($posts as $post):?>
                 <li>
                     <a href="<?php echo site_url($post->slug);?>" class="feature-olivia col-md-4 col-sm-12 col-xs-12" style="background-image: url(<?php echo config()->baseurl;?>/upload/posts/sd-<?php echo count($post->files()) ? $post->files()[0]->name : 'default';?>)">
-                        <div class="foam<?php echo $i%6+1;?> overlay"></div>
+                        <div class="foam overlay"></div>
                         <span class="feature-title"><span><?php echo implode('</span><span>',explode(' ',words($post->title,10)));?></span></span>
                         <span class="feature-descrip"><span><?php echo implode('</span><span>',explode(' ',words($post->caption,18)));?></span></span>
                         <span class="feature-attr">
