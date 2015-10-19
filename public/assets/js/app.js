@@ -1,5 +1,18 @@
 $(function(){
 
+  if($('.slick-dotted').length){
+    $('.slick-dotted').slick({    
+      dots: true,
+      infinite: true,
+      speed: 450,
+      pauseOnHover: false,
+      autoplaySpeed: 10000,
+      autoplay:true,
+      arrows: false,
+      fade: true
+    });
+  }
+
   $('.search input').keyup(function(e){
     clearTimeout($.data(this, 'timer'));
     var $this = $(this);
