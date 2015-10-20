@@ -1,0 +1,55 @@
+.feature-list > div {
+	position: relative;
+	margin-bottom: 0.5em;
+	padding: 0;
+	height:250px;
+	display: inline;
+	margin: 0px;
+	padding: 15px;
+	height: auto;
+	float: left;
+	list-style: outside none none;
+	transition: all 0.25s ease-in 0s;
+}
+
+.feature-list > div > a {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.feature-list > div > a > img {	
+	margin: 0px;
+	width: 100%;
+	transform: scale(1.05);
+	transition: all 0.35s ease-out 0s;
+	height: auto;
+	max-width: 100%;	
+}
+
+.feature-list > div > a:hover img {
+	transform: scale(1.5);
+}
+
+.feature-title {
+	margin: 0px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: block;
+	padding: 15px 20px;
+	font-size: 18px;
+	line-height: 1.3em;
+	color: #FFF;
+}
+
+.feature-attr{
+	text-align: center;
+	padding: 0.4em;
+	font-size:14px;
+	color:#fff;
+	background:#000;
+	font-weight: bold;
+}

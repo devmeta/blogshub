@@ -35,7 +35,8 @@ return array(
         '//assets/css/ionicons.min.css', 
         '//assets/css/slick.css',
         '//assets/css/theme.css',
-        '//assets/css/foam.css',
+        '//assets/css/postbox.css',
+        //'//assets/css/foam.css',
         '//assets/css/circle-tiles.css'        
     )
 );

@@ -1,5 +1,5 @@
-<?php if (count($pages)>1):?>
-<nav class="text-center">
+  &nbsp; <?php if(count($pages)>1):?>  
+<nav class="text-center"> 
   <ul class="pagination">
     <li class="<?php echo $current < 2 ? 'disabled' : '';?>">
       <a href="<?php echo $current < 2 ? '#' : '?page=' . ($current-1);?>" aria-label="Previous">
