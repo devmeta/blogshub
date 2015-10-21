@@ -17,7 +17,7 @@
 		<div class="collapse navbar-collapse" id="navbar-md">
 	        <div class="pull-right search">
 	          <i class='ion-ios-search-strong'></i>
-	          <input type="text" class="form-control" placeholder="Buscar" /> &nbsp;&nbsp;
+	          <input type="text" class="form-control input-lg" placeholder="Buscar" /> &nbsp;&nbsp;
 	        </div>
 		</div>
     <?php endif;?>

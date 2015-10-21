@@ -39,47 +39,45 @@ $(function(){
         data : { words : words },
         cache: false,
         success: function(json){
-          $( ".search-results").remove();
 
           $this.prev()
-            .removeClass("fa-spinner faa-spin animated")
-            .addClass("fa-search");
+            .removeClass("ion-funnel")
+            .addClass("ion-ios-search-strong");
 
-            var str = '<div class="feature-list search-results">';
-            str+= '<h1 class="text-center"><i class="ion-search"></i> ' + json.words + ' <span class="badge">' + json.posts.length + '</span></h1>';
-            //str+='<a href="javascript:void(0)" onclick="$(\'.search-results\').fadeOut();" class="list-group-item text-right"><i class="ion-close"></i></a>';
+          var str = '<h1 class="page-title text-center"><i class="ion-ios-search-strong"></i> ' + json.words + ' <span class="badge">' + json.posts.length + '</span>&nbsp;&nbsp;&nbsp;<i class="ion-close-circle hand" onclick="$(\'.search-results\').slideUp();"></i></h1>';
 
           if(json.posts){
+            str+= '<div class="feature-list search-list">';
             $(json.posts).each(function(i,post) {
 
               str+='<div class="col-md-3 col-sm-6 col-xs-12">' + 
-                '<a href="/' + post.slug + '">' +
-                '<img src="' + post.image + '" />' +
-                '<h3 class="feature-title">' + post.title + '</h3>' +
-                '</a>' +
-                '<div class="feature-attr">' +
-                '<i class="ion-android-time"></i> ' + post.created + 
-                '<i class="ion-eye"></i> ' + post.hits;
-
-                if(post.disqus) str+='<i class="ion-chatbubbles"></i> <span class="disqus-comment-count" data-disqus-url="' + post.slug + '">0</span>';
-
-                str+= '</div></div>';
-
-                //str+='<a href="/' + post.slug + '" class="list-group-item">' + post.title + '&nbsp;&nbsp;<small><i class="ion-android-time"></i> <em>' + post.updated + '</em></small><br><small>' + post.caption + '</small></a>';
-
+                      '<a href="/' + post.slug + '">' +
+                        '<img src="' + post.image + '" />' +
+                        '<h3 class="feature-title">' + post.title + '</h3>' +
+                      '</a>' +
+                      '<div class="feature-attr">' +
+                        '<i class="ion-android-time"></i> ' + post.created + 
+                        '<i class="ion-eye"></i> ' + post.hits;
+                        if(post.disqus) str+='<i class="ion-chatbubbles"></i> <span class="disqus-comment-count" data-disqus-url="' + post.slug + '">0</span>';
+              str+= '</div></div>';
             });
+            str+= '</div>';
           } 
 
-          str+='</div><div class="clearfix"></div>';
-          $( ".navbar" )
-            .after(str)
-            .next()
-            .hide()
-            .slideDown();
+          str+='<div class="clearfix"></div>';
 
+          if( $( ".search-results").length){
+            $( ".search-results").html(str);
+          } else {
+            $( ".navbar" )
+              .after('<div class="search-results">' + str + '</div>')
+              .next()
+              .hide()
+              .slideDown();
+          }
         }
       });
-    },250));
+    },300));
   });
 
   if($('.pop-link').length){
