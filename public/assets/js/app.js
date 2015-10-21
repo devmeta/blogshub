@@ -46,16 +46,36 @@ $(function(){
             .addClass("fa-search");
 
           if(json.posts){
-            var str = '<div class="list-group search-results">';
-            str+='<a href="javascript:void(0)" onclick="$(\'.search-results\').fadeOut();" class="list-group-item text-right"><i class="ion-close"></i></a>';
+            var str = '<div class="feature-list search-results">';
+            str+= '<h1 class="text-center"><i class="ion-search"></i> ' + json.words + ' <span class="badge">' + json.posts.length + '</span></h1>';
+            //str+='<a href="javascript:void(0)" onclick="$(\'.search-results\').fadeOut();" class="list-group-item text-right"><i class="ion-close"></i></a>';
+
             $(json.posts).each(function(i,post) {
-              str+='<a href="/' + post.slug + '" class="list-group-item">' + post.title + '&nbsp;&nbsp;<small><i class="ion-android-time"></i> <em>' + post.updated + '</em></small><br><small>' + post.caption + '</small></a>';
+
+              str+='<div class="col-md-3 col-sm-6 col-xs-12">' + 
+                '<a href="/' + post.slug + '">' +
+                '<img src="' + post.image + '" />' +
+                '<h3 class="feature-title">' + post.title + '</h3>' +
+                '</a>' +
+                '<div class="feature-attr">' +
+                '<i class="ion-android-time"></i> ' + post.created + 
+                '<i class="ion-eye"></i> ' + post.hits;
+
+                if(post.disqus) str+='<i class="ion-chatbubbles"></i> <span class="disqus-comment-count" data-disqus-url="' + post.slug + '">0</span>';
+
+                str+= '</div></div>';
+
+                //str+='<a href="/' + post.slug + '" class="list-group-item">' + post.title + '&nbsp;&nbsp;<small><i class="ion-android-time"></i> <em>' + post.updated + '</em></small><br><small>' + post.caption + '</small></a>';
+
             });
-            str+='</div>';
-            $( ".search" ).after(str);
+            str+='</div><div class="clearfix"></div>';
+            $( ".navbar" )
+              .after(str)
+              .hide()
+              .slideDown();
           }
         }
-      });          
+      });
     },250));
   });
 

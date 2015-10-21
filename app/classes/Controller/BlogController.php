@@ -172,7 +172,9 @@ class BlogController extends \Controller\BaseController  {
 
 			$ors = implode(' or ', $where);
 
-			$posts = $db->fetch('select posts.id, posts.caption, posts.title, posts.slug, posts.updated, posts.user_id, files.name as image 
+			$posts = $db->fetch('select posts.id, posts.caption, 
+				posts.title, posts.slug, posts.created, posts.updated, posts.hits, posts.user_id, 
+				files.name as image 
 				from posts 
 				left join files on files.post_id = posts.id and files.position = 1 
 				left join users on users.id = posts.user_id 
@@ -199,13 +201,18 @@ class BlogController extends \Controller\BaseController  {
 		{
 			foreach($posts as $i => $post)
 			{
+				$post->created = timespan($post->created);
 				$post->updated = timespan($post->updated);
+				//$post->slug = \site_url($post->slug);
+				$post->disqus = (config('blog')->data->disqus OR $post->disqus);
+				$post->image = config()->baseurl . '/upload/posts/sd-' . ( $post->image ? $post->image : 'default' );
 				$post->caption = words($post->caption,30);
 			}
 		}
 
 		return [
 			'count' => count($posts),
+			'words'	=> $words,
 			'posts' => $posts
 		];
 	}	

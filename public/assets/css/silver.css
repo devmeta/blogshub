@@ -22,3 +22,7 @@ body > .container {
 .label {
   padding: 0.4em .6em .3em;
 }
+
+.search-results {
+  background:#333;
+}

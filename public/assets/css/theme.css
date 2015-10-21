@@ -131,15 +131,14 @@ h4 small {
   left: 28px;
 }
 
-.navbar .search-results {
-  width:95%;
-  position: fixed;
-  right:10px;
-  top: 70px;
+.search-results {
+  display: inline-block;
+  background:#B9B7C5;
+  padding: 1em 2em;
 }
 
-.navbar .search-results a {
-  color:#333!important;
+.search-results h1 {
+  color:#fff;
 }
 
 .content {
