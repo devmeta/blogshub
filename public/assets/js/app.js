@@ -44,7 +44,7 @@ $(function(){
             .removeClass("ion-funnel")
             .addClass("ion-ios-search-strong");
 
-          var str = '<h1 class="page-title text-center"><i class="ion-ios-search-strong"></i> ' + json.words + ' <span class="badge">' + json.count + '</span>&nbsp;&nbsp;&nbsp;<i class="ion-close-circle hand" onclick="$(\'.search-results\').slideUp();"></i></h1>';
+          var str = '<h1 class="page-title text-center"><i class="ion-ios-search-strong"></i> ' + words + ' <span class="badge">' + json.count + '</span>&nbsp;&nbsp;&nbsp;<i class="ion-close-circle hand" onclick="$(\'.search-results\').slideUp();"></i></h1>';
 
           if(json.posts){
             str+= '<div class="feature-list search-list">';
