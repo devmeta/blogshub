@@ -201,17 +201,20 @@ class BlogController extends \Controller\BaseController  {
 		{
 			foreach($posts as $i => $post)
 			{
+
+				$image = (( $post->image AND is_file( __DIR__ . '/../../../../blogs/public/upload/posts/sd-' . $post->image )) ? $post->image : 'default.jpg' );
 				$post->created = timespan($post->created);
 				$post->updated = timespan($post->updated);
 				//$post->slug = \site_url($post->slug);
 				$post->disqus = (config('blog')->data->disqus OR $post->disqus);
-				$post->image = config()->baseurl . '/upload/posts/sd-' . ( $post->image ? $post->image : 'default' );
+				$post->image = config()->baseurl . '/upload/posts/sd-' . $image;
 				$post->caption = words($post->caption,30);
 			}
 		}
 
 		return [
 			'count' => count($posts),
+
 			'words'	=> $words,
 			'posts' => $posts
 		];

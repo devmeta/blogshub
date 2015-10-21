@@ -50,8 +50,6 @@ $(function(){
             //str+='<a href="javascript:void(0)" onclick="$(\'.search-results\').fadeOut();" class="list-group-item text-right"><i class="ion-close"></i></a>';
 
           if(json.posts){
-
-
             $(json.posts).each(function(i,post) {
 
               str+='<div class="col-md-3 col-sm-6 col-xs-12">' + 
@@ -70,15 +68,12 @@ $(function(){
                 //str+='<a href="/' + post.slug + '" class="list-group-item">' + post.title + '&nbsp;&nbsp;<small><i class="ion-android-time"></i> <em>' + post.updated + '</em></small><br><small>' + post.caption + '</small></a>';
 
             });
-          } else {
-
-
-          }
-
+          } 
 
           str+='</div><div class="clearfix"></div>';
           $( ".navbar" )
             .after(str)
+            .next()
             .hide()
             .slideDown();
 

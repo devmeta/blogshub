@@ -134,8 +134,19 @@ h4 small {
 .search-results {
   width: 100%;
   display: inline-block;
-  background:#B9B7C5;
+  background-color:#B9B7C5;
   padding: 1em 2em;
+}
+
+.bg-blur {
+  background-image:url(/assets/img/backgrounds/phone.jpg);
+  width: 50% !important;
+  height: 50% !important;
+  transform-origin: 1% 1% 0px;
+  transform: scale(2.1);
+  background-size: cover;
+  filter: blur(2px);
+  z-index: 0;
 }
 
 .search-results h1 {
