@@ -16,7 +16,7 @@
 	<?php if( config('blog')->data ):?>
 		<div class="collapse navbar-collapse" id="navbar-md">
 	        <div class="pull-right search">
-	          <i class='ion-search'></i>
+	          <i class='ion-ios-search-strong'></i>
 	          <input type="text" class="form-control" placeholder="Buscar" /> &nbsp;&nbsp;
 	        </div>
 		</div>

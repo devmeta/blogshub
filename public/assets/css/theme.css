@@ -132,6 +132,7 @@ h4 small {
 }
 
 .search-results {
+  width: 100%;
   display: inline-block;
   background:#B9B7C5;
   padding: 1em 2em;

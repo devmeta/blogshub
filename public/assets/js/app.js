@@ -21,16 +21,16 @@ $(function(){
     if(words.length < 4){
 
       $this.prev()
-        .removeClass("fa-spinner faa-spin animated")
-        .addClass("fa-search");
+        .removeClass("ion-funnel")
+        .addClass("ion-ios-search-strong");
 
       $( ".search-results").remove();
       return false;
     }
     
     $this.prev()
-      .removeClass("fa-search")
-      .addClass("fa-spinner faa-spin animated");
+      .removeClass("ion-ios-search-strong")
+      .addClass("ion-funnel");
 
     $.data(this, 'timer', setTimeout(function() {
       $.ajax({
@@ -45,10 +45,12 @@ $(function(){
             .removeClass("fa-spinner faa-spin animated")
             .addClass("fa-search");
 
-          if(json.posts){
             var str = '<div class="feature-list search-results">';
             str+= '<h1 class="text-center"><i class="ion-search"></i> ' + json.words + ' <span class="badge">' + json.posts.length + '</span></h1>';
             //str+='<a href="javascript:void(0)" onclick="$(\'.search-results\').fadeOut();" class="list-group-item text-right"><i class="ion-close"></i></a>';
+
+          if(json.posts){
+
 
             $(json.posts).each(function(i,post) {
 
@@ -68,12 +70,18 @@ $(function(){
                 //str+='<a href="/' + post.slug + '" class="list-group-item">' + post.title + '&nbsp;&nbsp;<small><i class="ion-android-time"></i> <em>' + post.updated + '</em></small><br><small>' + post.caption + '</small></a>';
 
             });
-            str+='</div><div class="clearfix"></div>';
-            $( ".navbar" )
-              .after(str)
-              .hide()
-              .slideDown();
+          } else {
+
+
           }
+
+
+          str+='</div><div class="clearfix"></div>';
+          $( ".navbar" )
+            .after(str)
+            .hide()
+            .slideDown();
+
         }
       });
     },250));
