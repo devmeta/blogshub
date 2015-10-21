@@ -53,3 +53,7 @@
 	background:#000;
 	font-weight: bold;
 }
+
+.feature-attr i {
+	margin-left: 0.5em;
+}
