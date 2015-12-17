@@ -543,7 +543,7 @@ function to_xml($object, $root = 'data', $xml = NULL, $unknown = 'element', $doc
 		{
 			$v = (array) $v;
 			$node = array_diff_key($v, array_keys(array_keys($v))) ? $xml->addChild($k) : $xml;
-			self::from($v, $k, $node);
+			//self::from($v, $k, $node);
 		}
 	}
 
