@@ -24,7 +24,8 @@ define('PATH', parse_url(getenv('REQUEST_URI'), PHP_URL_PATH));
 define('REQUEST_METHOD', getenv('REQUEST_METHOD'));
 
 // Subdomain
-define('SD', array_shift((explode(".",$_SERVER['HTTP_HOST']))));
+$host = explode(".",$_SERVER['HTTP_HOST']);
+define('SD', array_shift($host));
 
 // Extension of all PHP files
 define('EXT', '.php');
