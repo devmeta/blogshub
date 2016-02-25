@@ -106,9 +106,9 @@ $(function(){
     });
   }
 
-  if($('.twcnt').length){
+  /*if($('.twcnt').length){
     share.jsonRequest('http://urls.api.twitter.com/1/urls/count.json?url=' + location.href + '&callback=share.twitterCountCallback');
-  }
+  }*/
 
   if($('.fbcnt').length){
     share.jsonRequest('http://api.facebook.com/restserver.php?method=links.getStats&urls=' + location.href + '&callback=share.fbCountCallback');
