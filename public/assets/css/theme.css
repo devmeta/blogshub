@@ -132,10 +132,12 @@ h4 small {
 }
 
 .search-results {
-  width: 100%;
   display: inline-block;
+  position: fixed;
+  width: 100%;
   background-color:#B9B7C5;
   padding: 1em 2em;
+  z-index: 999999;  
 }
 
 .bg-blur {
