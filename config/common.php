@@ -644,6 +644,7 @@ function timespan($ts)
 		$span = $mins . "’";
 	}
 	
+	if(date('Y',$ts) != date('Y')) $span = $span . " " . date('Y',$ts);
 	return $span;
 }
 
