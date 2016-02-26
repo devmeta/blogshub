@@ -1,6 +1,6 @@
 <div class="col-md-9">
   	<h1 class="page-header"><?php echo $entry->title;?></h1>
-    <blockquote><em><?php echo $entry->caption;?><br><?php echo date('d M Y',$entry->created);?></em> <?php echo urlencode(PATH);?></blockquote>
+    <blockquote><em><?php echo $entry->caption;?><br><?php echo date('d M Y',$entry->created);?></em> <?php echo $_SERVER['SERVER_NAME'] . urlencode(PATH);?></blockquote>
 
 <?php if($entry->tags()):?>
     <div class="alert"> 
@@ -11,11 +11,11 @@
 <?php endif;?>
 
     <div class="social">
-        <a target="_blank" class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo urlencode(PATH);?>" title="Facebook" data-external="true" data-placement="top"><i class="ion-social-facebook"></i><span class="badge social-count fbcnt"></span> </a>
-        <a target="_blank" class="twitter" href="https://twitter.com/intent/tweet?text=<?php print $entry->title;?> <?php echo PATH;?>" title="Twitter" data-external="true" data-placement="top"><i class="ion-social-twitter"></i><span class="badge social-count twcnt"></span></a>
-        <a target="_blank" class="googleplus" href="https://plus.google.com/share?url=<?php echo PATH;?>" title="Google+" data-external="true" data-placement="top"><i class="ion-social-googleplus"></i></a>
-        <a target="_blank" class="linkedin" href="https://www.linkedin.com/cws/share?url=<?php echo PATH;?>" title="Linkedin" data-external="true" data-placement="top"><i class="ion-social-linkedin"></i></a>
-        <a target="_blank" class="pinterest" href="http://pinterest.com/pin/create/link/?url=<?php echo PATH;?>&media=&description=<?php print $entry->title;?>" title="Pinterest" data-external="true" data-placement="top"><i class="ion-social-pinterest"></i></a>
+        <a target="_blank" class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $_SERVER['SERVER_NAME'] . urlencode(PATH);?>" title="Facebook" data-external="true" data-placement="top"><i class="ion-social-facebook"></i><span class="badge social-count fbcnt"></span> </a>
+        <a target="_blank" class="twitter" href="https://twitter.com/intent/tweet?text=<?php print $entry->title;?> <?php echo $_SERVER['SERVER_NAME'] . PATH;?>" title="Twitter" data-external="true" data-placement="top"><i class="ion-social-twitter"></i><span class="badge social-count twcnt"></span></a>
+        <a target="_blank" class="googleplus" href="https://plus.google.com/share?url=<?php echo $_SERVER['SERVER_NAME'] . PATH;?>" title="Google+" data-external="true" data-placement="top"><i class="ion-social-googleplus"></i></a>
+        <a target="_blank" class="linkedin" href="https://www.linkedin.com/cws/share?url=<?php echo $_SERVER['SERVER_NAME'] . PATH;?>" title="Linkedin" data-external="true" data-placement="top"><i class="ion-social-linkedin"></i></a>
+        <a target="_blank" class="pinterest" href="http://pinterest.com/pin/create/link/?url=<?php echo $_SERVER['SERVER_NAME'] . PATH;?>&media=&description=<?php print $entry->title;?>" title="Pinterest" data-external="true" data-placement="top"><i class="ion-social-pinterest"></i></a>
     </div>    
         
     <div class="slick-dotted">
@@ -31,11 +31,11 @@
     </div>
 
     <div class="social">
-        <a target="_blank" class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo urlencode(PATH);?>" title="Facebook" data-external="true" data-placement="top"><i class="ion-social-facebook"></i><span class="badge social-count fbcnt"></span></a>
-        <a target="_blank" class="twitter" href="https://twitter.com/intent/tweet?text=<?php print $entry->title;?> <?php echo PATH;?>" title="Twitter" data-external="true" data-placement="top"><i class="ion-social-twitter"></i><span class="badge social-count twcnt"></span></a>
-        <a target="_blank" class="googleplus" href="https://plus.google.com/share?url=<?php echo PATH;?>" title="Google+" data-external="true" data-placement="top"><i class="ion-social-googleplus"></i></a>
-        <a target="_blank" class="linkedin" href="https://www.linkedin.com/cws/share?url=<?php echo PATH;?>" title="Linkedin" data-external="true" data-placement="top"><i class="ion-social-linkedin"></i></a>
-        <a target="_blank" class="pinterest" href="http://pinterest.com/pin/create/link/?url=<?php echo PATH;?>&media=&description=<?php print $entry->title;?>" title="Pinterest" data-external="true" data-placement="top"><i class="ion-social-pinterest"></i></a>
+        <a target="_blank" class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $_SERVER['SERVER_NAME'] . urlencode(PATH);?>" title="Facebook" data-external="true" data-placement="top"><i class="ion-social-facebook"></i><span class="badge social-count fbcnt"></span></a>
+        <a target="_blank" class="twitter" href="https://twitter.com/intent/tweet?text=<?php print $entry->title;?> <?php echo $_SERVER['SERVER_NAME'] . PATH;?>" title="Twitter" data-external="true" data-placement="top"><i class="ion-social-twitter"></i><span class="badge social-count twcnt"></span></a>
+        <a target="_blank" class="googleplus" href="https://plus.google.com/share?url=<?php echo $_SERVER['SERVER_NAME'] . PATH;?>" title="Google+" data-external="true" data-placement="top"><i class="ion-social-googleplus"></i></a>
+        <a target="_blank" class="linkedin" href="https://www.linkedin.com/cws/share?url=<?php echo $_SERVER['SERVER_NAME'] . PATH;?>" title="Linkedin" data-external="true" data-placement="top"><i class="ion-social-linkedin"></i></a>
+        <a target="_blank" class="pinterest" href="http://pinterest.com/pin/create/link/?url=<?php echo $_SERVER['SERVER_NAME'] . PATH;?>&media=&description=<?php print $entry->title;?>" title="Pinterest" data-external="true" data-placement="top"><i class="ion-social-pinterest"></i></a>
     </div>    
 
     <hr>
