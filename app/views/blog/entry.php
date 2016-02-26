@@ -1,5 +1,5 @@
 <div class="col-md-9">
-  	<h1 class="page-header">--- <?php echo $entry->title;?></h1>
+  	<h1 class="page-header"><?php echo $entry->title;?></h1>
     <blockquote><em><?php echo $entry->caption;?><br><?php echo date('d M Y',$entry->created);?></em></blockquote>
 
 <?php if($entry->tags()):?>
