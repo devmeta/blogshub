@@ -11,7 +11,7 @@
 <?php endif;?>
 
     <div class="social">
-        <a target="_blank" class="facebook" href="https://www.facebook.com/sharer/sharer.php?url=<?php echo urlencode(PATH);?>&title=<?php print $entry->title;?>" title="Facebook" data-external="true" data-placement="top"><i class="ion-social-facebook"></i><span class="badge social-count fbcnt"></span></a>
+        <a target="_blank" class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo urlencode(PATH);?>" title="Facebook" data-external="true" data-placement="top"><i class="ion-social-facebook"></i><span class="badge social-count fbcnt"></span></a>
         <a target="_blank" class="twitter" href="https://twitter.com/intent/tweet?text=<?php print $entry->title;?> <?php echo PATH;?>" title="Twitter" data-external="true" data-placement="top"><i class="ion-social-twitter"></i><span class="badge social-count twcnt"></span></a>
         <a target="_blank" class="googleplus" href="https://plus.google.com/share?url=<?php echo PATH;?>" title="Google+" data-external="true" data-placement="top"><i class="ion-social-googleplus"></i></a>
         <a target="_blank" class="linkedin" href="https://www.linkedin.com/cws/share?url=<?php echo PATH;?>" title="Linkedin" data-external="true" data-placement="top"><i class="ion-social-linkedin"></i></a>
@@ -31,7 +31,7 @@
     </div>
 
     <div class="social">
-        <a target="_blank" class="facebook" href="https://www.facebook.com/sharer/sharer.php?url=<?php echo urlencode(PATH);?>&title=<?php print $entry->title;?>" title="Facebook" data-external="true" data-placement="top"><i class="ion-social-facebook"></i><span class="badge social-count fbcnt"></span></a>
+        <a target="_blank" class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo urlencode(PATH);?>" title="Facebook" data-external="true" data-placement="top"><i class="ion-social-facebook"></i><span class="badge social-count fbcnt"></span></a>
         <a target="_blank" class="twitter" href="https://twitter.com/intent/tweet?text=<?php print $entry->title;?> <?php echo PATH;?>" title="Twitter" data-external="true" data-placement="top"><i class="ion-social-twitter"></i><span class="badge social-count twcnt"></span></a>
         <a target="_blank" class="googleplus" href="https://plus.google.com/share?url=<?php echo PATH;?>" title="Google+" data-external="true" data-placement="top"><i class="ion-social-googleplus"></i></a>
         <a target="_blank" class="linkedin" href="https://www.linkedin.com/cws/share?url=<?php echo PATH;?>" title="Linkedin" data-external="true" data-placement="top"><i class="ion-social-linkedin"></i></a>
