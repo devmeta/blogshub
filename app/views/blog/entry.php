@@ -58,7 +58,6 @@
 <?php endif;?>
 </div>
 <div class="col-md-3">
-    <?php include SP . 'app/views/shared/sidebar.php';?>
     <div class="row">
         <div class="feature-list">
         <?php foreach($related as $post):?>
@@ -79,4 +78,5 @@
         <?php endforeach;?>
         </div>
     </div>
+    <?php include SP . 'app/views/shared/sidebar.php';?>
 </div>
