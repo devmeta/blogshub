@@ -5,6 +5,10 @@ class BlogController extends \Controller\BaseController  {
 	static $layout = "default";
 		
 	public function index(){
+
+		if( empty( config('blog')->data->id ))
+			return \Bootie\App::view('errors.missing-blog');
+
 		return \Bootie\App::view('blog.index',[
 			'posts'	=> \Model\Post::paginate([
 				'id' => 'DESC'

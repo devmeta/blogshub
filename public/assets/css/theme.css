@@ -89,7 +89,8 @@ h4 small {
 
 .navbar-brand {
   color: #4875B4;
-  padding: 7px;
+  padding: 3px;
+  position: absolute;
 }
 
 .navbar-brand i {
@@ -124,6 +125,8 @@ h4 small {
   display: inline-block;
   padding-left: 30px;
   width: 220px;
+  height:36px;
+  border: 2px solid rgba(12, 12, 12, 0.42);
 }
 
 .navbar .search i {
