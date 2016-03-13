@@ -112,6 +112,7 @@ h4 small {
   position: fixed;
   right: 30px;
   top: 20px;  
+  z-index: 9999;
 }
 
 #opensearch{
