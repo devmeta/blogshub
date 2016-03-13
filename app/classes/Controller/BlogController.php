@@ -149,8 +149,6 @@ class BlogController extends \Controller\BaseController  {
 
 	public function search(){
 
-		global $db;
-
 		extract($_POST);
 
 		$posts = [];
@@ -175,6 +173,8 @@ class BlogController extends \Controller\BaseController  {
 			$literal = utf8_decode(implode(' ',$keys));
 
 			$ors = implode(' or ', $where);
+
+			$db = \Bootie\App::load_database();
 
 			$posts = $db->fetch('select posts.id, posts.caption, 
 				posts.title, posts.slug, posts.created, posts.updated, posts.hits, posts.user_id, 
