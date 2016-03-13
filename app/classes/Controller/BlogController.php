@@ -155,9 +155,9 @@ class BlogController extends \Controller\BaseController  {
 
 		$posts = [];
 
-		if( isset($words) && strlen($words) > 3){
+		if( isset($q) && strlen($q) > 3){
 
-			$keys = array_filter(array_values(explode(" ",$words)));
+			$keys = array_filter(array_values(explode(" ",$q)));
 			$where = [];
 
 			if(count($keys) > 10){
@@ -218,9 +218,84 @@ class BlogController extends \Controller\BaseController  {
 
 		return [
 			'count' => count($posts),
-
-			'words'	=> $words,
+			'words'	=> $q,
 			'posts' => $posts
 		];
 	}	
+
+	public function getsearch(){
+
+		global $db;
+
+		extract($_GET);
+
+		$posts = [];
+
+		if( isset($q) && strlen($q) > 3){
+
+			$keys = array_filter(array_values(explode(" ",$q)));
+			$where = [];
+
+			if(count($keys) > 10){
+				$keys = array_slice($keys, 0, 10);
+			}
+
+			foreach($keys as $key){
+				if(strlen($key) > 2){
+					$where[]= " posts.title like '%" . utf8_decode($key) . "%' ";
+					$where[]= " posts.caption like '%" . utf8_decode($key) . "%' ";
+					$where[]= " posts.content like '%" . utf8_decode($key) . "%' ";
+				}
+			}
+
+			$literal = utf8_decode(implode(' ',$keys));
+
+			$ors = implode(' or ', $where);
+
+			$posts = $db->fetch('select posts.id, posts.caption, 
+				posts.title, posts.slug, posts.created, posts.updated, posts.hits, posts.user_id, 
+				files.name as image 
+				from posts 
+				left join files on files.post_id = posts.id and files.position = 1 
+				left join users on users.id = posts.user_id 
+				where posts.user_id = \'' . config('blog')->data->id . '\' 
+				and posts.lang = users.lang  
+				and posts.privacy_id = 1 
+				and (' . $ors . ') 
+				group by posts.id 
+				order by case 
+				when posts.title like \'' . $literal . ' %\' then 0
+				when posts.title like \'' . $literal . ' %\' then 1
+				when posts.title like \'% ' . $literal . ' %\' then 2
+				when posts.caption like \'' . $literal . ' %\' then 0
+				when posts.caption like \'' . $literal . ' %\' then 1
+				when posts.caption like \'% ' . $literal . ' %\' then 2
+				when posts.content like \'' . $literal . ' %\' then 0
+				when posts.content like \'' . $literal . ' %\' then 1
+				when posts.content like \'% ' . $literal . ' %\' then 2
+				else 3 end');
+
+		}
+
+		if(count($posts))
+		{
+			foreach($posts as $i => $post)
+			{
+
+				$image = (( $post->image AND is_file( __DIR__ . '/../../../../blogs/public/upload/posts/sd-' . $post->image )) ? $post->image : 'default.jpg' );
+				$post->created = timespan($post->created);
+				$post->updated = timespan($post->updated);
+				//$post->slug = \site_url($post->slug);
+				$post->disqus = (config('blog')->data->disqus OR $post->disqus);
+				$post->image = config()->baseurl . '/upload/posts/sd-' . $image;
+				$post->caption = words($post->caption,30);
+			}
+		}
+
+		return \Bootie\App::view('blog.index',[
+			'posts'	=> $posts,
+			'tags'	=> self::find_all_tags(),
+			'words'	=> $q,
+		]);
+	}		
 }

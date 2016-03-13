@@ -36,7 +36,7 @@ $(function(){
       $.ajax({
         method:'post',
         url:'/search',
-        data : { words : words },
+        data : { q : words },
         cache: false,
         success: function(json){
 
