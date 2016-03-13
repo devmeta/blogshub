@@ -3,6 +3,8 @@
 require('../bootstrap/bootstrap.php');
 require('../config/common.php');
 require('../config/routes.php');
+require('../config/preferences.php');
+
 
 /*
  * If cache option is enabled AND this url is grabbed

@@ -701,5 +701,12 @@ function words($str,$words=30,$del='...')
 	return str_word_count($str) < $words ? $str : implode(' ',array_slice(explode(' ',$str),0,$words)) . ' ' . $del;
 }
 
+function locale($key,$language = null)
+{
+	return \Model\Word::select('column','word_' . ($language?:LOCALE),null,[
+		'word_key' => $key
+	])?:$key;
+}
+
 
 // End

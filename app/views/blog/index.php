@@ -18,7 +18,7 @@
                 </div>
             </div>
         <?php endforeach;?>
-        </div>
+        </div><div class="clearfix"></div>
         <?php $posts[0]->paginator();?>
     </div>
     <?php endif;?>

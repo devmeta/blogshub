@@ -3,7 +3,7 @@
     <blockquote>
 		<em>.</em>
 	</blockquote>
-  	<p>Try with our <a href="/search?q=<?php print $hostname;?>">search</a> or go to <a href="http://blog.devmeta.net/posts"Read our latest posts.</p>
+  	<p>Try with our <a href="/search?q=<?php print SD;?>">search</a> or go to <a href="http://blog.devmeta.net/posts"Read our latest posts.</p>
 
   	<!-- Search -->
 
