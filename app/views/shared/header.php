@@ -16,10 +16,22 @@
 	<?php if( config('blog')->data ):?>
 		<div class="collapse navbar-collapse" id="navbar-md">
 	        <div class="pull-right search">
-	          <i class='ion-ios-search-strong'></i>
-	          <input type="text" class="form-control input-lg" placeholder="Buscar" /> &nbsp;&nbsp;
+	        	<a id="opensearch" href="javascript:void(0)">
+	          		<i class='ion-ios-search-strong'></i>
+	          	</a>
 	        </div>
 		</div>
     <?php endif;?>
 	</div>
 </nav>
+
+<div class="search-results text-center hide">
+	<a id="closesearch" href="javascript:void(0)">
+		<i class='ion-close'></i>		
+	</a>
+    <div class="search">
+      <i class='ion-ios-search-strong'></i>
+      <input type="text" class="form-control input-lg" placeholder="Buscar" /> &nbsp;&nbsp;
+    </div>
+	<div class="search-posts"></div>
+</div>

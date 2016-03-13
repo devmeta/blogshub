@@ -1,5 +1,12 @@
 $(function(){
 
+  $('#closesearch').click(function(){
+    $('.search-results').slideUp();
+  });
+
+  $('#opensearch').click(function(){
+    $('.search-results').removeClass('hide').hide().slideDown();
+  });
   if($('.slick-dotted').length){
     $('.slick-dotted').slick({    
       dots: true,
@@ -24,7 +31,6 @@ $(function(){
         .removeClass("ion-funnel")
         .addClass("ion-ios-search-strong");
 
-      $( ".search-results").remove();
       return false;
     }
     
@@ -66,14 +72,12 @@ $(function(){
 
           str+='<div class="clearfix"></div>';
 
-          if( $( ".search-results").length){
-            $( ".search-results").html(str);
+          if( $( ".search-posts").length){
+            $( ".search-posts").html(str);
           } else {
-            $( ".navbar" )
-              .after('<div class="search-results">' + str + '</div>')
-              .next()
-              .hide()
-              .slideDown();
+            $( ".search-posts" ).hide()
+              .html(str)
+              .fadeIn();
           }
         }
       });
