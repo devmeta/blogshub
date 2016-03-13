@@ -1,6 +1,6 @@
 <nav class="navbar navbar-fixed-top" role="navigation">
 	<div class="container">
-		<div class="navbar-header">
+		<div class="navbar-header pull-left">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-md">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
@@ -14,13 +14,11 @@
 			</a>
 		</div>
 	<?php if( config('blog')->data ):?>
-		<div class="collapse navbar-collapse" id="navbar-md">
 	        <div class="pull-right search">
 	        	<a id="opensearch" href="javascript:void(0)">
 	          		<i class='ion-ios-search-strong'></i>
 	          	</a>
 	        </div>
-		</div>
     <?php endif;?>
 	</div>
 </nav>

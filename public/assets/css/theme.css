@@ -89,7 +89,7 @@ h4 small {
 
 .navbar-brand {
   color: #4875B4;
-  padding: 3px;
+  padding: 10px;
   position: absolute;
 }
 
@@ -118,7 +118,7 @@ h4 small {
 #opensearch{
   font-size: 30px;
   font-weight: bold;
-  padding: 0 15px;
+  padding: 6px;
   display: inline-block;
 }
 
@@ -149,7 +149,7 @@ h4 small {
 
 .search-results {
   display: inline-block;
-  position: fixed;
+  position: absolute;
   top: 0px;
   width: 100%;
   height: 100%;
