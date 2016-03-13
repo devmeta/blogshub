@@ -1,5 +1,5 @@
 <div class="col-md-12">
-	<h1 class="title-hero text-muted"><i class='ion-bug'></i> We couln't find this blog.</h1>
+	<h1 class="title-hero text-muted"><i class='ion-bug'></i> We could not find this blog.</h1>
     <blockquote>
 		<em>.</em>
 	</blockquote>
