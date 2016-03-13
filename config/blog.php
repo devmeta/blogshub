@@ -6,7 +6,7 @@ $config = [
 	) ?: (object) [
 		'id' => 0,
 		'title' => locale('missing_blog'),
-		'caption' => locale('missing_blog_caption'),
+		'caption' => '',
 		'username' => 'missing_blog',
 		'icon' => 'ion-speakerphone',
 		'style' => (object) [ 'name' => 'silver' ]
