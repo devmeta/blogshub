@@ -29,7 +29,7 @@
 	</a>
     <div class="search">
       <i class='ion-ios-search-strong'></i>
-      <input type="text" class="form-control input-lg" placeholder="Buscar" /> &nbsp;&nbsp;
+      <input type="text" class="form-control input-lg" placeholder="Buscar" />
     </div>
 	<div class="search-posts"></div>
 </div>
