@@ -146,6 +146,7 @@ h4 small {
   display: inline-block;
   position: relative;
   left: 28px;
+  width: 13px!important;
 }
 
 .search-results {
