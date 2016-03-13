@@ -1,11 +1,11 @@
 $(function(){
 
   $('#closesearch').click(function(){
-    $('.search-results').slideUp();
+    $('.search-results').slideUp(150);
   });
 
   $('#opensearch').click(function(){
-    $('.search-results').removeClass('hide').hide().slideDown();
+    $('.search-results').removeClass('hide').hide().slideDown(250);
   });
   if($('.slick-dotted').length){
     $('.slick-dotted').slick({    

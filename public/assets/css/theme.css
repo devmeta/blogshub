@@ -116,6 +116,14 @@ h4 small {
   font-size: 25px;
 }
 
+#closesearch i {
+  color: rgba(255, 255, 255, 0.45)!important;
+}
+
+#closesearch i:hover {
+  color: rgba(255, 255, 255, 0.9)!important;
+}
+
 #opensearch{
   font-size: 30px;
   font-weight: bold;

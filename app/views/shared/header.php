@@ -16,7 +16,7 @@
 	<?php if( config('blog')->data ):?>
 	        <div class="pull-right search">
 	        	<a id="opensearch" href="javascript:void(0)">
-	          		<i class='ion-ios-search-strong'></i>
+	          		<i class='ion-search'></i>
 	          	</a>
 	        </div>
     <?php endif;?>
@@ -28,7 +28,7 @@
 		<i class='ion-close'></i>		
 	</a>
     <div class="search">
-      <i class='ion-ios-search-strong'></i>
+      <i class='ion-search'></i>
       <input type="text" class="form-control input-lg" placeholder="Buscar" />
     </div>
 	<div class="search-posts"></div>
