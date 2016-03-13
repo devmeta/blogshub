@@ -6,7 +6,9 @@ $(function(){
 
   $('#opensearch').click(function(){
     $('.search-results').removeClass('hide').hide().slideDown(250);
+    $('.search input').first().focus();
   });
+
   if($('.slick-dotted').length){
     $('.slick-dotted').slick({    
       dots: true,

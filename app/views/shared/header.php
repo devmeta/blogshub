@@ -29,7 +29,7 @@
 	</a>
     <div class="search">
       <i class='ion-search'></i>
-      <input type="text" class="form-control input-lg" placeholder="Buscar" />
+      <input type="text" class="form-control input-lg" placeholder="<?php print locale('search');?>" />
     </div>
 	<div class="search-posts"></div>
 </div>
