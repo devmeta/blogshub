@@ -177,7 +177,7 @@ class BlogController extends \Controller\BaseController  {
 			$db = \Bootie\App::load_database();
 
 			$posts = $db->fetch('select posts.id, posts.caption, 
-				posts.title, posts.slug, posts.created, posts.updated, posts.hits, posts.user_id, 
+				posts.title, posts.slug, posts.created, posts.updated, posts.hits, posts.disqus, posts.user_id, 
 				files.name as image 
 				from posts 
 				left join files on files.post_id = posts.id and files.position = 1 
