@@ -18,6 +18,8 @@ class BaseController {
 			//$geoip = curl_request('http://www.telize.com/geoip/' . $ip);
 			$hit = new \Model\Hit();
 
+			var_dump($geoip);
+			
 			if($geoip)
 			{
 				if(isset($geoip->city))
