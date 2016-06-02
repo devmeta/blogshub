@@ -37,12 +37,12 @@ class BaseController {
 
 				if(isset($geoip->latitude))
 				{
-					$hit->latitude = $geoip->latitude;
+					$hit->latitude = $geoip->lat;
 				}
 
 				if(isset($geoip->longitude))
 				{
-					$hit->longitude = $geoip->longitude;
+					$hit->longitude = $geoip->lon;
 				}
 			}
 
