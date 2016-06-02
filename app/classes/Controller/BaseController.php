@@ -60,7 +60,8 @@ class BaseController {
 
 	private function ip2geolocation($ip)
 	{
-	    $apiurl = 'http://freegeoip.net/json/' . $ip;
+	    $apiurl = 'http://ip-api.com/json/' . $ip;
+	    //$apiurl = 'http://freegeoip.net/json/' . $ip;
 	    //$apiurl = 'http://www.telize.com/geoip/' . $ip;
 	    
 	    $ch = curl_init();
