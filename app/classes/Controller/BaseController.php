@@ -15,11 +15,8 @@ class BaseController {
 
 			$blog = config('blog');
 			$geoip = self::ip2geolocation($ip);
-			//$geoip = curl_request('http://www.telize.com/geoip/' . $ip);
 			$hit = new \Model\Hit();
 
-			var_dump($geoip);
-			
 			if($geoip)
 			{
 				if(isset($geoip->city))
@@ -37,12 +34,12 @@ class BaseController {
 					$hit->region = $geoip->region;
 				}
 
-				if(isset($geoip->latitude))
+				if(isset($geoip->lat))
 				{
 					$hit->latitude = $geoip->lat;
 				}
 
-				if(isset($geoip->longitude))
+				if(isset($geoip->lon))
 				{
 					$hit->longitude = $geoip->lon;
 				}
