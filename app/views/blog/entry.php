@@ -29,6 +29,12 @@
     <div class="entry-content">
         <?php echo str_replace("/upload/",config()->baseurl . "/upload/",$entry->content);?>
     </div>
+<?php if($entry->source):?>
+    <div class="entry-content">
+        <?php print locale('source');?>: <a href="<?php echo $entry->source;?>" target="_blank"><?php echo $entry->source;?></a>
+    </div>
+
+<?php endif;?>
 
     <div class="social">
         <a target="_blank" class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo config()->blogurl . urlencode(PATH);?>" title="Facebook" data-external="true" data-placement="top"><i class="ion-social-facebook"></i><span class="badge social-count fbcnt"></span></a>
