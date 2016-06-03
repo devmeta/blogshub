@@ -190,7 +190,6 @@ function token()
 function log_message($message)
 {
 	$path = SP . 'storage/log/' . date('Y-m-d') . '.log';
-
 	// Append date and IP to log message
 	return error_log(date('H:i:s ') . getenv('REMOTE_ADDR') . " $message\n", 3, $path);
 }

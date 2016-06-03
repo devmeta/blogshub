@@ -33,6 +33,7 @@ return array(
     'css.default' => array(
         '//assets/css/bootstrap.min.css', 
         '//assets/css/ionicons.min.css', 
+        '//assets/css/typicons/font/typicons.min.css',
         '//assets/css/slick.css',
         '//assets/css/theme.css',
         '//assets/css/postbox.css',

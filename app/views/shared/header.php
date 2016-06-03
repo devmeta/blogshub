@@ -25,10 +25,10 @@
 
 <div class="search-results text-center hide">
 	<a id="closesearch" href="javascript:void(0)">
-		<i class='ion-close'></i>		
+		<span class='typcn typcn-times'></span>
 	</a>
     <div class="search">
-      <i class='ion-search'></i>
+      <span class='typcn typcn-zoom-in'></span>
       <input type="text" class="form-control input-lg" placeholder="<?php print locale('search');?>" />
     </div>
 	<div class="search-posts"></div>

@@ -27,18 +27,15 @@ $(function(){
     var $this = $(this);
     var words = $this.val();
 
-    if(words.length < 4){
+    $this.prev()
+      .removeClass()
+      .addClass("typcn typcn-database");
 
-      $this.prev()
-        .removeClass("ion-funnel")
-        .addClass("ion-ios-search-strong");
-
-      return false;
+    if(words.length < 4 || words.length > 200){
+        $( ".search-posts").html("<span class='text-muted'>Alphanumeric between 4 and 200</span>");
+        return false;
     }
     
-    $this.prev()
-      .removeClass("ion-ios-search-strong")
-      .addClass("ion-funnel");
 
     $.data(this, 'timer', setTimeout(function() {
       $.ajax({
@@ -48,11 +45,11 @@ $(function(){
         cache: false,
         success: function(json){
 
-          $this.prev()
-            .removeClass("ion-funnel")
-            .addClass("ion-ios-search-strong");
+          var str = '<h1 class="page-title text-center">' + words + ' <span class="badge">' + json.count + '</span>&nbsp;&nbsp;&nbsp;<i class="ion-close-circle hand" onclick="$(\'.search-results\').slideUp();"></i></h1>';
 
-          var str = '<h1 class="page-title text-center"><i class="ion-ios-search-strong"></i> ' + words + ' <span class="badge">' + json.count + '</span>&nbsp;&nbsp;&nbsp;<i class="ion-close-circle hand" onclick="$(\'.search-results\').slideUp();"></i></h1>';
+          $this.prev()
+            .removeClass()
+            .addClass("typcn typcn-zoom-in");
 
           if(json.posts){
             str+= '<div class="feature-list search-list">';
@@ -83,7 +80,7 @@ $(function(){
           }
         }
       });
-    },300));
+    },800));
   });
 
   if($('.pop-link').length){

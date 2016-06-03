@@ -1,7 +1,6 @@
 <footer>
 	<div class="pull-right">
-		<span class="label label-success label-badge" title="Crea tu Blog">
-			<a href="http://blogs.devmeta.net"><i class="ion-mic-c"></i></a>
+		<a href="http://blogs.devmeta.net" class="footer-connect" title="Crea tu Blog"><span class="typcn typcn-microphone x1-2"></span></a>
 		</span>
 	</div>
 </footer>

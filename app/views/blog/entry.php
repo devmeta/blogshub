@@ -19,7 +19,7 @@
     </div>    
         
     <div class="slick-dotted">
-    <?php foreach($entry->files() as $file) : if( ! isset($file->name)) continue;?>
+    <?php foreach($entry->files() as $file) : if( ! isset($file->name) OR $file->position == 1) continue;?>
         <div class="image">
             <img class="img-responsive" src="<?php echo config()->baseurl;?>/upload/posts/sd-<?php echo $file->name;?>">
         </div>

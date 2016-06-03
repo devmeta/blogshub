@@ -5,7 +5,7 @@ class File extends \Bootie\ORM {
     public static $foreign_key = 'file_id';
     public static $order_by = ['position' => "ASC"];
 
-    public static $belongs_to = array(
+    public static $belongs_to = [
         'post' => '\Model\Post',
-    );
+    ];
 }

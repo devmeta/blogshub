@@ -214,12 +214,18 @@ class BlogController extends \Controller\BaseController  {
 				$post->image = config()->baseurl . '/upload/posts/sd-' . $image;
 				$post->caption = words($post->caption,30);
 			}
+
+			return [
+				'count' => count($posts),
+				'words'	=> $q,
+				'posts' => $posts
+			];
 		}
 
 		return [
-			'count' => count($posts),
+			'count' => 0,
 			'words'	=> $q,
-			'posts' => $posts
+			'error' => 1
 		];
 	}	
 
