@@ -46,6 +46,7 @@ class BaseController {
 			}
 
 			$hit->path = $path;
+			$hit->ip = $ip;
 			$hit->user_id = $blog->data->id;
 			$hit->user_agent = getenv('HTTP_USER_AGENT');
 			$hit->created = TIME;
