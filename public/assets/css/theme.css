@@ -93,7 +93,9 @@ h4 small {
   position: absolute;
 }
 
-.navbar-brand i {
+.navbar-brand span {
+  top: 6px;
+  position: relative;
 }
 
 .navbar-brand strong {
@@ -103,9 +105,9 @@ h4 small {
 .navbar-brand em {
   font-size: 13px;
   display: block;
-  font-size: 15px;
   color: #666;
   white-space: nowrap;
+  margin-left: 3.5em;
 }
 
 #closesearch {
