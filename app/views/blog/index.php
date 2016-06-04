@@ -3,11 +3,13 @@
     <div class="row">
         <div class="feature-list">
         <?php foreach($posts as $post):?>
-            <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                 <a href="<?php echo site_url($post->slug);?>">
                     <img src="<?php echo config()->baseurl;?>/upload/posts/sd-<?php echo count($post->files()) ? $post->files()[0]->name : 'default.jpg';?>" />
-                    <h3 class="feature-title"><?php echo words($post->title,15);?></h3>
-                    <span class="feature-caption hide"><?php echo words($post->caption,18);?></span>
+                    <div class="feature-title">
+                        <h3><?php echo words($post->title,15);?></h3>
+                        <p><?php echo words($post->caption,18);?></p>
+                    </div>
                 </a>
                 <div class="feature-attr">
                     <i class="ion-android-time"></i> <?php echo timespan($post->created);?>

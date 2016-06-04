@@ -8,7 +8,7 @@
 				<span class="icon-bar"></span>
 			</button>
 			<a href="/" class="navbar-brand">
-				<i class='<?php echo config('blog')->data->icon ?: 'ion-speakerphone';?> x2 pull-left'></i>
+				<span class='<?php echo config('blog')->data->icon ?: 'typcn typcn-microphone';?> x2 pull-left'></span>
 				<strong><?php echo config('blog')->data->title;?></strong>
 				<em><?php echo config('blog')->data->caption;?></em>
 			</a>
@@ -16,7 +16,7 @@
 	<?php if( config('blog')->data ):?>
 	        <div class="pull-right search">
 	        	<a id="opensearch" href="javascript:void(0)">
-	          		<i class='ion-search'></i>
+	          		<span class='typcn typcn-zoom-in'></span>
 	          	</a>
 	        </div>
     <?php endif;?>

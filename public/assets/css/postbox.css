@@ -40,7 +40,7 @@
 	background-color: rgba(0, 0, 0, 0.5);
 	display: block;
 	padding: 15px 20px;
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 1.3em;
 	color: #FFF;
 }
@@ -56,4 +56,40 @@
 
 .feature-attr i {
 	margin-left: 0.5em;
+}
+
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+  .feature-list li a {
+    padding-bottom:73.33333333%!important;
+  }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+  .feature-list li a {
+    padding-bottom:16.6666666%!important;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .feature-list li a {
+    padding-bottom:16.666666666%!important;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .feature-list li a {
+    padding-bottom:33.3333333333%!important;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .feature-list li a {
+    padding-bottom:33.333333333333%!important;
+  }
 }
