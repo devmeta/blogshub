@@ -6,7 +6,7 @@
     <div class="row">
         <div class="feature-list">
         <?php foreach($posts as $post):?>
-            <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <a href="<?php echo site_url($post->slug);?>">
                     <img src="<?php echo config()->baseurl;?>/upload/posts/sd-<?php echo count($post->files()) ? $post->files()[0]->name : 'default.jpg';?>" />
                     <h3 class="feature-title"><?php echo words($post->title,15);?></h3>

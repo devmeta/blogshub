@@ -1,6 +1,6 @@
 <footer>
 	<div class="pull-right">
-		<a href="http://blogs.devmeta.net" class="footer-connect" title="Crea tu Blog"><span class="typcn typcn-microphone x1-2"></span></a>
+		<a href="http://blogs.devmeta.net" class="footer-connect" title="Crea tu Blog"><span class="typcn typcn-cloud-storage x1-2"></span></a>
 		</span>
 	</div>
 </footer>
