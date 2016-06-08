@@ -1,12 +1,12 @@
 $(function(){
 
-  $('#closesearch').click(function(){
-    $('.search-results').slideUp(150);
-  });
-
-  $('#opensearch').click(function(){
-    $('.search-results').removeClass('hide').hide().slideDown(250);
-    $('.search input').first().focus();
+  $('#search_launcher').click(function(){
+    if($('.search-results').is(':hidden')){
+      $('.search-results').removeClass('hide').hide().slideDown(250);
+      $('.search input').first().focus();
+    } else {
+      $('.search-results').slideUp(200);
+    }
   });
 
   if($('.slick-dotted').length){
@@ -31,8 +31,8 @@ $(function(){
       .removeClass()
       .addClass("typcn typcn-database");
 
-    if(words.length < 4 || words.length > 200){
-        $( ".search-posts").html("<span class='text-muted'>Alphanumeric between 4 and 200</span>");
+    if(words.length < 3 || words.length > 200){
+        $( ".search-posts").html("<span class='text-muted'>Alphanumeric between 3 and 200</span>");
         return false;
     }
     
@@ -45,7 +45,8 @@ $(function(){
         cache: false,
         success: function(json){
 
-          var str = '<h1 class="page-title text-center">' + words + ' <span class="badge">' + json.count + '</span>&nbsp;&nbsp;&nbsp;<i class="ion-close-circle hand" onclick="$(\'.search-results\').slideUp();"></i></h1>';
+          $('#search_count').text(json.count);
+          var str = '';
 
           $this.prev()
             .removeClass()
@@ -55,7 +56,7 @@ $(function(){
             str+= '<div class="feature-list search-list">';
             $(json.posts).each(function(i,post) {
 
-              str+='<div class="col-md-3 col-sm-6 col-xs-12">' + 
+              str+='<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">' + 
                       '<a href="/' + post.slug + '">' +
                         '<img src="' + post.image + '" />' +
                         '<h3 class="feature-title">' + post.title + '</h3>' +

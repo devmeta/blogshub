@@ -77,7 +77,8 @@ class BlogController extends \Controller\BaseController  {
 			return \Bootie\App::view('blog.entry',[
 				'entry'	=> $entry,
 				'meta'	=> $meta,
-				'related' => $related
+				'related' => $related,
+				'tags'	=> self::find_all_tags(),
 			]);
 		}
 

@@ -15,7 +15,7 @@
 		</div>
 	<?php if( config('blog')->data ):?>
 	        <div class="pull-right search">
-	        	<a id="opensearch" href="javascript:void(0)">
+	        	<a id="search_launcher" href="javascript:void(0)">
 	          		<span class='typcn typcn-zoom-in'></span>
 	          	</a>
 	        </div>
@@ -24,12 +24,12 @@
 </nav>
 
 <div class="search-results text-center hide">
-	<a id="closesearch" href="javascript:void(0)">
-		<span class='typcn typcn-times'></span>
-	</a>
-    <div class="search">
-      <span class='typcn typcn-zoom-in'></span>
-      <input type="text" class="form-control input-lg" placeholder="<?php print locale('search');?>" />
-    </div>
+	<div class="search-results-inner">
+	    <div class="search">
+	      <span class='typcn typcn-zoom-in'></span>
+	      <input type="text" class="form-control input-lg" placeholder="<?php print locale('search');?>" />
+	      <span id="search_count" class='badge'>0</span>
+	    </div>
+	</div>
 	<div class="search-posts"></div>
 </div>
