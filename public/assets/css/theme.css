@@ -131,7 +131,7 @@ h4 small {
   top: 63px;
   bottom:0;
   position:fixed;
-  overflow-y:scroll;
+  overflow-y:auto;
   overflow-x:hidden;
   padding: 1em 0;
   width: 100%;
