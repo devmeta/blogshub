@@ -127,14 +127,8 @@ $(function(){
   }
 
   setTimeout(function(){
-    $.ajax({
-      method:'post',
-      async: true,
-      url:'/ip2geo',
-      data : { path : window.location.href },
-      cache: false
-    });          
-  },500);
+    geoping();
+  },1000);
 
   if( $("audio").length){
     $("audio").each(function(){
@@ -144,3 +138,13 @@ $(function(){
 
   $("a,span").tooltip({container: 'body'});
 });
+
+function geoping(){
+  $.ajax({
+    method:'post',
+    async: true,
+    url:'/ip2geo',
+    data : { path : window.location.href },
+    cache: false
+  });          
+}
