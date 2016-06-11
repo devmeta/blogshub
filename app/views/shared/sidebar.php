@@ -6,6 +6,7 @@
         <a href="/tag/<?php echo $tag->tag;?>" class="label label-info label-badge btn-tag-included"><?php echo str_replace('-',' ',$tag->tag);?></a>
     <?php endforeach;?>
 <?php endif;?>
+<?php if(!empty($tags['success'])):?>
     <?php foreach($tags['success'] as $tag):?>
         <a href="/tag/<?php echo $tag->tag;?>" class="label label-success label-badge btn-tag-included"><?php echo str_replace('-',' ',$tag->tag);?></a>
     <?php endforeach;?>
