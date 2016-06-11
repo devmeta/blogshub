@@ -31,5 +31,5 @@ setlocale(LC_ALL, $locale . '.utf-8');
 //putenv("LC_ALL", $locale);
 
 // Default timezone of server
-date_default_timezone_set('UTC');
+date_default_timezone_set('America/Argentina/Buenos_Aires');
 
