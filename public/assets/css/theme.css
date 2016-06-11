@@ -190,6 +190,10 @@ h4 small {
   font-size: 1.2em!important;
 }
 
+.x1-5 {
+  font-size: 1.5em!important;
+}
+
 .x2 {
   font-size: 2em!important;
 }
@@ -277,6 +281,7 @@ footer {
 
 footer a.footer-connect {
   color: #666;
+  padding: 1em;
 }
 
 footer a.footer-connect:hover {
