@@ -8,14 +8,15 @@ class BlogController extends \Controller\BaseController  {
 
 		if( empty( config('blog')->data->id ))
 			return \Bootie\App::view('errors.missing-blog');
-
+			$tags = self::find_all_tags();
+			$tags = self::tags_intercept($tags,[]);
 		return \Bootie\App::view('blog.index',[
 			'posts'	=> \Model\Post::paginate([
 				'id' => 'DESC'
 			],[
 				'user_id' => config('blog')->data->id 
 			],6),
-			'tags'	=> self::find_all_tags(),
+			'tags'	=> $tags,
 		]);
 	}
 
