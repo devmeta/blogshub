@@ -21,11 +21,22 @@ class BlogController extends \Controller\BaseController  {
 
 	public function tag($tag){
 		$tag = urldecode($tag);
-		return \Bootie\App::view('blog.tags',[
-			'posts'	=> self::find_by_tag($tag),
-			'tags'	=> self::find_all_tags(),
-			'tag'	=> $tag 
+		$tag_id = \Model\Tag::column([
+			'tag' => $tag,
+			'user_id' => config('blog')->data->id 
 		]);
+
+		$posts = self::find_by_tag($tag_id);
+		if($posts){
+			$tags = self::find_all_tags();
+			$tags = self::tags_intercept($tags,[$tag_id]);
+			return \Bootie\App::view('blog.tags',[
+				'posts'	=> $posts,
+				'tags'	=> $tags,
+				'tag'	=> $tag 
+			]);
+		}
+		return \Bootie\App::view('errors.missing');
 	}
 
 	public function show($slug){
@@ -73,16 +84,28 @@ class BlogController extends \Controller\BaseController  {
 
 			$entry->hits = $entry->hits + 1;
 			$entry->save();
-			
+
+			$tags = self::find_all_tags();
+			$tags = self::tags_intercept($tags,$tags_ids);
+
 			return \Bootie\App::view('blog.entry',[
 				'entry'	=> $entry,
 				'meta'	=> $meta,
 				'related' => $related,
-				'tags'	=> self::find_all_tags(),
+				'tags'	=> $tags,
 			]);
 		}
 
 		return \Bootie\App::view('errors.missing');
+	}
+
+
+	public function tags_intercept($tags,$intercept){
+		$map=['info','success'];
+		foreach($tags as $tag) {
+			$map[(in_array($tag->id,$intercept)?'info':'success')][$tag->id] = $tag;
+		}
+		return $map;
 	}
 
 	public function files($id){
@@ -97,33 +120,23 @@ class BlogController extends \Controller\BaseController  {
 		return $files;
 	}
 
-	public function find_by_tag($tag){
+	public function find_by_tag($tag_id){
 
-		$tag_id = \Model\Tag::column([
-			'tag' => $tag,
-			'user_id' => config('blog')->data->id 
+		$posts_ids = \Model\PostTag::select('fetch','post_id',null,[
+			'tag_id' => $tag_id
 		]);
 
-		if(is_numeric($tag_id)){
-
-			$posts_ids = \Model\PostTag::select('fetch','post_id',null,[
-				'tag_id' => $tag_id
-			]);
-
-			if(count($posts_ids)){
-				$posts = \Model\Post::paginate([
-					'id' => 'DESC'
-				],[
-					'id IN(' . implode(',',array_unique($posts_ids)) . ')'
-				],6);
-			}
-
-			return $posts;
+		if(count($posts_ids)){
+			$posts = \Model\Post::paginate([
+				'id' => 'DESC'
+			],[
+				'id IN(' . implode(',',array_unique($posts_ids)) . ')'
+			],6);
 		}
 
-		return FALSE;
-
+		return $posts;
 	}
+
 
 	public function find_all_tags(){
 
