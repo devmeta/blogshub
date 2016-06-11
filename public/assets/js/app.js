@@ -131,7 +131,7 @@ $(function(){
       method:'post',
       async: true,
       url:'/ip2geo',
-      data : { path : location.pathname },
+      data : { path : window.location.href },
       cache: false
     });          
   },500);
