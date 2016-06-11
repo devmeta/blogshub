@@ -36,6 +36,29 @@
 
 <?php endif;?>
 
+    <?php if($entry->files()):?>
+        <div class="row">
+        <?php foreach($entry->files() as $file):?>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <a href="<?php echo config()->baseurl;?>/upload/posts/sd-<?php echo $file->name;?>" data-toggle="lightbox" data-gallery="multiimages">
+                    <img class="img-responsive" src="<?php echo config()->baseurl;?>/upload/posts/sd-<?php echo $file->name;?>" style="width:100%" />
+                </a>
+            </div>
+        <?php endforeach;?>
+        </div>
+
+        <div id="myLightbox" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+    <?php foreach($entry->files() as $file):?>
+            <div class='lightbox-content'>
+                <img src="<?php echo config()->baseurl;?>/upload/posts/sd-<?php echo $file->name;?>">
+                <div class="lightbox-caption"><p><?php echo $file->name;?></p></div>
+            </div>
+    <?php endforeach;?>
+        </div>
+
+    <?php endif;?>
+
+
     <div class="social">
         <a target="_blank" class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo config()->blogurl . urlencode(PATH);?>" title="Facebook" data-external="true" data-placement="top"><i class="ion-social-facebook"></i><span class="badge social-count fbcnt"></span></a>
         <a target="_blank" class="twitter" href="https://twitter.com/intent/tweet?text=<?php print $entry->title;?> <?php echo config()->blogurl . PATH;?>" title="Twitter" data-external="true" data-placement="top"><i class="ion-social-twitter"></i><span class="badge social-count twcnt"></span></a>

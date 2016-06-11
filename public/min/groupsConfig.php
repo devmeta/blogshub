@@ -14,10 +14,13 @@
 return array(
     'js.plain' => array(
         '//assets/js/jquery-2.1.4.min.js',
-        '//assets/js/bootstrap.min.js'        
+        '//assets/js/bootstrap.min.js',
+        '//assets/js/ekko-lightbox.min.js',
     ),
     'css.plain' => array(
         '//assets/css/bootstrap.min.css', 
+        '//assets/css/ekko-lightbox.css',
+        '//assets/css/ekko-dark.css',
         '//assets/css/ionicons.min.css', 
         '//assets/css/theme.css',
         '//assets/css/ltcircular.css',
@@ -28,10 +31,13 @@ return array(
         '//assets/js/bootstrap.min.js',
         '//assets/js/slick.min.js',
         '//assets/js/sharecount.js',
+        '//assets/js/ekko-lightbox.min.js',
         '//assets/js/app.js'
     ),
     'css.default' => array(
         '//assets/css/bootstrap.min.css', 
+        '//assets/css/ekko-lightbox.css',
+        '//assets/css/ekko-dark.css',
         '//assets/css/ionicons.min.css', 
         '//assets/css/typicons/font/typicons.min.css',
         '//assets/css/slick.css',

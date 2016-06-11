@@ -3,7 +3,7 @@
     <div class="row">
         <div class="feature-list">
         <?php foreach($posts as $post):?>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                 <a href="<?php echo site_url($post->slug);?>">
                     <img src="<?php echo config()->baseurl;?>/upload/posts/sd-<?php echo count($post->files()) ? $post->files()[0]->name : 'default.jpg';?>" />
                     <div class="feature-title">
