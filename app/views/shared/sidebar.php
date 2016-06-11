@@ -12,6 +12,7 @@
     <?php endforeach;?>
     </div>
 <?php endif;?>
+<?php endif;?>
     <hr>
 
     <h3><?php echo config('blog')->data->title;?></h3>
@@ -21,7 +22,3 @@
 	    <img class="img-circle" src="<?php echo config()->baseurl . '/upload/profile/ty-' . config('blog')->data->avatar;?>">
     </a>
 <?php endif;?>
-    <hr>
-    
-
-       
