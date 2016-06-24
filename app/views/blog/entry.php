@@ -79,9 +79,10 @@
 </div>
 <div class="col-md-3">
     <?php include SP . 'app/views/shared/sidebar.php';?>
+    <?php if(count($related)):?>
+    <h3><?php print locale('posts-related');?></h3>
     <div class="row">
         <div class="feature-list">
-            <h3><?php print locale('posts-related');?></h3>
         <?php foreach($related as $post):?>
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <a href="<?php echo site_url($post->slug);?>">
@@ -100,5 +101,5 @@
         <?php endforeach;?>
         </div>
     </div>
-
+    <?php endif;?>
 </div>
