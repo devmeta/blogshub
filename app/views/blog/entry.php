@@ -19,20 +19,19 @@
     </div>
     <hr>
     <div class="entry-content">
-        <?php echo str_replace("/upload/",config()->baseurl . "/upload/",$entry->content);?>
+    <?php print($entry->content);?>
+        <?php // echo str_replace("/upload/",config()->baseurl . "/upload/",html_entity_decode(utf8_decode(urldecode($entry->content))));?>
+        <?php print str_replace("/upload/",config()->baseurl . "/upload/",$entry->content);?>
+    <?php if($entry->source):?>
+        <p><?php print locale('source');?>: <a href="<?php echo $entry->source;?>" target="_blank"><?php echo $entry->source;?></a></p>
+    <?php endif;?>
     </div>
-<?php if($entry->source):?>
-    <div class="entry-content">
-        <?php print locale('source');?>: <a href="<?php echo $entry->source;?>" target="_blank"><?php echo $entry->source;?></a>
-    </div>
-
-<?php endif;?>
 
     <?php if($entry->files()):?>
         <div class="row">
         <?php foreach($entry->files() as $file):?>
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                <a href="<?php echo config()->baseurl;?>/upload/posts/sd-<?php echo $file->name;?>" data-toggle="lightbox" data-gallery="multiimages">
+                <a href="<?php echo config()->baseurl;?>/upload/posts/<?php echo $file->name;?>" data-toggle="lightbox" data-gallery="multiimages" data-title="<?php echo $entry->title;?>">
                     <img class="img-responsive" src="<?php echo config()->baseurl;?>/upload/posts/sd-<?php echo $file->name;?>" style="width:100%" />
                 </a>
             </div>
