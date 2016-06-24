@@ -1,6 +1,6 @@
 <?php if(isset($tags) AND count($tags)):?>
     <div class="">
-        <h3>Temas</h3>
+    <h3><?php print locale('tags');?></h3>
 <?php if(!empty($tags['info'])):?>
     <?php foreach($tags['info'] as $tag):?>
         <a href="/tag/<?php echo $tag->tag;?>" class="label label-info label-badge btn-tag-included"><?php echo str_replace('-',' ',$tag->tag);?></a>
