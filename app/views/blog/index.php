@@ -9,8 +9,7 @@
                     <div class="feature-title">
                                                
                         <h3><?php echo words($post->title,15);?></h3>
-                        <?php echo words($post->title,15);?>
-                        <p><?php echo words($post->caption,18);?></p>
+                        <p><?php echo words($post->caption,15);?></p>
                     </div>
                 </a>
                 <div class="feature-attr">
