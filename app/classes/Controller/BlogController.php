@@ -8,8 +8,9 @@ class BlogController extends \Controller\BaseController  {
 
 		if( empty( config('blog')->data->id ))
 			return \Bootie\App::view('errors.missing-blog');
-			$tags = self::find_all_tags();
-			$tags = self::tags_intercept($tags,[]);
+		
+		$tags = self::find_all_tags();
+		$tags = self::tags_intercept($tags,[]);
 			
 		return \Bootie\App::view('blog.index',[
 			'posts'	=> \Model\Post::paginate([
@@ -18,6 +19,53 @@ class BlogController extends \Controller\BaseController  {
 				'user_id' => config('blog')->data->id 
 			],6),
 			'tags'	=> $tags,
+		]);
+	}
+
+	public function fetch(){
+
+		extract($_POST);
+
+		if( empty( config('blog')->data->id ))
+			return \Bootie\App::json([
+				'type' => "error",
+				'message' => "No posts found"
+			]);
+		
+		$entries = [];
+		$data = \Model\Post::paginate([
+			'id' => 'DESC'
+		],[
+			'user_id' => $id
+		],3);
+
+		foreach($data as $entry){
+			$type = '<i class="ion-image"></i>';
+			$discus = 0;
+
+			if(config('blog')->data->disqus OR $entry->disqus)
+				$discus = 1;
+			if(preg_match("/^.*\.(pdf)/i", $entry->content, $match))
+				$type = '<i class="ion-document"></i>';
+			if(preg_match("/^.*\.(youtube)/i", $entry->content, $match))
+				$type = '<i class="ion-social-youtube"></i>';
+
+			$entries[] = [
+				'title' => words($entry->title,15),
+				'caption' => words($entry->caption,15),
+				'created' => timespan($entry->created),
+				'url' => site_url($entry->slug),
+				'slug' => site_url($entry->slug),
+				'hits' => $entry->hits,
+				'type' => $type,
+				'discus' => $discus,
+				'image' => config()->baseurl . '/upload/posts/sd-' . (count($entry->files()) ? $entry->files()[0]->name : 'default.jpg'),
+
+			];
+		}
+
+		return \Bootie\App::json([
+			'entries'	=> $entries
 		]);
 	}
 

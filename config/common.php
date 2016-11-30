@@ -146,6 +146,16 @@ function post($key, $default = NULL, $string = FALSE)
  * @param boolean $string TRUE to require string type
  * @return mixed
  */
+
+function param($key, $default = NULL, $string = FALSE)
+{
+	if(isset($_REQUEST[$key]))
+	{
+		return $string ? (string)$_REQUEST[$key] : $_REQUEST[$key];
+	}
+	return $default;
+}
+
 function get($key, $default = NULL, $string = FALSE)
 {
 	if(isset($_GET[$key]))
