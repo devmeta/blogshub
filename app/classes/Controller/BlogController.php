@@ -37,7 +37,7 @@ class BlogController extends \Controller\BaseController  {
 			'id' => 'DESC'
 		],[
 			'user_id' => $id
-		],3);
+		],9);
 
 		foreach($data as $entry){
 			$type = '<i class="ion-image"></i>';

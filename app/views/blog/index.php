@@ -34,7 +34,7 @@
 
     $(function(){   
 
-        var qtd=3;
+        var qtd=9;
         var lastPage = 1;
 
         function fetch(page){
