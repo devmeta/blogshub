@@ -26,7 +26,7 @@
     <?php endif;?>
     </div>
 
-    <?php if($entry->files()):?>
+    <?php if( !empty($entry->files()) AND count($entry->files()) > 1):?>
         <div class="row">
         <?php foreach($entry->files() as $file):?>
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
