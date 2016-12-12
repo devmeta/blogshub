@@ -24,8 +24,8 @@ return array(
         '//assets/css/ekko-dark.css',
         '//assets/css/ionicons.min.css', 
         '//assets/css/theme.css',
-        '//assets/css/ltcircular.css',
-        '//assets/css/foam.css'
+        //'//assets/css/ltcircular.css',
+        //'//assets/css/foam.css'
     ),
     'js.default' => array(
         '//assets/js/jquery-2.1.4.min.js',
@@ -46,6 +46,6 @@ return array(
         '//assets/css/theme.css',
         '//assets/css/postbox.css',
         //'//assets/css/foam.css',
-        '//assets/css/circle-tiles.css'        
+        //'//assets/css/circle-tiles.css'        
     )
 );

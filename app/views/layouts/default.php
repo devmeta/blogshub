@@ -3,6 +3,7 @@
 	<head>
 		<title><?php echo config('blog')->data->title;?></title>
 		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="keywords" content="<?php echo isset($meta->title) ? $meta->title : '';?>" />
 		<meta name="description" content="<?php echo isset($meta->title) ? $meta->title : '';?>" />
 	    <meta property="og:type" content="<?php echo isset($meta->og_type) ? $meta->og_type : 'article';?>" />
@@ -17,7 +18,7 @@
 	<body class="default">
 		<?php include SP . 'app/views/shared/analytics.php';?>
 		<?php include SP . 'app/views/shared/header.php';?>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row content"><?php echo $content;?></div>
 		</div>
 		<?php include SP . 'app/views/shared/footer.php';?>
