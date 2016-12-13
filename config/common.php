@@ -720,7 +720,7 @@ function locale($key,$language = null)
 function linify($string){
 	return preg_replace(
               "~[[:alpha:]]+://[^<>[:space:]]+[[:alnum:]/]~",
-              "<a href=\"\\0\">\\0</a>", 
+              "<a href=\"\\0\" target=\"_blank\">\\0</a>", 
               $string);
 }
 
