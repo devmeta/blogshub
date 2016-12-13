@@ -19,8 +19,7 @@
     </div>
     <hr>
     <div class="entry-content">
-        <?php //print($entry->content);?>
-        <?php print str_replace('="/upload/','="' . config()->baseurl . "/upload/",$entry->content);?>
+        <?php print str_replace('="/upload/','="' . config()->baseurl . "/upload/",linify($entry->content));?>
     <?php if($entry->source):?>
         <p><?php print locale('source');?>: <a href="<?php echo $entry->source;?>" target="_blank"><?php echo $entry->source;?></a></p>
     <?php endif;?>

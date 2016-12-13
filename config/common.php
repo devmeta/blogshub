@@ -717,5 +717,11 @@ function locale($key,$language = null)
 	])?:$key;
 }
 
+function linify($string){
+	return preg_replace(
+              "~[[:alpha:]]+://[^<>[:space:]]+[[:alnum:]/]~",
+              "<a href=\"\\0\">\\0</a>", 
+              $string);
+}
 
 // End
